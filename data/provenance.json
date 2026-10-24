@@ -1,0 +1,271 @@
+{
+  "source": "bitofastickler/biblical-bot-app:backend/bible_bot/data/bible_books",
+  "imported": "2026-10-24",
+  "transformation": "Join paragraph text and line text segments by chapter and verse, trimming surrounding whitespace. Footnotes and layout markers are omitted; verse wording is unchanged.",
+  "files": [
+    {
+      "file": "genesis.json",
+      "sha256": "5a1f834918ca8116472d0706d11fe6803ccf2c1290a2fec4657c0f9e59975fca"
+    },
+    {
+      "file": "exodus.json",
+      "sha256": "7c787ae954fa6ba0058cdc4af96c24d9f7baaa6e8b145d3f335c315d53f0bc1a"
+    },
+    {
+      "file": "leviticus.json",
+      "sha256": "9bf8712c83e42b1b4abc1c2350801e06ff9b2cce402270419c7dc4f2bdf1cd57"
+    },
+    {
+      "file": "numbers.json",
+      "sha256": "4f23def662b0f503cbb811e41f4e4a153e58f5fb6deefd0f701e70e3e78cf895"
+    },
+    {
+      "file": "deuteronomy.json",
+      "sha256": "cf7538036fa63d98d483d0e36c43c84507841c66b5f603380d9122d4c2bbedd0"
+    },
+    {
+      "file": "joshua.json",
+      "sha256": "d4abe68f75b941e79ec283ebcca5b7546dcf69ac20f41dd1896fd0942e23bd2d"
+    },
+    {
+      "file": "judges.json",
+      "sha256": "d7afb76e339a27fb5d34f4671be6b9882b393fb1fbde3ba6d8a81919706aeb6c"
+    },
+    {
+      "file": "ruth.json",
+      "sha256": "49516b801fdc25d21af898662d2e06681d5cb58b06c9cd04cf8b9447a659359c"
+    },
+    {
+      "file": "1samuel.json",
+      "sha256": "e792f33faf57b49fbf69466bb478d8485f0ddc325a1cd2c72b9ec32762442f20"
+    },
+    {
+      "file": "2samuel.json",
+      "sha256": "a31eccbe22d9b179b3846145da11b835232c2ddfd54e829ff935ede6ccac983e"
+    },
+    {
+      "file": "1kings.json",
+      "sha256": "5fe6fcd678129cfbd21026463f5aeeb40536b822bdc2e725462c7cb651d17c68"
+    },
+    {
+      "file": "2kings.json",
+      "sha256": "8ec44aec551d2fb36acabc9f921bde306b439ab8b66988db1bfc3d16a11afac0"
+    },
+    {
+      "file": "1chronicles.json",
+      "sha256": "450c2e61cb704ab38beac09c66372537842955127659b75257f81c5d81201cd6"
+    },
+    {
+      "file": "2chronicles.json",
+      "sha256": "e5a1b0aaed5ab7b765d9567b205868c5995bceb8e4ee1796e3cbc496d3777c51"
+    },
+    {
+      "file": "ezra.json",
+      "sha256": "b2de901ffd2601e7a45da715d8f2d3d7c06470a1d5a71df5856a7bf78e24f412"
+    },
+    {
+      "file": "nehemiah.json",
+      "sha256": "91be58dabbdc35a7de88e57a72cbb736b7c681610c445904956ad56cfd1e8cde"
+    },
+    {
+      "file": "esther.json",
+      "sha256": "e108bbe9ba988a3d53b939711a7ff576b0e9aa2c68501f653287f04f1c8384fe"
+    },
+    {
+      "file": "job.json",
+      "sha256": "32b90a00732479c43b4d3874394b4cd01b9d68065fb3136c49081a6999b94012"
+    },
+    {
+      "file": "psalms.json",
+      "sha256": "c271037b478978377ddc2acfca86d3a367eb0ebcea1dd99041e0435d70f98929"
+    },
+    {
+      "file": "proverbs.json",
+      "sha256": "f215a9759f3ec32e9350ae06e81967e4bc05f0ed8a29a55f40322528ebe0330d"
+    },
+    {
+      "file": "ecclesiastes.json",
+      "sha256": "cfea4cfb2ca3132da6ae8d48b61093dab5689445eb8c42280da0bd3d56b5d7a3"
+    },
+    {
+      "file": "songofsolomon.json",
+      "sha256": "ff75482baec2156cfc26e7fec298459b81df569d5892aa1571f022d56af79596"
+    },
+    {
+      "file": "isaiah.json",
+      "sha256": "52572015023b9bc404f8591d6f9ed95b49c2a063370352e993f35f8e7635372f"
+    },
+    {
+      "file": "jeremiah.json",
+      "sha256": "9c7080da4c65adb9d0de9443c8c66f394b48d21c39cb97839da66bc31ba730b4"
+    },
+    {
+      "file": "lamentations.json",
+      "sha256": "e12ba858a9c02a514b04006171780a47a3b0b40e91d526d4b99560aa69c2d07f"
+    },
+    {
+      "file": "ezekiel.json",
+      "sha256": "6a3bf696545a51cb58d93451dcac73418b96e98551b020ed60a1802e1c5d100b"
+    },
+    {
+      "file": "daniel.json",
+      "sha256": "3b21d3b3c65857ff21fd0966921c16f66184a2142eaef0faea254f89400ddaad"
+    },
+    {
+      "file": "hosea.json",
+      "sha256": "bc5425cbd731ca9b2697a5cb3b074d753cdc28a928e86ee7c8cf437fdf51ce66"
+    },
+    {
+      "file": "joel.json",
+      "sha256": "1de5f4bfc9eaf0bacb43cc5a8a00dac42311805eec270913f20000e73a733649"
+    },
+    {
+      "file": "amos.json",
+      "sha256": "cd3b26bc437a83c765a973245d53e554646547a867a7fc45854ea493607eadfe"
+    },
+    {
+      "file": "obadiah.json",
+      "sha256": "b587feb6aeee3c4a91faeff9d8c62092218edbde0e548a903d90ce49050f909a"
+    },
+    {
+      "file": "jonah.json",
+      "sha256": "c19d1143381dfef29ee1a8277f729249b51903f09b83c27562a89a30d1f3f5f4"
+    },
+    {
+      "file": "micah.json",
+      "sha256": "a6aeaf44af8053e186de832beaf69ad36aab86e0747a1adf12fc85e954242cd6"
+    },
+    {
+      "file": "nahum.json",
+      "sha256": "547e9030118a7fbd46caa69edfaaacc41565f4f635490b2ba9d81eb061100e71"
+    },
+    {
+      "file": "habakkuk.json",
+      "sha256": "9e80169ddb55b5fa32475471fcde47f0b90fcd1b616e540a90aa2f42917640aa"
+    },
+    {
+      "file": "zephaniah.json",
+      "sha256": "6000816bb5ed4908c1ef825188484d5cd869303e52267ccdf7ef8893eeb375de"
+    },
+    {
+      "file": "haggai.json",
+      "sha256": "b9ab91a9c432cabf918d2c0d6e45c829435dbc316e6389cde16f39cecff32543"
+    },
+    {
+      "file": "zechariah.json",
+      "sha256": "a7b69915b3a4b07480be59e743c13089bab5cc0af02f22012ea50a3e5bad5baa"
+    },
+    {
+      "file": "malachi.json",
+      "sha256": "fa8348ab7eca36f03daa10fed03b2e55a64824314c63e14a34ee37fe0b930305"
+    },
+    {
+      "file": "matthew.json",
+      "sha256": "330c5bb068500f66c719e0e1b9d8daeedc2c7f16a6ed766053dda539cc5fa01c"
+    },
+    {
+      "file": "mark.json",
+      "sha256": "a2fb3d2799092678b2b8c12b06ad1392d28c5dfe829efa165b0e66e52ec5299f"
+    },
+    {
+      "file": "luke.json",
+      "sha256": "7227cf927b28a055a0eca66489e716a41f4b588550806be290d0d017eac85f50"
+    },
+    {
+      "file": "john.json",
+      "sha256": "3fc489a65ea31d0ca92bd6a809a84c90986171bad4fcfe10d986f21a178f197b"
+    },
+    {
+      "file": "acts.json",
+      "sha256": "820ca8ae6d35a90e87e381d9702ccf8b213591d7b2cb4898d3f5d68348d2c662"
+    },
+    {
+      "file": "romans.json",
+      "sha256": "3626bd363e0a3782ae8010a6b89d909279a3ab132f7c450600d8c3d3e3b65306"
+    },
+    {
+      "file": "1corinthians.json",
+      "sha256": "a58f0b27871491a7c422cba7cccae8d34ad820520c8ae769ae85dc3bbd26a68b"
+    },
+    {
+      "file": "2corinthians.json",
+      "sha256": "b0b9469bcef0506fcd1217c714d30877850d3e0e77c39d82c5251025677290ac"
+    },
+    {
+      "file": "galatians.json",
+      "sha256": "40bf473c20406b7c985b5bf8dd76f2548488aca8708f0f7c79a1ac1edc3770ce"
+    },
+    {
+      "file": "ephesians.json",
+      "sha256": "078ca0a8c6df6bdbfca310242fda237d554b39033dc502af7ffb33c813deea84"
+    },
+    {
+      "file": "philippians.json",
+      "sha256": "8a18b60b81d05dccc4fd691857176ba4ee6792c368a91b6948d20c2ca92f2a03"
+    },
+    {
+      "file": "colossians.json",
+      "sha256": "63345356f74f281cd7c33b13dae3cca46f117356f07f0dd9adbbd359381a7e5d"
+    },
+    {
+      "file": "1thessalonians.json",
+      "sha256": "8d2a5f1fe71a16f9bc11c717bfeb148264eb2668bcedad589ac29bcedafb976c"
+    },
+    {
+      "file": "2thessalonians.json",
+      "sha256": "53a42f8fbb7d5a7698fe558045abee329fccfe5d2fb468f885ea299987d9929b"
+    },
+    {
+      "file": "1timothy.json",
+      "sha256": "7179eec7f857e5ff2f25d304bd08700609ecf40ca29c641db9479168b245c323"
+    },
+    {
+      "file": "2timothy.json",
+      "sha256": "00ab455576f692d36de7b61d4fc733de13daef0c4039eb3fc58a55cdf56927d1"
+    },
+    {
+      "file": "titus.json",
+      "sha256": "4d2a5b56526a46c70a3767c55e1a3e9546db4c400b862553407c110485c55e8e"
+    },
+    {
+      "file": "philemon.json",
+      "sha256": "89ad306b9fd5671d57ff2bb8ce78c8dbdd7fd3a4e5662b6907b409005657baa6"
+    },
+    {
+      "file": "hebrews.json",
+      "sha256": "cad019d5d1f5f27b0d662365627cfd5d1222508237cec40c1304a7519d669333"
+    },
+    {
+      "file": "james.json",
+      "sha256": "5c5f042322a13f1572ef72b585fbeb0bcb2c6923ca3a160c45dba48b035c5fcc"
+    },
+    {
+      "file": "1peter.json",
+      "sha256": "1bd35e53d844c39a715415930e7885dfbcd69257b53070d882db2e7a05978ea8"
+    },
+    {
+      "file": "2peter.json",
+      "sha256": "6fb3fad0911c36898570d4875541df10fc9558aed4541337195ae6e2e4666308"
+    },
+    {
+      "file": "1john.json",
+      "sha256": "66826ebfd48959e4a987431078ebc9b0e95632a003fe70f301ad37ee946167b4"
+    },
+    {
+      "file": "2john.json",
+      "sha256": "839c00e77d6f2987e5bc079e0ed58e45e9a7d0a6355b2c0612ee96ba0a7dd1a6"
+    },
+    {
+      "file": "3john.json",
+      "sha256": "a156e052e39df7cc60ba4291bd8d34313aa77e78a014fb364dd9f1c30af4d3f5"
+    },
+    {
+      "file": "jude.json",
+      "sha256": "62080d3423660dfed7711da9fdbd9ac8b0d3d8a735e80b4a0bc2873fdb76eeac"
+    },
+    {
+      "file": "revelation.json",
+      "sha256": "52aa28438c6434abae0181d0cb01371a6de7c8db8617910c607d98e578cb86c3"
+    }
+  ]
+}
