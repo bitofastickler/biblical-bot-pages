@@ -36,7 +36,23 @@ for(const width of [390,320]){
   const d=mobile.waitForEvent('download');await mobile.locator('#save').click();await(await d).saveAs(`.local/mobile-${width}.json`);
   await mobile.screenshot({path:`.local/mobile-${width}.png`,fullPage:true});await mobile.close();
 }
+// Appearance persists independently and never changes portable study content.
+const appearance=await browser.newPage({viewport:{width:320,height:844}});
+await appearance.goto(url);await appearance.locator('#workspace').waitFor({state:'visible'});
+const beforeTheme=await appearance.evaluate(()=>localStorage.getItem('biblical-bot-recovery-v1'));
+for(const theme of ['parchment','rose','coast','vespers','aurora']) {
+  await appearance.locator('#color-scheme').selectOption(theme);
+  assert.equal(await appearance.locator('html').getAttribute('data-theme'),theme);
+  assert.ok(await appearance.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+}
+assert.equal(await appearance.evaluate(()=>localStorage.getItem('biblical-bot-recovery-v1')),beforeTheme);
+await appearance.reload();await appearance.locator('#workspace').waitFor({state:'visible'});
+assert.equal(await appearance.locator('#color-scheme').inputValue(),'aurora');
+await appearance.goto(new URL('about.html',url).href);assert.equal(await appearance.locator('html').getAttribute('data-theme'),'aurora');
+await appearance.evaluate(()=>localStorage.setItem('biblical-bot-color-scheme','invalid'));
+await appearance.goto(url);assert.equal(await appearance.locator('html').getAttribute('data-theme'),'vespers');
+await appearance.close();
 // Denied storage must not prevent reading or saving.
-const blocked=await browser.newPage();await blocked.addInitScript(()=>{Storage.prototype.setItem=()=>{throw Error('denied');};Storage.prototype.getItem=()=>{throw Error('denied');};});await blocked.goto(url);await blocked.locator('#workspace').waitFor({state:'visible'});await blocked.locator('#notes').fill('Still usable');assert.match(await blocked.locator('#recovery-status').textContent(),/unavailable/);await blocked.close();
+const blocked=await browser.newPage();await blocked.addInitScript(()=>{Storage.prototype.setItem=()=>{throw Error('denied');};Storage.prototype.getItem=()=>{throw Error('denied');};});await blocked.goto(url);await blocked.locator('#workspace').waitFor({state:'visible'});await blocked.locator('#color-scheme').selectOption('aurora');assert.equal(await blocked.locator('html').getAttribute('data-theme'),'aurora');await blocked.locator('#notes').fill('Still usable');assert.match(await blocked.locator('#recovery-status').textContent(),/unavailable/);await blocked.close();
 assert.deepEqual(errors,[]);assert.deepEqual(responses,[]);await browser.close();
 await writeFile('.local/browser-result.json',JSON.stringify({url,passed:true,checks:['Chromium save → Firefox open → continue → save','safe text rendering','malformed/version/extra-field/oversize rejection','cancel replacement','browser recovery','storage denial','390px and 320px mobile reading/edit/download','project subpath assets'],errors,responses},null,2));console.log('Browser checks passed:',url);
