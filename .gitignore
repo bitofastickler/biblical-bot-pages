@@ -4,3 +4,8 @@ dist/
 test-results/
 .env*
 *.log
+
+!knowledge-graph/dist/
+!knowledge-graph/dist/**
+__pycache__/
+*.pyc

@@ -1,0 +1,3602 @@
+{
+  "ledger_version": 1,
+  "baseline_version": "0.4.0",
+  "baseline_graph_sha256": "7539ee9f4da24a68ee5cf287bf263cc710031f0f79d225e47a45eb8ce5118cf5",
+  "baseline_report_sha256": "c4a74dc809a8d81b395cbd351d5ed096e48a3106e6556c72b311d16f377fd436",
+  "scope": "All 43 documented connection/coverage findings in v0.4; not all conceivable Genesis relationships or historical ambiguities.",
+  "items": [
+    {
+      "original_issue_fingerprint": "0b2138e7f057e899c422",
+      "entities": [
+        "bg:chedorlaomer",
+        "bg:elam-place"
+      ],
+      "added_relation_ids": [
+        "r:abram:military_victory_over:chedorlaomer"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported military victory over relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.14.14",
+        "GEN.14.15",
+        "GEN.14.16",
+        "GEN.14.17"
+      ],
+      "original_issue": {
+        "code": "separate_component",
+        "severity": "review",
+        "message": "This connected subgraph is separate from the largest component; do not fabricate a bridge.",
+        "context": {
+          "nodes": [
+            "bg:chedorlaomer",
+            "bg:elam-place"
+          ],
+          "labels": [
+            "Chedorlaomer",
+            "Elam (kingdom)"
+          ],
+          "major_characters": [],
+          "priority": "medium",
+          "size": 2
+        },
+        "fingerprint": "0b2138e7f057e899c422",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "Chedorlaomer’s kingship is recorded. Coalition warfare and Abram’s return from defeating the kings are described, not individually materialized; this is a known event-coverage gap.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.14.1",
+            "GEN.14.17"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:abram:military_victory_over:chedorlaomer",
+          "expected_record": {
+            "id": "r:abram:military_victory_over:chedorlaomer",
+            "subject": "bg:abram",
+            "predicate": "military_victory_over",
+            "object": "bg:chedorlaomer",
+            "evidence": [
+              "GEN.14.14",
+              "GEN.14.15",
+              "GEN.14.16",
+              "GEN.14.17"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Narrative describes Abram’s return from defeating Chedorlaomer and allied kings; he leads trained men and servants. This is not a claim that he personally killed this individual."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:abram:military_victory_over:chedorlaomer": "7feb88ec54910fb63e00fc63cc9bb1952a24e95ff014d6158a22ce6a08b9cceb"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "14967a6d38e23eb8e9b9",
+      "entities": [
+        "bg:havilah-land",
+        "bg:pishon"
+      ],
+      "added_relation_ids": [
+        "r:pishon:branch_of:eden-river"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported branch of relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.2.10",
+        "GEN.2.11"
+      ],
+      "original_issue": {
+        "code": "separate_component",
+        "severity": "review",
+        "message": "This connected subgraph is separate from the largest component; do not fabricate a bridge.",
+        "context": {
+          "nodes": [
+            "bg:havilah-land",
+            "bg:pishon"
+          ],
+          "labels": [
+            "Havilah (land)",
+            "Pishon"
+          ],
+          "major_characters": [],
+          "priority": "medium",
+          "size": 2
+        },
+        "fingerprint": "14967a6d38e23eb8e9b9",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "The explicit river-to-land flow relation is preserved. The land is not merged with genealogical Havilah or another Havilah merely to join the main family component.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.2.11",
+            "GEN.10.7",
+            "GEN.10.29"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:pishon:branch_of:eden-river",
+          "expected_record": {
+            "id": "r:pishon:branch_of:eden-river",
+            "subject": "bg:pishon",
+            "predicate": "branch_of",
+            "object": "bg:eden-river",
+            "evidence": [
+              "GEN.2.10",
+              "GEN.2.11"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "The passage identifies this among the four rivers sourced from the parted Eden river; preserves narrative geography without a modern hydrological claim."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:pishon:branch_of:eden-river": "69ba50101317871570af09cf411762c6300e0d89c52cd80f29627c7b3d80cd70"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "1cc0faad0ef2c2a5fad5",
+      "entities": [
+        "bg:tree-life"
+      ],
+      "added_relation_ids": [
+        "r:tree-life:located_in:garden-eden",
+        "r:deity-god:placed_guards_for:tree-life"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported located in relations; this resolves the documented missing connection, not every possible relationship in the passage. Also records the explicit placed guards for action with source context.",
+      "evidence": [
+        "GEN.2.9",
+        "GEN.3.22",
+        "GEN.3.23",
+        "GEN.3.24"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "low",
+          "id": "bg:tree-life",
+          "label": "Tree of life",
+          "type": "object",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 3,
+          "evidence": [
+            "GEN.2.9",
+            "GEN.3.22",
+            "GEN.3.23",
+            "GEN.3.24"
+          ]
+        },
+        "fingerprint": "1cc0faad0ef2c2a5fad5",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "The tree appears in the garden and guarded-way narrative. The graph omits location/guarding events and does not invent a biological or person relationship to connect the object.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.2.9",
+            "GEN.3.24"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:tree-life:located_in:garden-eden",
+          "expected_record": {
+            "id": "r:tree-life:located_in:garden-eden",
+            "subject": "bg:tree-life",
+            "predicate": "located_in",
+            "object": "bg:garden-eden",
+            "evidence": [
+              "GEN.2.9"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "The text names the tree of life in the garden; no symbolic identity is inferred."
+          }
+        },
+        {
+          "id": "r:deity-god:placed_guards_for:tree-life",
+          "expected_record": {
+            "id": "r:deity-god:placed_guards_for:tree-life",
+            "subject": "bg:deity-god",
+            "predicate": "placed_guards_for",
+            "object": "bg:tree-life",
+            "evidence": [
+              "GEN.3.22",
+              "GEN.3.23",
+              "GEN.3.24"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Narrator describes God placing cherubim and a flaming sword to guard the way to the tree. The edge records arranging guards, not God acting as the individual guard or an identity for the cherubim."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:tree-life:located_in:garden-eden": "83594f673a7ccdbe4519c8513384e344f573330856dede39e1d2ef1c21ac139e",
+          "r:deity-god:placed_guards_for:tree-life": "ec40a84aa6a2a1a5702cc638e08795824f12158aa009a845b716d057a5db3b56"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "21fa1f05f698ab1a4727",
+      "entities": [
+        "bg:tree-knowledge"
+      ],
+      "added_relation_ids": [
+        "r:tree-knowledge:located_in:garden-eden",
+        "r:deity-god:prohibited_eating_from:tree-knowledge"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported located in relations; this resolves the documented missing connection, not every possible relationship in the passage. Also records the explicit prohibited eating from action with source context.",
+      "evidence": [
+        "GEN.2.9",
+        "GEN.2.16",
+        "GEN.2.17"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "low",
+          "id": "bg:tree-knowledge",
+          "label": "Tree of the knowledge of good and evil",
+          "type": "object",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 2,
+          "evidence": [
+            "GEN.2.9",
+            "GEN.2.16",
+            "GEN.2.17"
+          ]
+        },
+        "fingerprint": "21fa1f05f698ab1a4727",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "The prohibition concerns the man and the named tree, but command/object and man/Adam contextual relations are not curated. Isolation is an event-coverage omission, not a missing source occurrence.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.2.16",
+            "GEN.2.17"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:tree-knowledge:located_in:garden-eden",
+          "expected_record": {
+            "id": "r:tree-knowledge:located_in:garden-eden",
+            "subject": "bg:tree-knowledge",
+            "predicate": "located_in",
+            "object": "bg:garden-eden",
+            "evidence": [
+              "GEN.2.9"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "The named tree occurs among the garden trees; this edge does not model a doctrine or command fulfillment."
+          }
+        },
+        {
+          "id": "r:deity-god:prohibited_eating_from:tree-knowledge",
+          "expected_record": {
+            "id": "r:deity-god:prohibited_eating_from:tree-knowledge",
+            "subject": "bg:deity-god",
+            "predicate": "prohibited_eating_from",
+            "object": "bg:tree-knowledge",
+            "evidence": [
+              "GEN.2.16",
+              "GEN.2.17"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "speech",
+              "speaker": "bg:deity-god"
+            },
+            "note": "Command spoken to the man concerning the named tree; not a claim of biological poison, later theology or every human’s identical command."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:tree-knowledge:located_in:garden-eden": "6728067f40875cdb40f436120fa5abb495ea5b7a2d22d9f77703fe4e287d74db",
+          "r:deity-god:prohibited_eating_from:tree-knowledge": "dd7b51e5af3c70b4ff0fd0f1ab15fd1da2b41c786d3d8de19120f22df15844b0"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "225e6e39a1c4210a4563",
+      "entities": [
+        "bg:kadesh"
+      ],
+      "added_relation_ids": [
+        "r:chedorlaomer:participated_in_campaign_at:kadesh"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported participated in campaign at relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.14.5",
+        "GEN.14.6",
+        "GEN.14.7"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "low",
+          "id": "bg:kadesh",
+          "label": "Kadesh / En Mishpat",
+          "type": "place",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 4,
+          "evidence": [
+            "GEN.14.7",
+            "GEN.16.14",
+            "GEN.20.1"
+          ]
+        },
+        "fingerprint": "225e6e39a1c4210a4563",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "Kadesh is a campaign and route/boundary reference. Selected narrative geography is incomplete; no modern-site coordinates or identity beyond the explicit En Mishpat alias are inferred.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.14.7",
+            "GEN.16.14",
+            "GEN.20.1"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:chedorlaomer:participated_in_campaign_at:kadesh",
+          "expected_record": {
+            "id": "r:chedorlaomer:participated_in_campaign_at:kadesh",
+            "subject": "bg:chedorlaomer",
+            "predicate": "participated_in_campaign_at",
+            "object": "bg:kadesh",
+            "evidence": [
+              "GEN.14.5",
+              "GEN.14.6",
+              "GEN.14.7"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Chedorlaomer and the kings with him are the collective campaign participants. This does not attribute each act of violence to him personally."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:chedorlaomer:participated_in_campaign_at:kadesh": "42cb12b954dcdf16b59c0bb1da80bf869d8104a7035cedfd2a3785b44dd271e9"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "2bdfdf24dcb73ea68702",
+      "entities": [
+        "bg:serpent"
+      ],
+      "added_relation_ids": [
+        "r:serpent:addressed:eve"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported addressed relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.3.1",
+        "GEN.3.2",
+        "GEN.3.4",
+        "GEN.3.17",
+        "GEN.3.20"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "low",
+          "id": "bg:serpent",
+          "label": "Serpent in Eden",
+          "type": "animal",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 5,
+          "evidence": [
+            "GEN.3.1",
+            "GEN.3.2",
+            "GEN.3.3",
+            "GEN.3.4",
+            "GEN.3.5"
+          ]
+        },
+        "fingerprint": "2bdfdf24dcb73ea68702",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "The serpent’s dialogue concerns the unnamed woman in the scene. The selective edge model omits this dialogue/coreference; it does not equate the serpent with Satan or infer an identity to connect it.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.3.1",
+            "GEN.3.4"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:serpent:addressed:eve",
+          "expected_record": {
+            "id": "r:serpent:addressed:eve",
+            "subject": "bg:serpent",
+            "predicate": "addressed",
+            "object": "bg:eve",
+            "evidence": [
+              "GEN.3.1",
+              "GEN.3.2",
+              "GEN.3.4",
+              "GEN.3.17",
+              "GEN.3.20"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "The woman in this scene is contextually the wife later named Eve. Speech act only; no Satan identity or endorsement of the serpent’s claims."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:serpent:addressed:eve": "41944aff0677e808b5571a6e9e216bb29e10c67167fb58c292272e26b67c952a"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "3407cfce26869e8ab0da",
+      "entities": [
+        "bg:gilead-mountain"
+      ],
+      "added_relation_ids": [
+        "r:jacob:camped_at:gilead-mountain",
+        "r:laban:camped_at:gilead-mountain"
+      ],
+      "status": "resolved",
+      "reason": "Jacob’s pitched tent is explicitly located by the narrative; no modern mountain coordinates are asserted.",
+      "evidence": [
+        "GEN.31.23",
+        "GEN.31.25"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "low",
+          "id": "bg:gilead-mountain",
+          "label": "Mountain of Gilead",
+          "type": "place",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 3,
+          "evidence": [
+            "GEN.31.21",
+            "GEN.31.23",
+            "GEN.31.25"
+          ]
+        },
+        "fingerprint": "3407cfce26869e8ab0da",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "Jacob travels toward Gilead and Laban overtakes the party there. These geographic edges remain uncurated; the location’s isolation is an explicit navigation limitation.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.31.21",
+            "GEN.31.23",
+            "GEN.31.25"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:jacob:camped_at:gilead-mountain",
+          "expected_record": {
+            "id": "r:jacob:camped_at:gilead-mountain",
+            "subject": "bg:jacob",
+            "predicate": "camped_at",
+            "object": "bg:gilead-mountain",
+            "evidence": [
+              "GEN.31.23",
+              "GEN.31.25"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Jacob’s pitched tent is explicitly located by the narrative; no modern mountain coordinates are asserted."
+          }
+        },
+        {
+          "id": "r:laban:camped_at:gilead-mountain",
+          "expected_record": {
+            "id": "r:laban:camped_at:gilead-mountain",
+            "subject": "bg:laban",
+            "predicate": "camped_at",
+            "object": "bg:gilead-mountain",
+            "evidence": [
+              "GEN.31.25"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Laban and his relatives encamp there; not a solitary journey."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:jacob:camped_at:gilead-mountain": "a45c41cb571c77d9afea62bc296365099281b9dd4790ef8d4fcd8d522b53bd7e",
+          "r:laban:camped_at:gilead-mountain": "90cdb129d4323db2543bed538fa25c5db5c4756a643c34233ef70b73ffd36bfa"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "36b00afaee37be4913c8",
+      "entities": [
+        "bg:mahanaim"
+      ],
+      "added_relation_ids": [
+        "r:jacob:named:mahanaim"
+      ],
+      "status": "resolved",
+      "reason": "Naming act is narrated; the identity of the angels is not resolved.",
+      "evidence": [
+        "GEN.32.1",
+        "GEN.32.2"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "low",
+          "id": "bg:mahanaim",
+          "label": "Mahanaim",
+          "type": "place",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 1,
+          "evidence": [
+            "GEN.32.1",
+            "GEN.32.2"
+          ]
+        },
+        "fingerprint": "36b00afaee37be4913c8",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "Jacob names the place after meeting God’s angels. The naming encounter is not materialized; no angel identity or modern site claim is invented to connect it.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.32.1",
+            "GEN.32.2"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:jacob:named:mahanaim",
+          "expected_record": {
+            "id": "r:jacob:named:mahanaim",
+            "subject": "bg:jacob",
+            "predicate": "named",
+            "object": "bg:mahanaim",
+            "evidence": [
+              "GEN.32.1",
+              "GEN.32.2"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Naming act is narrated; the identity of the angels is not resolved."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:jacob:named:mahanaim": "44b42f851f7fe3663d7aa3c3d266c2f089ca6c792e37942da53230474e3af1ef"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "37a02fc061724a070308",
+      "entities": [
+        "bg:babel"
+      ],
+      "added_relation_ids": [
+        "r:babel:located_in:shinar",
+        "r:nimrod:kingdom_includes:babel"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported kingdom includes, located in relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.10.8",
+        "GEN.10.9",
+        "GEN.10.10"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "low",
+          "id": "bg:babel",
+          "label": "Babel",
+          "type": "place",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 2,
+          "evidence": [
+            "GEN.10.10",
+            "GEN.11.8",
+            "GEN.11.9"
+          ]
+        },
+        "fingerprint": "37a02fc061724a070308",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "Babel’s kingdom and language-confusion episodes are described. No kingdom-membership or collective language event edge is curated; its isolation is not absence from the text.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.10.10",
+            "GEN.11.9"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:babel:located_in:shinar",
+          "expected_record": {
+            "id": "r:babel:located_in:shinar",
+            "subject": "bg:babel",
+            "predicate": "located_in",
+            "object": "bg:shinar",
+            "evidence": [
+              "GEN.10.10"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": ""
+          }
+        },
+        {
+          "id": "r:nimrod:kingdom_includes:babel",
+          "expected_record": {
+            "id": "r:nimrod:kingdom_includes:babel",
+            "subject": "bg:nimrod",
+            "predicate": "kingdom_includes",
+            "object": "bg:babel",
+            "evidence": [
+              "GEN.10.8",
+              "GEN.10.9",
+              "GEN.10.10"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Babel is listed among the beginning cities of his kingdom. No modern political entitlement."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:babel:located_in:shinar": "6ee8e7592104c7b530baa757609258931756266442b6b79903a90f183cca5ad2",
+          "r:nimrod:kingdom_includes:babel": "a72f57e9e84dbaa6623213ea2296ec4bc23dca386a02326dc67b4d75bb652052"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "39c089d3a75d84e934d8",
+      "entities": [
+        "bg:hiddekel"
+      ],
+      "added_relation_ids": [
+        "r:hiddekel:branch_of:eden-river",
+        "r:hiddekel:flows_in_front_of:assyria"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported branch of, flows in front of relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.2.10",
+        "GEN.2.14"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "low",
+          "id": "bg:hiddekel",
+          "label": "Hiddekel",
+          "type": "place",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 1,
+          "evidence": [
+            "GEN.2.10",
+            "GEN.2.14"
+          ]
+        },
+        "fingerprint": "39c089d3a75d84e934d8",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "Hiddekel is located relative to Assyria in the text; no relative-location predicate is curated. A flow-through-Assyria edge would be stronger than the supplied wording.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.2.14"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:hiddekel:branch_of:eden-river",
+          "expected_record": {
+            "id": "r:hiddekel:branch_of:eden-river",
+            "subject": "bg:hiddekel",
+            "predicate": "branch_of",
+            "object": "bg:eden-river",
+            "evidence": [
+              "GEN.2.10",
+              "GEN.2.14"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "The passage identifies this among the four rivers sourced from the parted Eden river; preserves narrative geography without a modern hydrological claim."
+          }
+        },
+        {
+          "id": "r:hiddekel:flows_in_front_of:assyria",
+          "expected_record": {
+            "id": "r:hiddekel:flows_in_front_of:assyria",
+            "subject": "bg:hiddekel",
+            "predicate": "flows_in_front_of",
+            "object": "bg:assyria",
+            "evidence": [
+              "GEN.2.14"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Preserves WEB’s relative wording; does not say the river flows through Assyria or assign cardinal coordinates."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:hiddekel:branch_of:eden-river": "a048a0c2600172d3e04db1e7fb77f2d3416bbf815cd4c3c8f95570f156e798da",
+          "r:hiddekel:flows_in_front_of:assyria": "6fe86aa47002f314259c5b864050979373f10cc111c225ce60b17f6e1b8b1724"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "3c5fd048edbe1f11b4dc",
+      "entities": [
+        "bg:shur"
+      ],
+      "added_relation_ids": [
+        "r:beer-lahai-roi:on_route_to:shur"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported on route to relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.16.7",
+        "GEN.16.13",
+        "GEN.16.14"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "low",
+          "id": "bg:shur",
+          "label": "Shur",
+          "type": "place",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 3,
+          "evidence": [
+            "GEN.16.7",
+            "GEN.20.1",
+            "GEN.25.18"
+          ]
+        },
+        "fingerprint": "3c5fd048edbe1f11b4dc",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "Shur is a route and boundary reference, not an independently curated action endpoint. Relative geography and descendants’ territorial extent remain outside the selected edges.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.16.7",
+            "GEN.20.1",
+            "GEN.25.18"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:beer-lahai-roi:on_route_to:shur",
+          "expected_record": {
+            "id": "r:beer-lahai-roi:on_route_to:shur",
+            "subject": "bg:beer-lahai-roi",
+            "predicate": "on_route_to",
+            "object": "bg:shur",
+            "evidence": [
+              "GEN.16.7",
+              "GEN.16.13",
+              "GEN.16.14"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Contextual fountain/well continuity in Hagar’s encounter: the fountain is on the way to Shur and the well is subsequently named. No modern route reconstructed."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:beer-lahai-roi:on_route_to:shur": "ead48417417cfaf73dfc5b436c76f24f3686883c5796bdd9d251a4e87da98e36"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "3dcac566c5d1eabcbcd0",
+      "entities": [
+        "bg:galeed-heap"
+      ],
+      "added_relation_ids": [
+        "r:jacob:named:galeed-heap",
+        "r:laban:named:galeed-heap"
+      ],
+      "status": "resolved",
+      "reason": "Names the heap Galeed; its alias Jegar Sahadutha is Laban’s naming of the same heap. Does not ascribe sole construction to Jacob.",
+      "evidence": [
+        "GEN.31.46",
+        "GEN.31.47"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "low",
+          "id": "bg:galeed-heap",
+          "label": "Galeed / Jegar Sahadutha",
+          "type": "place",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 4,
+          "evidence": [
+            "GEN.31.44",
+            "GEN.31.45",
+            "GEN.31.46",
+            "GEN.31.47",
+            "GEN.31.48",
+            "GEN.31.49"
+          ]
+        },
+        "fingerprint": "3dcac566c5d1eabcbcd0",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "The heap is a named witness to Jacob and Laban’s agreement. Its naming and witness role are described but not represented as object/location relations in this selective phase.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.31.45",
+            "GEN.31.47",
+            "GEN.31.48"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:jacob:named:galeed-heap",
+          "expected_record": {
+            "id": "r:jacob:named:galeed-heap",
+            "subject": "bg:jacob",
+            "predicate": "named",
+            "object": "bg:galeed-heap",
+            "evidence": [
+              "GEN.31.46",
+              "GEN.31.47"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Names the heap Galeed; its alias Jegar Sahadutha is Laban’s naming of the same heap. Does not ascribe sole construction to Jacob."
+          }
+        },
+        {
+          "id": "r:laban:named:galeed-heap",
+          "expected_record": {
+            "id": "r:laban:named:galeed-heap",
+            "subject": "bg:laban",
+            "predicate": "named",
+            "object": "bg:galeed-heap",
+            "evidence": [
+              "GEN.31.46",
+              "GEN.31.47"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Laban names the heap Jegar Sahadutha, an explicit alias of the heap Jacob calls Galeed."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:jacob:named:galeed-heap": "8686da67a39350ffccfeb26e263667b54ca6dcdc9a4d9a4d58f56e82cefa4fcb",
+          "r:laban:named:galeed-heap": "df80cb1f4af60c44e670f6deafa6bf54d571dbe318fa6840211d946502cbf4ec"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "3dd5eb3eba56365f38e8",
+      "entities": [
+        "bg:mesopotamia"
+      ],
+      "added_relation_ids": [
+        "r:abraham-servant-gen24:servant_of:abram",
+        "r:abraham-servant-gen24:traveled_to:mesopotamia"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported servant of, traveled to relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.24.2",
+        "GEN.24.9",
+        "GEN.24.10"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "low",
+          "id": "bg:mesopotamia",
+          "label": "Mesopotamia",
+          "type": "place",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 1,
+          "evidence": [
+            "GEN.24.10"
+          ]
+        },
+        "fingerprint": "3dd5eb3eba56365f38e8",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "The unnamed servant travels here in Genesis24. He is not resolved as Eliezer; without a curated unnamed-servant node the travel edge remains absent.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.24.10"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:abraham-servant-gen24:servant_of:abram",
+          "expected_record": {
+            "id": "r:abraham-servant-gen24:servant_of:abram",
+            "subject": "bg:abraham-servant-gen24",
+            "predicate": "servant_of",
+            "object": "bg:abram",
+            "evidence": [
+              "GEN.24.2",
+              "GEN.24.9"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Narrator identifies this unnamed servant and his master; no equation with Eliezer."
+          }
+        },
+        {
+          "id": "r:abraham-servant-gen24:traveled_to:mesopotamia",
+          "expected_record": {
+            "id": "r:abraham-servant-gen24:traveled_to:mesopotamia",
+            "subject": "bg:abraham-servant-gen24",
+            "predicate": "traveled_to",
+            "object": "bg:mesopotamia",
+            "evidence": [
+              "GEN.24.9",
+              "GEN.24.10"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "The explicitly unnamed servant is the narrative traveler; no city-of-Nahor person/place conflation."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:abraham-servant-gen24:servant_of:abram": "3c70e8e387604da4dc23a5f0c31e0089cbf4f857dec37bb9098db04e0e7f57cd",
+          "r:abraham-servant-gen24:traveled_to:mesopotamia": "a9c65e471571f090f6aadd21805708510ad701f2a2c306429b0784d2fb8e407f"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "43634d3184c75532af56",
+      "entities": [
+        "bg:eden"
+      ],
+      "added_relation_ids": [
+        "r:deity-god:planted:garden-eden",
+        "r:garden-eden:located_in:eden",
+        "r:eden-river:flows_from:eden",
+        "r:eden-river:waters:garden-eden"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported flows from, located in, planted, waters relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.2.8",
+        "GEN.2.10"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "low",
+          "id": "bg:eden",
+          "label": "Eden",
+          "type": "place",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 6,
+          "evidence": [
+            "GEN.2.8",
+            "GEN.2.10"
+          ]
+        },
+        "fingerprint": "43634d3184c75532af56",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "The garden is planted in Eden, but the selected graph does not model garden containment or man/garden coreference. No modern geography is inferred to create a bridge.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.2.8",
+            "GEN.2.10"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:deity-god:planted:garden-eden",
+          "expected_record": {
+            "id": "r:deity-god:planted:garden-eden",
+            "subject": "bg:deity-god",
+            "predicate": "planted",
+            "object": "bg:garden-eden",
+            "evidence": [
+              "GEN.2.8"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Narrated planting, not historical/geographic verification."
+          }
+        },
+        {
+          "id": "r:garden-eden:located_in:eden",
+          "expected_record": {
+            "id": "r:garden-eden:located_in:eden",
+            "subject": "bg:garden-eden",
+            "predicate": "located_in",
+            "object": "bg:eden",
+            "evidence": [
+              "GEN.2.8"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Garden is in the named region, not equivalent to it."
+          }
+        },
+        {
+          "id": "r:eden-river:flows_from:eden",
+          "expected_record": {
+            "id": "r:eden-river:flows_from:eden",
+            "subject": "bg:eden-river",
+            "predicate": "flows_from",
+            "object": "bg:eden",
+            "evidence": [
+              "GEN.2.10"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Textual river origin, not modern coordinates."
+          }
+        },
+        {
+          "id": "r:eden-river:waters:garden-eden",
+          "expected_record": {
+            "id": "r:eden-river:waters:garden-eden",
+            "subject": "bg:eden-river",
+            "predicate": "waters",
+            "object": "bg:garden-eden",
+            "evidence": [
+              "GEN.2.10"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": ""
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:deity-god:planted:garden-eden": "1febc60340324f282f49f94ddfc16aa6e369581a0cecdee24e95c8b9a62993df",
+          "r:garden-eden:located_in:eden": "8f2d997ee781b3870a05459f8a4385d1c31914b1518f94ff1c47f6aca7d45d1e",
+          "r:eden-river:flows_from:eden": "abdfd76c7068963fea67978d397e3c12f302c03ee5f1698c024430fd1af95aad",
+          "r:eden-river:waters:garden-eden": "1327c1267bbbb9bce805b83badf8450f4157a83d17b981dcb41846ad04445c3b"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "546fd3b86e5a30db8528",
+      "entities": [
+        "bg:pharaoh-gen12"
+      ],
+      "added_relation_ids": [
+        "r:pharaoh-gen12:addressed:abram"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported addressed relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.12.18",
+        "GEN.12.19"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "medium",
+          "id": "bg:pharaoh-gen12",
+          "label": "Pharaoh (Genesis 12)",
+          "type": "person",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 6,
+          "evidence": [
+            "GEN.12.15",
+            "GEN.12.17",
+            "GEN.12.18",
+            "GEN.12.19",
+            "GEN.12.20"
+          ]
+        },
+        "fingerprint": "546fd3b86e5a30db8528",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "The Genesis12 Pharaoh interacts with Abram and Sarai, but these summons/taking/release actions remain uncurated. This is a known secondary-character connection gap; he must not be merged with the Joseph-era Pharaoh to hide it.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.12.15",
+            "GEN.12.18",
+            "GEN.12.20"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:pharaoh-gen12:addressed:abram",
+          "expected_record": {
+            "id": "r:pharaoh-gen12:addressed:abram",
+            "subject": "bg:pharaoh-gen12",
+            "predicate": "addressed",
+            "object": "bg:abram",
+            "evidence": [
+              "GEN.12.18",
+              "GEN.12.19"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Records Pharaoh’s confrontation, not truth of every assertion in his speech."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:pharaoh-gen12:addressed:abram": "77e2203d56ab1e6357a09d5da145aa3c25c48b711c720abe4acf10007ee3c086"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "5befdfb1dfb7868807ee",
+      "entities": [
+        "bg:moreh-oak"
+      ],
+      "added_relation_ids": [
+        "r:abram:traveled_to:moreh-oak"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported traveled to relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.12.6"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "low",
+          "id": "bg:moreh-oak",
+          "label": "Oak of Moreh",
+          "type": "place",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 1,
+          "evidence": [
+            "GEN.12.6"
+          ]
+        },
+        "fingerprint": "5befdfb1dfb7868807ee",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "The oak is a landmark in Abram’s passage through Shechem. The graph connects his travel to Shechem but does not add landmark containment or a separate tree visit.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.12.6"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:abram:traveled_to:moreh-oak",
+          "expected_record": {
+            "id": "r:abram:traveled_to:moreh-oak",
+            "subject": "bg:abram",
+            "predicate": "traveled_to",
+            "object": "bg:moreh-oak",
+            "evidence": [
+              "GEN.12.6"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Narrated passage to the landmark at Shechem; not modern coordinates."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:abram:traveled_to:moreh-oak": "abbb15311984f63b6cf1f50efc511e4aae19188a95a13f678bd034ca43039086"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "630a11037e1d563f85e1",
+      "entities": [
+        "bg:birsha",
+        "bg:gomorrah"
+      ],
+      "added_relation_ids": [
+        "r:deity-god:destroyed:gomorrah",
+        "r:birsha:military_opponent_of:chedorlaomer"
+      ],
+      "status": "resolved",
+      "reason": "The named rulers are linked as military opponents in explicitly opposing coalitions, not by guessed equivalence with later unnamed kings. Gomorrah’s narrated destruction is separately represented; the war participation gap is not claimed fixed merely by city connectivity.",
+      "evidence": [
+        "GEN.14.1",
+        "GEN.14.2",
+        "GEN.14.8",
+        "GEN.14.9",
+        "GEN.19.24",
+        "GEN.19.25"
+      ],
+      "original_issue": {
+        "code": "separate_component",
+        "severity": "review",
+        "message": "This connected subgraph is separate from the largest component; do not fabricate a bridge.",
+        "context": {
+          "nodes": [
+            "bg:birsha",
+            "bg:gomorrah"
+          ],
+          "labels": [
+            "Birsha",
+            "Gomorrah"
+          ],
+          "major_characters": [],
+          "priority": "medium",
+          "size": 2
+        },
+        "fingerprint": "630a11037e1d563f85e1",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "Birsha’s kingship is recorded, but group warfare and later unnamed king titles are not individually resolved into edges. No invented king-to-Abraham edge is used.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.14.2",
+            "GEN.14.8"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:deity-god:destroyed:gomorrah",
+          "expected_record": {
+            "id": "r:deity-god:destroyed:gomorrah",
+            "subject": "bg:deity-god",
+            "predicate": "destroyed",
+            "object": "bg:gomorrah",
+            "evidence": [
+              "GEN.19.24",
+              "GEN.19.25"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Narrated city destruction; no added blame of modern peoples or archaeological identification."
+          }
+        },
+        {
+          "id": "r:birsha:military_opponent_of:chedorlaomer",
+          "expected_record": {
+            "id": "r:birsha:military_opponent_of:chedorlaomer",
+            "subject": "bg:birsha",
+            "predicate": "military_opponent_of",
+            "object": "bg:chedorlaomer",
+            "evidence": [
+              "GEN.14.1",
+              "GEN.14.2",
+              "GEN.14.8",
+              "GEN.14.9"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Named rulers in opposing coalitions in the account of the kings. Symmetric opposition stored once; not personal combat, a separate bilateral campaign, or identification of a later unnamed royal title."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:deity-god:destroyed:gomorrah": "478a335eb48c6d6b5d48fb578ecde924c302cbf8b59135d2ad5b2132d64898d3",
+          "r:birsha:military_opponent_of:chedorlaomer": "bebf4cb735e56c8522229360c32b7fca3005a1bcbf8c25dde5f57257e71ecd84"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "69cf463b390214a5d2dd",
+      "entities": [
+        "bg:ahuzzath"
+      ],
+      "added_relation_ids": [
+        "r:ahuzzath:friend_of:abimelech-isaac"
+      ],
+      "status": "resolved",
+      "reason": "Named friendship in Isaac’s episode only; no identity with earlier royal entourage is inferred.",
+      "evidence": [
+        "GEN.26.26"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "medium",
+          "id": "bg:ahuzzath",
+          "label": "Ahuzzath",
+          "type": "person",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 1,
+          "evidence": [
+            "GEN.26.26"
+          ]
+        },
+        "fingerprint": "69cf463b390214a5d2dd",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "Ahuzzath is Abimelech’s friend and accompanies him in 26:26. The current predicate inventory does not curate this friendship or group journey. This is an explicit secondary-character coverage omission, not an unidentified person.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.26.26"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:ahuzzath:friend_of:abimelech-isaac",
+          "expected_record": {
+            "id": "r:ahuzzath:friend_of:abimelech-isaac",
+            "subject": "bg:ahuzzath",
+            "predicate": "friend_of",
+            "object": "bg:abimelech-isaac",
+            "evidence": [
+              "GEN.26.26"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Named friendship in Isaac’s episode only; no identity with earlier royal entourage is inferred."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:ahuzzath:friend_of:abimelech-isaac": "348deae1cc2727c877bff19a4942bca4255f75d68ba23e7add3c782f33975099"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "77f0c5ded23d11966154",
+      "entities": [
+        "bg:melchizedek",
+        "bg:salem"
+      ],
+      "added_relation_ids": [
+        "r:melchizedek:pronounced_blessing_on:abram",
+        "r:abram:gave_tenth_to:melchizedek"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported gave tenth to, pronounced blessing on relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.14.18",
+        "GEN.14.19",
+        "GEN.14.20"
+      ],
+      "original_issue": {
+        "code": "separate_component",
+        "severity": "review",
+        "message": "This connected subgraph is separate from the largest component; do not fabricate a bridge.",
+        "context": {
+          "nodes": [
+            "bg:melchizedek",
+            "bg:salem"
+          ],
+          "labels": [
+            "Melchizedek",
+            "Salem"
+          ],
+          "major_characters": [],
+          "priority": "medium",
+          "size": 2
+        },
+        "fingerprint": "77f0c5ded23d11966154",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "Melchizedek’s kingship is linked. His blessing of Abram and the tenth received are explicit but not curated as blessing/gift edges; this remains a visible, known secondary-character connection gap.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.14.18",
+            "GEN.14.19",
+            "GEN.14.20"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:melchizedek:pronounced_blessing_on:abram",
+          "expected_record": {
+            "id": "r:melchizedek:pronounced_blessing_on:abram",
+            "subject": "bg:melchizedek",
+            "predicate": "pronounced_blessing_on",
+            "object": "bg:abram",
+            "evidence": [
+              "GEN.14.18",
+              "GEN.14.19",
+              "GEN.14.20"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "speech",
+              "speaker": "bg:melchizedek"
+            },
+            "note": "The utterance blesses Abram; this records the blessing, not independent fulfillment."
+          }
+        },
+        {
+          "id": "r:abram:gave_tenth_to:melchizedek",
+          "expected_record": {
+            "id": "r:abram:gave_tenth_to:melchizedek",
+            "subject": "bg:abram",
+            "predicate": "gave_tenth_to",
+            "object": "bg:melchizedek",
+            "evidence": [
+              "GEN.14.18",
+              "GEN.14.19",
+              "GEN.14.20"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Abram gives a tenth of all in the narrated encounter; no general rule about compulsory giving is inferred."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:melchizedek:pronounced_blessing_on:abram": "8980af86497d5ec6919fab4957ef3a6931e2ae19c3ef79ca2490b450cdabf31b",
+          "r:abram:gave_tenth_to:melchizedek": "bc2b627a7bcd9c9ced9279ffb7fa3bc42feb96dc3965e5328d461b48d7282423"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "7c607cefae29a33e5e75",
+      "entities": [
+        "bg:ephron",
+        "bg:zohar-ephron"
+      ],
+      "added_relation_ids": [
+        "r:abram:paid:ephron",
+        "r:ephron:sold_to:abram"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported paid, sold to relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.23.8",
+        "GEN.23.9",
+        "GEN.23.13",
+        "GEN.23.15",
+        "GEN.23.16",
+        "GEN.23.17",
+        "GEN.23.18"
+      ],
+      "original_issue": {
+        "code": "separate_component",
+        "severity": "review",
+        "message": "This connected subgraph is separate from the largest component; do not fabricate a bridge.",
+        "context": {
+          "nodes": [
+            "bg:ephron",
+            "bg:zohar-ephron"
+          ],
+          "labels": [
+            "Ephron",
+            "Zohar (Ephron’s father)"
+          ],
+          "major_characters": [],
+          "priority": "medium",
+          "size": 2
+        },
+        "fingerprint": "7c607cefae29a33e5e75",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "Ephron’s father is linked and Abraham’s property acquisition is separately represented. A seller/transaction participant edge linking Ephron is omitted; this is a genuine known connection gap, not no textual interaction.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.23.8",
+            "GEN.23.16",
+            "GEN.23.17",
+            "GEN.23.18"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:abram:paid:ephron",
+          "expected_record": {
+            "id": "r:abram:paid:ephron",
+            "subject": "bg:abram",
+            "predicate": "paid",
+            "object": "bg:ephron",
+            "evidence": [
+              "GEN.23.15",
+              "GEN.23.16",
+              "GEN.23.17",
+              "GEN.23.18"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Four hundred shekels of silver paid in the field/cave transaction; the separately curated acquired edge identifies the property as Machpelah."
+          }
+        },
+        {
+          "id": "r:ephron:sold_to:abram",
+          "expected_record": {
+            "id": "r:ephron:sold_to:abram",
+            "subject": "bg:ephron",
+            "predicate": "sold_to",
+            "object": "bg:abram",
+            "evidence": [
+              "GEN.23.8",
+              "GEN.23.9",
+              "GEN.23.13",
+              "GEN.23.15",
+              "GEN.23.16",
+              "GEN.23.17",
+              "GEN.23.18"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Contextual transaction relation: Ephron’s field and cave become Abraham’s possession after the named payment; no modern land title."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:abram:paid:ephron": "4436a69429c0288faaee9f4c5491e2700d8e81373f4bd8ae57d228fe65768e4f",
+          "r:ephron:sold_to:abram": "06bd7f8abbd10adfbe07bcc7be3ee4b9353606dbbd321978f47a92c4729315af"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "7ed79b9168dd6b727d5f",
+      "entities": [
+        "bg:allon-bacuth",
+        "bg:deborah-rebekah"
+      ],
+      "added_relation_ids": [
+        "r:deborah-rebekah:nurse_of:rebekah"
+      ],
+      "status": "resolved",
+      "reason": "Explicit household role named in the verse, without inferring later servant identities.",
+      "evidence": [
+        "GEN.35.8"
+      ],
+      "original_issue": {
+        "code": "separate_component",
+        "severity": "review",
+        "message": "This connected subgraph is separate from the largest component; do not fabricate a bridge.",
+        "context": {
+          "nodes": [
+            "bg:allon-bacuth",
+            "bg:deborah-rebekah"
+          ],
+          "labels": [
+            "Allon Bacuth",
+            "Deborah (Rebekah’s nurse)"
+          ],
+          "major_characters": [],
+          "priority": "medium",
+          "size": 2
+        },
+        "fingerprint": "7ed79b9168dd6b727d5f",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "Deborah is explicitly Rebekah’s nurse and buried beneath the oak. The burial link is present; a nurse_of household-role edge is not curated. This secondary-person component is a known omission.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.35.8"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:deborah-rebekah:nurse_of:rebekah",
+          "expected_record": {
+            "id": "r:deborah-rebekah:nurse_of:rebekah",
+            "subject": "bg:deborah-rebekah",
+            "predicate": "nurse_of",
+            "object": "bg:rebekah",
+            "evidence": [
+              "GEN.35.8"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Explicit household role named in the verse, without inferring later servant identities."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:deborah-rebekah:nurse_of:rebekah": "561712e771238e2029de8e479d4e1a13af2ebf8efcaaff0a955f617e953d3093"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "807b7b6acc907c1a1705",
+      "entities": [
+        "bg:edom-land"
+      ],
+      "added_relation_ids": [
+        "r:jacob:sent_messengers_to:edom-land"
+      ],
+      "status": "resolved",
+      "reason": "Jacob sends messengers toward Esau in the land of Seir, field of Edom. Person Esau and territory Edom remain distinct; no identity/modern-border claim.",
+      "evidence": [
+        "GEN.32.3"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "low",
+          "id": "bg:edom-land",
+          "label": "Edom (land)",
+          "type": "place",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 7,
+          "evidence": [
+            "GEN.32.3",
+            "GEN.36.8",
+            "GEN.36.16",
+            "GEN.36.31"
+          ]
+        },
+        "fingerprint": "807b7b6acc907c1a1705",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "Edom is deliberately separated from the individual Esau. Geographic containment/territorial connections are not curated; a namesake merge would be an incorrect connectivity repair.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.32.3",
+            "GEN.36.16"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:jacob:sent_messengers_to:edom-land",
+          "expected_record": {
+            "id": "r:jacob:sent_messengers_to:edom-land",
+            "subject": "bg:jacob",
+            "predicate": "sent_messengers_to",
+            "object": "bg:edom-land",
+            "evidence": [
+              "GEN.32.3"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Jacob sends messengers toward Esau in the land of Seir, field of Edom. Person Esau and territory Edom remain distinct; no identity/modern-border claim."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:jacob:sent_messengers_to:edom-land": "72ca7b711d9f11966d4dfbca211404807b4a5871addeba36e205e40c3b6faf9f"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "8f7ba1cb20bafa8a1fb9",
+      "entities": [
+        "bg:rameses-land"
+      ],
+      "added_relation_ids": [
+        "r:jacob:resided_in:rameses-land"
+      ],
+      "status": "resolved",
+      "reason": "Jacob is the explicitly identified father among the family Joseph settles in Rameses. This contextual individual participation does not equate Rameses with Goshen or a later city.",
+      "evidence": [
+        "GEN.47.7",
+        "GEN.47.11"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "low",
+          "id": "bg:rameses-land",
+          "label": "Land of Rameses",
+          "type": "place",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 1,
+          "evidence": [
+            "GEN.47.11"
+          ]
+        },
+        "fingerprint": "8f7ba1cb20bafa8a1fb9",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "Joseph settles his family in the land of Rameses. Collective settlement/possession is not materialized, and Rameses is not silently merged with Goshen or a later city.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.47.11"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:jacob:resided_in:rameses-land",
+          "expected_record": {
+            "id": "r:jacob:resided_in:rameses-land",
+            "subject": "bg:jacob",
+            "predicate": "resided_in",
+            "object": "bg:rameses-land",
+            "evidence": [
+              "GEN.47.7",
+              "GEN.47.11"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Jacob is the explicitly identified father among the family Joseph settles in Rameses. This contextual individual participation does not equate Rameses with Goshen or a later city."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:jacob:resided_in:rameses-land": "a344081c6cdf24ffbb8bb6649aab01878c30ee06016117064e6d24b8e803b52b"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "97ffa5a245c6babc10c8",
+      "entities": [
+        "bg:euphrates"
+      ],
+      "added_relation_ids": [
+        "r:euphrates:branch_of:eden-river"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported branch of relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.2.10",
+        "GEN.2.14"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "low",
+          "id": "bg:euphrates",
+          "label": "Euphrates",
+          "type": "place",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 2,
+          "evidence": [
+            "GEN.2.10",
+            "GEN.2.14"
+          ]
+        },
+        "fingerprint": "97ffa5a245c6babc10c8",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "The river is listed in the Eden river account and in covenant boundary speech. Geographic relations and promise boundaries are not materialized, and must not become modern title claims.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.2.14",
+            "GEN.15.18"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:euphrates:branch_of:eden-river",
+          "expected_record": {
+            "id": "r:euphrates:branch_of:eden-river",
+            "subject": "bg:euphrates",
+            "predicate": "branch_of",
+            "object": "bg:eden-river",
+            "evidence": [
+              "GEN.2.10",
+              "GEN.2.14"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "The passage identifies this among the four rivers sourced from the parted Eden river; preserves narrative geography without a modern hydrological claim."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:euphrates:branch_of:eden-river": "04fa6d648affd03899c908249eae46df5be077cc02a47e78b8a600244e5b9845"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "9a5efdf8d35c452cd11a",
+      "entities": [
+        "bg:enaim"
+      ],
+      "added_relation_ids": [
+        "r:tamar:waited_at:enaim"
+      ],
+      "status": "resolved",
+      "reason": "Records her sitting at the gate, not a claim that she was a prostitute or a permanent resident.",
+      "evidence": [
+        "GEN.38.13",
+        "GEN.38.14"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "low",
+          "id": "bg:enaim",
+          "label": "Enaim",
+          "type": "place",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 2,
+          "evidence": [
+            "GEN.38.14",
+            "GEN.38.20",
+            "GEN.38.21",
+            "GEN.38.22"
+          ]
+        },
+        "fingerprint": "9a5efdf8d35c452cd11a",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "Tamar waits at Enaim and Hirah searches there; the selected graph omits these travel/location actions. This is a known place-link omission, not a reason to infer residence.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.38.14",
+            "GEN.38.20",
+            "GEN.38.21"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:tamar:waited_at:enaim",
+          "expected_record": {
+            "id": "r:tamar:waited_at:enaim",
+            "subject": "bg:tamar",
+            "predicate": "waited_at",
+            "object": "bg:enaim",
+            "evidence": [
+              "GEN.38.13",
+              "GEN.38.14"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Records her sitting at the gate, not a claim that she was a prostitute or a permanent resident."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:tamar:waited_at:enaim": "265d26da2b9b1e34c6e455bbb095bc2b98fb22c5b6b511d60da469cad2335399"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "a02350c168b629c32919",
+      "entities": [
+        "bg:ephrath-bethlehem"
+      ],
+      "added_relation_ids": [
+        "r:rachel:buried_on_way_to:ephrath-bethlehem"
+      ],
+      "status": "resolved",
+      "reason": "Route-relative burial location only; it is explicitly not an assertion of burial inside Bethlehem.",
+      "evidence": [
+        "GEN.35.16",
+        "GEN.35.18",
+        "GEN.35.19"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "low",
+          "id": "bg:ephrath-bethlehem",
+          "label": "Ephrath / Bethlehem",
+          "type": "place",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 6,
+          "evidence": [
+            "GEN.35.16",
+            "GEN.35.19"
+          ]
+        },
+        "fingerprint": "a02350c168b629c32919",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "Rachel is buried on the way to Ephrath, not explicitly inside the town. No misleading died_in/buried_at town edge is added; a route-relative burial-location relation remains uncurated.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.35.16",
+            "GEN.35.19"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:rachel:buried_on_way_to:ephrath-bethlehem",
+          "expected_record": {
+            "id": "r:rachel:buried_on_way_to:ephrath-bethlehem",
+            "subject": "bg:rachel",
+            "predicate": "buried_on_way_to",
+            "object": "bg:ephrath-bethlehem",
+            "evidence": [
+              "GEN.35.16",
+              "GEN.35.18",
+              "GEN.35.19"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Route-relative burial location only; it is explicitly not an assertion of burial inside Bethlehem."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:rachel:buried_on_way_to:ephrath-bethlehem": "1c66496d95c42c76d2c2f801927c7ce051e208ed307a8f0e0c2787e4d4de2e32"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "a50e300201bb624566da",
+      "entities": [
+        "bg:ai-place"
+      ],
+      "added_relation_ids": [
+        "r:abram:camped_west_of:ai-place"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported camped west of relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.12.6",
+        "GEN.12.7",
+        "GEN.12.8"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "low",
+          "id": "bg:ai-place",
+          "label": "Ai",
+          "type": "place",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 2,
+          "evidence": [
+            "GEN.12.8",
+            "GEN.13.3",
+            "GEN.13.4"
+          ]
+        },
+        "fingerprint": "a50e300201bb624566da",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "Ai locates Abram’s campsite east of it; a relative-location relation is not curated. Do not replace this with a claim that Abram resided inside Ai.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.12.8"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:abram:camped_west_of:ai-place",
+          "expected_record": {
+            "id": "r:abram:camped_west_of:ai-place",
+            "subject": "bg:abram",
+            "predicate": "camped_west_of",
+            "object": "bg:ai-place",
+            "evidence": [
+              "GEN.12.6",
+              "GEN.12.7",
+              "GEN.12.8"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Ai is east of the tent location and Bethel west; not a claim Abram lived inside Ai."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:abram:camped_west_of:ai-place": "fe09898826d66f546d124a2ef4af3a73444c36f77d214d934d736a42f0c25329"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "a54d1f1c658b57cc2cc3",
+      "entities": [
+        "bg:paran-wilderness"
+      ],
+      "added_relation_ids": [
+        "r:ishmael:resided_in:paran-wilderness"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported resided in relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.16.15",
+        "GEN.21.9",
+        "GEN.21.14",
+        "GEN.21.20",
+        "GEN.21.21"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "low",
+          "id": "bg:paran-wilderness",
+          "label": "Wilderness of Paran",
+          "type": "place",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 1,
+          "evidence": [
+            "GEN.21.14",
+            "GEN.21.19",
+            "GEN.21.20",
+            "GEN.21.21"
+          ]
+        },
+        "fingerprint": "a54d1f1c658b57cc2cc3",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "Hagar’s son resides in Paran in a pronoun-based passage. No literal Ishmael mention is fabricated and no contextual residence edge is materialized in this selective layer.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.21.14",
+            "GEN.21.20",
+            "GEN.21.21"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:ishmael:resided_in:paran-wilderness",
+          "expected_record": {
+            "id": "r:ishmael:resided_in:paran-wilderness",
+            "subject": "bg:ishmael",
+            "predicate": "resided_in",
+            "object": "bg:paran-wilderness",
+            "evidence": [
+              "GEN.16.15",
+              "GEN.21.9",
+              "GEN.21.14",
+              "GEN.21.20",
+              "GEN.21.21"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Contextual continuity of Hagar’s son named Ishmael in16:15; Genesis21 uses boy/son rather than repeating his name. No literal name mention is fabricated."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:ishmael:resided_in:paran-wilderness": "f8718ca6e12b7e577d5dd3d5bb17e6ecc2bdd3e0ded2b213326c09eb071ae470"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "a5e4725a5c7a0ca47b8c",
+      "entities": [
+        "bg:atad-threshing-floor"
+      ],
+      "added_relation_ids": [
+        "r:joseph:traveled_to:atad-threshing-floor"
+      ],
+      "status": "resolved",
+      "reason": "Joseph is explicitly named as leading/participating in the funeral party that arrives at Atad; this is a shared journey, not an assertion that he traveled alone.",
+      "evidence": [
+        "GEN.50.7",
+        "GEN.50.8",
+        "GEN.50.9",
+        "GEN.50.10"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "low",
+          "id": "bg:atad-threshing-floor",
+          "label": "Threshing floor of Atad / Abel Mizraim",
+          "type": "place",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 3,
+          "evidence": [
+            "GEN.50.10",
+            "GEN.50.11"
+          ]
+        },
+        "fingerprint": "a5e4725a5c7a0ca47b8c",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "The funeral party reaches this mourning site; its collective arrival and naming episode are described but not materialized as individual travel/naming edges. This remains a visible location-coverage gap.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.50.10",
+            "GEN.50.11"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:joseph:traveled_to:atad-threshing-floor",
+          "expected_record": {
+            "id": "r:joseph:traveled_to:atad-threshing-floor",
+            "subject": "bg:joseph",
+            "predicate": "traveled_to",
+            "object": "bg:atad-threshing-floor",
+            "evidence": [
+              "GEN.50.7",
+              "GEN.50.8",
+              "GEN.50.9",
+              "GEN.50.10"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Joseph is explicitly named as leading/participating in the funeral party that arrives at Atad; this is a shared journey, not an assertion that he traveled alone."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:joseph:traveled_to:atad-threshing-floor": "b28973219acf9fa76ec52e897d78169027f7ee346732180249a3d76eca186bfc"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "a65110e79d324176426a",
+      "entities": [
+        "bg:shinar"
+      ],
+      "added_relation_ids": [
+        "r:babel:located_in:shinar",
+        "r:nimrod:kingdom_includes:babel"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported kingdom includes, located in relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.10.8",
+        "GEN.10.9",
+        "GEN.10.10"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "low",
+          "id": "bg:shinar",
+          "label": "Shinar",
+          "type": "place",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 4,
+          "evidence": [
+            "GEN.10.8",
+            "GEN.10.9",
+            "GEN.10.10",
+            "GEN.11.2"
+          ]
+        },
+        "fingerprint": "a65110e79d324176426a",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "Shinar contains the beginning cities of Nimrod’s kingdom and the Babel plain. Geographic containment and collective city-building are not curated, so its isolation is a disclosed geographic gap.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.10.10",
+            "GEN.11.2"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:babel:located_in:shinar",
+          "expected_record": {
+            "id": "r:babel:located_in:shinar",
+            "subject": "bg:babel",
+            "predicate": "located_in",
+            "object": "bg:shinar",
+            "evidence": [
+              "GEN.10.10"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": ""
+          }
+        },
+        {
+          "id": "r:nimrod:kingdom_includes:babel",
+          "expected_record": {
+            "id": "r:nimrod:kingdom_includes:babel",
+            "subject": "bg:nimrod",
+            "predicate": "kingdom_includes",
+            "object": "bg:babel",
+            "evidence": [
+              "GEN.10.8",
+              "GEN.10.9",
+              "GEN.10.10"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Babel is listed among the beginning cities of his kingdom. No modern political entitlement."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:babel:located_in:shinar": "6ee8e7592104c7b530baa757609258931756266442b6b79903a90f183cca5ad2",
+          "r:nimrod:kingdom_includes:babel": "a72f57e9e84dbaa6623213ea2296ec4bc23dca386a02326dc67b4d75bb652052"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "aefd32fd6087fe1669a3",
+      "entities": [
+        "bg:sitnah-well"
+      ],
+      "added_relation_ids": [
+        "r:isaac:named:sitnah-well"
+      ],
+      "status": "resolved",
+      "reason": "The named individual continues as the naming subject; the plural digging party is not collapsed into Isaac as sole builder.",
+      "evidence": [
+        "GEN.26.18",
+        "GEN.26.19",
+        "GEN.26.20",
+        "GEN.26.21"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "low",
+          "id": "bg:sitnah-well",
+          "label": "Sitnah (well)",
+          "type": "place",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 1,
+          "evidence": [
+            "GEN.26.20",
+            "GEN.26.21",
+            "GEN.26.22"
+          ]
+        },
+        "fingerprint": "aefd32fd6087fe1669a3",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "The party digs another disputed well and names it Sitnah. The selective graph omits collective digging and naming rather than attributing all actions to one named person.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.26.21"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:isaac:named:sitnah-well",
+          "expected_record": {
+            "id": "r:isaac:named:sitnah-well",
+            "subject": "bg:isaac",
+            "predicate": "named",
+            "object": "bg:sitnah-well",
+            "evidence": [
+              "GEN.26.18",
+              "GEN.26.19",
+              "GEN.26.20",
+              "GEN.26.21"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "The named individual continues as the naming subject; the plural digging party is not collapsed into Isaac as sole builder."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:isaac:named:sitnah-well": "71b31672704d09942bb5faac22abbdcb37ffd5fac4de3529f7d06f2fddeae52c"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "b6ee859424646fbf7dd1",
+      "entities": [
+        "bg:moriah-land"
+      ],
+      "added_relation_ids": [
+        "r:abram:traveled_to:moriah-land"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported traveled to relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.22.1",
+        "GEN.22.2",
+        "GEN.22.3",
+        "GEN.22.9"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "low",
+          "id": "bg:moriah-land",
+          "label": "Land of Moriah",
+          "type": "place",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 1,
+          "evidence": [
+            "GEN.22.1",
+            "GEN.22.2"
+          ]
+        },
+        "fingerprint": "b6ee859424646fbf7dd1",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "Moriah is named in a command concerning the offering. The exact mountain is not supplied; no later sanctuary identity or fulfillment route is inferred solely from the command.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.22.1",
+            "GEN.22.2"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:abram:traveled_to:moriah-land",
+          "expected_record": {
+            "id": "r:abram:traveled_to:moriah-land",
+            "subject": "bg:abram",
+            "predicate": "traveled_to",
+            "object": "bg:moriah-land",
+            "evidence": [
+              "GEN.22.1",
+              "GEN.22.2",
+              "GEN.22.3",
+              "GEN.22.9"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Command plus narrated departure and arrival at the designated place supports travel to the named land. The particular mountain remains unnamed; no later sanctuary identity."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:abram:traveled_to:moriah-land": "f54298b70c89af86b0cf0851b455990d657b371f340d31c6df9f91401f3f354f"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "b71646b7ce3bafc944a1",
+      "entities": [
+        "bg:jabbok"
+      ],
+      "added_relation_ids": [
+        "r:jacob:crossed:jabbok"
+      ],
+      "status": "resolved",
+      "reason": "Context identifies Jacob, who crosses the ford with his family; not an assertion that he crossed alone.",
+      "evidence": [
+        "GEN.32.21",
+        "GEN.32.22",
+        "GEN.32.23",
+        "GEN.32.24"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "low",
+          "id": "bg:jabbok",
+          "label": "Jabbok",
+          "type": "place",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 1,
+          "evidence": [
+            "GEN.32.22",
+            "GEN.32.23"
+          ]
+        },
+        "fingerprint": "b71646b7ce3bafc944a1",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "Jacob sends his family across the Jabbok ford. A water-crossing event with group participants is not modeled, so no invented permanent-residence relation is used.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.32.22",
+            "GEN.32.23"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:jacob:crossed:jabbok",
+          "expected_record": {
+            "id": "r:jacob:crossed:jabbok",
+            "subject": "bg:jacob",
+            "predicate": "crossed",
+            "object": "bg:jabbok",
+            "evidence": [
+              "GEN.32.21",
+              "GEN.32.22",
+              "GEN.32.23",
+              "GEN.32.24"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Context identifies Jacob, who crosses the ford with his family; not an assertion that he crossed alone."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:jacob:crossed:jabbok": "874661461cdda50aea0ba6c426b736d3ee632af0740264d0af1ee223dbb2b85a"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "bbee4d6f559127441dba",
+      "entities": [
+        "bg:esek-well"
+      ],
+      "added_relation_ids": [
+        "r:isaac:named:esek-well"
+      ],
+      "status": "resolved",
+      "reason": "Isaac is the contextual naming subject; servants dug the well. This edge does not credit him with solitary digging.",
+      "evidence": [
+        "GEN.26.18",
+        "GEN.26.19",
+        "GEN.26.20"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "low",
+          "id": "bg:esek-well",
+          "label": "Esek (well)",
+          "type": "place",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 1,
+          "evidence": [
+            "GEN.26.19",
+            "GEN.26.20"
+          ]
+        },
+        "fingerprint": "bbee4d6f559127441dba",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "Isaac’s servants dig a disputed well which he names Esek. Naming, collective digging, and dispute roles are not yet modeled; assigning Isaac alone as builder would overstate the actor.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.26.19",
+            "GEN.26.20"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:isaac:named:esek-well",
+          "expected_record": {
+            "id": "r:isaac:named:esek-well",
+            "subject": "bg:isaac",
+            "predicate": "named",
+            "object": "bg:esek-well",
+            "evidence": [
+              "GEN.26.18",
+              "GEN.26.19",
+              "GEN.26.20"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Isaac is the contextual naming subject; servants dug the well. This edge does not credit him with solitary digging."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:isaac:named:esek-well": "5b77d781acb20bad1e5438ebc1d1a2b0d7dac19d45a508b4aa414c7c6f7bd835"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "bdfed7cfd95a82acb30f",
+      "entities": [
+        "bg:eliezer-damascus"
+      ],
+      "added_relation_ids": [
+        "r:abram:named_as_prospective_heir:eliezer-damascus"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported named as prospective heir relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.15.2",
+        "GEN.15.3",
+        "GEN.15.4"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "medium",
+          "id": "bg:eliezer-damascus",
+          "label": "Eliezer of Damascus",
+          "type": "person",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 1,
+          "evidence": [
+            "GEN.15.2",
+            "GEN.15.3",
+            "GEN.24.2",
+            "GEN.24.4"
+          ]
+        },
+        "fingerprint": "bdfed7cfd95a82acb30f",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "Eliezer appears in Abram’s statement about a prospective heir. No unqualified heir relation or equation with the unnamed Genesis24 servant is added. His lack of edges is a documented minor-character omission.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.15.2",
+            "GEN.24.2"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:abram:named_as_prospective_heir:eliezer-damascus",
+          "expected_record": {
+            "id": "r:abram:named_as_prospective_heir:eliezer-damascus",
+            "subject": "bg:abram",
+            "predicate": "named_as_prospective_heir",
+            "object": "bg:eliezer-damascus",
+            "evidence": [
+              "GEN.15.2",
+              "GEN.15.3",
+              "GEN.15.4"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "speech",
+              "speaker": "bg:abram"
+            },
+            "note": "Abram’s stated expectation while childless; Yahweh’s reply in15:4 rejects this outcome. Not a completed inheritance, adoption, or servant identity."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:abram:named_as_prospective_heir:eliezer-damascus": "efee021dfc81812f40988138d6ebcaf8dbe1328f2e5e1b88a5927cc27f881613"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "bf1786692a7fafcf18b3",
+      "entities": [
+        "bg:hamor",
+        "bg:shechem-person"
+      ],
+      "added_relation_ids": [
+        "r:hamor:addressed:jacob"
+      ],
+      "status": "resolved",
+      "reason": "Hamor goes to Jacob to discuss the proposed marriage; this does not assert that the marriage took place or assign individual agents to the later joint killings.",
+      "evidence": [
+        "GEN.34.6",
+        "GEN.34.8"
+      ],
+      "original_issue": {
+        "code": "separate_component",
+        "severity": "review",
+        "message": "This connected subgraph is separate from the largest component; do not fabricate a bridge.",
+        "context": {
+          "nodes": [
+            "bg:hamor",
+            "bg:shechem-person"
+          ],
+          "labels": [
+            "Hamor",
+            "Shechem (Hamor’s son)"
+          ],
+          "major_characters": [],
+          "priority": "medium",
+          "size": 2
+        },
+        "fingerprint": "bf1786692a7fafcf18b3",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "Hamor and his son Shechem are linked. The Dinah episode and Simeon/Levi’s joint killing are not converted to individually attributed binary action edges; a future joint-action model is needed for precise additional connections.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.34.2",
+            "GEN.34.25",
+            "GEN.34.26"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:hamor:addressed:jacob",
+          "expected_record": {
+            "id": "r:hamor:addressed:jacob",
+            "subject": "bg:hamor",
+            "predicate": "addressed",
+            "object": "bg:jacob",
+            "evidence": [
+              "GEN.34.6",
+              "GEN.34.8"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Hamor goes to Jacob to discuss the proposed marriage; this does not assert that the marriage took place or assign individual agents to the later joint killings."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:hamor:addressed:jacob": "1c8cc1c5139814d3e8766e4e2290919133c42c1c96bcd04a04920c6b9c12fedb"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "c09a49b73088e657825b",
+      "entities": [
+        "bg:assyria"
+      ],
+      "added_relation_ids": [
+        "r:hiddekel:flows_in_front_of:assyria"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported flows in front of relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.2.14"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "low",
+          "id": "bg:assyria",
+          "label": "Assyria",
+          "type": "place",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 3,
+          "evidence": [
+            "GEN.2.14",
+            "GEN.10.11",
+            "GEN.10.12"
+          ]
+        },
+        "fingerprint": "c09a49b73088e657825b",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "Assyria appears as a geographic reference. No modern boundary or disputed builder/actor in 10:11 is resolved; the selected graph omits these geographic links.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.2.14",
+            "GEN.10.11"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:hiddekel:flows_in_front_of:assyria",
+          "expected_record": {
+            "id": "r:hiddekel:flows_in_front_of:assyria",
+            "subject": "bg:hiddekel",
+            "predicate": "flows_in_front_of",
+            "object": "bg:assyria",
+            "evidence": [
+              "GEN.2.14"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Preserves WEB’s relative wording; does not say the river flows through Assyria or assign cardinal coordinates."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:hiddekel:flows_in_front_of:assyria": "6fe86aa47002f314259c5b864050979373f10cc111c225ce60b17f6e1b8b1724"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "c589e9fa17bd397fa224",
+      "entities": [
+        "bg:rehoboth-well"
+      ],
+      "added_relation_ids": [
+        "r:isaac:named:rehoboth-well"
+      ],
+      "status": "resolved",
+      "reason": "Names the specific well Rehoboth, not other Rehoboth places or their builders.",
+      "evidence": [
+        "GEN.26.18",
+        "GEN.26.20",
+        "GEN.26.21",
+        "GEN.26.22"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "low",
+          "id": "bg:rehoboth-well",
+          "label": "Rehoboth (well)",
+          "type": "place",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 1,
+          "evidence": [
+            "GEN.26.22",
+            "GEN.10.11",
+            "GEN.36.37"
+          ]
+        },
+        "fingerprint": "c589e9fa17bd397fa224",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "Isaac’s party digs and names Rehoboth. Well-building/naming edges are omitted; this well is not merged with Rehoboth Ir or Rehoboth by the river.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.26.22",
+            "GEN.10.11",
+            "GEN.36.37"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:isaac:named:rehoboth-well",
+          "expected_record": {
+            "id": "r:isaac:named:rehoboth-well",
+            "subject": "bg:isaac",
+            "predicate": "named",
+            "object": "bg:rehoboth-well",
+            "evidence": [
+              "GEN.26.18",
+              "GEN.26.20",
+              "GEN.26.21",
+              "GEN.26.22"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Names the specific well Rehoboth, not other Rehoboth places or their builders."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:isaac:named:rehoboth-well": "6612b17003a5c4ec2a70313eff8cf212825e69094d61ceef4391f61b319b0c77"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "d2383fa349dfc71483e4",
+      "entities": [
+        "bg:peniel"
+      ],
+      "added_relation_ids": [
+        "r:jacob:named:peniel"
+      ],
+      "status": "resolved",
+      "reason": "Naming is narrated. Jacob’s explanation about seeing God is speech, not an identity equation between the wrestler and God.",
+      "evidence": [
+        "GEN.32.30"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "low",
+          "id": "bg:peniel",
+          "label": "Peniel",
+          "type": "place",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 2,
+          "evidence": [
+            "GEN.32.24",
+            "GEN.32.29",
+            "GEN.32.30",
+            "GEN.32.31"
+          ]
+        },
+        "fingerprint": "d2383fa349dfc71483e4",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "Jacob names Peniel after the wrestling encounter. Naming and the unnamed opponent’s identity are not modeled; a forced God/man identity edge is not an acceptable bridge.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.32.24",
+            "GEN.32.30",
+            "GEN.32.31"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:jacob:named:peniel",
+          "expected_record": {
+            "id": "r:jacob:named:peniel",
+            "subject": "bg:jacob",
+            "predicate": "named",
+            "object": "bg:peniel",
+            "evidence": [
+              "GEN.32.30"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Naming is narrated. Jacob’s explanation about seeing God is speech, not an identity equation between the wrestler and God."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:jacob:named:peniel": "bd31fd13db0af671297235f98350626622a1501c5c4804a5b835222bd88c8f68"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "d33c3ac8e7ca1fd07cd8",
+      "entities": [
+        "bg:jordan-plain"
+      ],
+      "added_relation_ids": [
+        "r:lot:chose_region:jordan-plain"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported chose region relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.13.10",
+        "GEN.13.11"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "low",
+          "id": "bg:jordan-plain",
+          "label": "Plain of the Jordan",
+          "type": "place",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 2,
+          "evidence": [
+            "GEN.13.10",
+            "GEN.13.11",
+            "GEN.13.12"
+          ]
+        },
+        "fingerprint": "d33c3ac8e7ca1fd07cd8",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "Lot chooses the plain and lives among its cities. The graph already connects Lot to Sodom but omits the broader region choice/residence relation; this is disclosed selective geographic coverage.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.13.11",
+            "GEN.13.12"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:lot:chose_region:jordan-plain",
+          "expected_record": {
+            "id": "r:lot:chose_region:jordan-plain",
+            "subject": "bg:lot",
+            "predicate": "chose_region",
+            "object": "bg:jordan-plain",
+            "evidence": [
+              "GEN.13.10",
+              "GEN.13.11"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Choice of the well-watered region for separation from Abram; no land-title claim."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:lot:chose_region:jordan-plain": "14ad8ffa27583b40b114faf12d5b84c3742032b6eab541ac9f53816d3d9d26ad"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "e4700991ddb2992ec347",
+      "entities": [
+        "bg:hirah"
+      ],
+      "added_relation_ids": [
+        "r:hirah:friend_of:judah",
+        "r:hirah:traveled_to:timnah-judah"
+      ],
+      "status": "resolved",
+      "reason": "Explicitly identified as Judah’s friend, not a co-occurrence association.",
+      "evidence": [
+        "GEN.38.12"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "medium",
+          "id": "bg:hirah",
+          "label": "Hirah",
+          "type": "person",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 2,
+          "evidence": [
+            "GEN.38.1",
+            "GEN.38.12",
+            "GEN.38.20"
+          ]
+        },
+        "fingerprint": "e4700991ddb2992ec347",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "Hirah is explicitly Judah’s friend and messenger in the goat episode. Friendship/messenger edges are not included in this phase; this secondary person’s isolation is a known coverage gap, not an absence of textual association.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.38.12",
+            "GEN.38.20"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:hirah:friend_of:judah",
+          "expected_record": {
+            "id": "r:hirah:friend_of:judah",
+            "subject": "bg:hirah",
+            "predicate": "friend_of",
+            "object": "bg:judah",
+            "evidence": [
+              "GEN.38.12"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Explicitly identified as Judah’s friend, not a co-occurrence association."
+          }
+        },
+        {
+          "id": "r:hirah:traveled_to:timnah-judah",
+          "expected_record": {
+            "id": "r:hirah:traveled_to:timnah-judah",
+            "subject": "bg:hirah",
+            "predicate": "traveled_to",
+            "object": "bg:timnah-judah",
+            "evidence": [
+              "GEN.38.12"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Hirah accompanies Judah to the sheep shearers; a shared journey with explicit named participants."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:hirah:friend_of:judah": "be43a72aa1aa58da347d92579d9e2f53bc6d1ba17a971f1a73a7cff3eecf4c4f",
+          "r:hirah:traveled_to:timnah-judah": "9b9702d07f7f3b222a88efa664b839d1aefd7894cfc6c619e87da8bd2f509625"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "f3cc2474b68893a6d6b0",
+      "entities": [
+        "bg:on-place"
+      ],
+      "added_relation_ids": [
+        "r:potiphera:priest_of:on-place"
+      ],
+      "status": "resolved",
+      "reason": "Priesthood role associated with the named place On; Potiphera is not Potiphar.",
+      "evidence": [
+        "GEN.41.45"
+      ],
+      "original_issue": {
+        "code": "isolated_node",
+        "severity": "review",
+        "message": "No curated relationship connects this node. Isolation is not proof of error; inspect cited description and decide whether a supported link or an intentional omission is appropriate.",
+        "context": {
+          "priority": "low",
+          "id": "bg:on-place",
+          "label": "On",
+          "type": "place",
+          "degree": 0,
+          "neighbors": 0,
+          "mentions": 3,
+          "evidence": [
+            "GEN.41.45",
+            "GEN.41.50",
+            "GEN.46.20"
+          ]
+        },
+        "fingerprint": "f3cc2474b68893a6d6b0",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "On is connected textually to Potiphera’s priesthood. A priest_of relation is not yet curated, though Potiphera and Asenath’s family links are represented. This is a known role/place omission.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.41.45",
+            "GEN.46.20"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:potiphera:priest_of:on-place",
+          "expected_record": {
+            "id": "r:potiphera:priest_of:on-place",
+            "subject": "bg:potiphera",
+            "predicate": "priest_of",
+            "object": "bg:on-place",
+            "evidence": [
+              "GEN.41.45"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "Priesthood role associated with the named place On; Potiphera is not Potiphar."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:potiphera:priest_of:on-place": "eb01574ce863164aa54c549985bc6c5b8b5738707d30f476462aaddc2f53accd"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    },
+    {
+      "original_issue_fingerprint": "fbc8967e44893154efb0",
+      "entities": [
+        "bg:cush-land",
+        "bg:gihon"
+      ],
+      "added_relation_ids": [
+        "r:gihon:branch_of:eden-river"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported branch of relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.2.10",
+        "GEN.2.13"
+      ],
+      "original_issue": {
+        "code": "separate_component",
+        "severity": "review",
+        "message": "This connected subgraph is separate from the largest component; do not fabricate a bridge.",
+        "context": {
+          "nodes": [
+            "bg:cush-land",
+            "bg:gihon"
+          ],
+          "labels": [
+            "Cush (land)",
+            "Gihon"
+          ],
+          "major_characters": [],
+          "priority": "medium",
+          "size": 2
+        },
+        "fingerprint": "fbc8967e44893154efb0",
+        "disposition": {
+          "decision": "accepted_omission",
+          "reason": "The explicit river-to-land flow relation is preserved as its own component. No modern geographic or genealogical Cush equivalence is asserted merely to join it to the family graph.",
+          "reviewer": "Independent AI-assisted source reviewer /root/audit_bible_dataset_quality; not human scholarly certification",
+          "evidence": [
+            "GEN.2.13"
+          ],
+          "reviewed_utc": "2026-10-29"
+        }
+      },
+      "supporting_relations": [
+        {
+          "id": "r:gihon:branch_of:eden-river",
+          "expected_record": {
+            "id": "r:gihon:branch_of:eden-river",
+            "subject": "bg:gihon",
+            "predicate": "branch_of",
+            "object": "bg:eden-river",
+            "evidence": [
+              "GEN.2.10",
+              "GEN.2.13"
+            ],
+            "assertion": {
+              "scope": "in_text",
+              "mode": "narration",
+              "speaker": null
+            },
+            "note": "The passage identifies this among the four rivers sourced from the parted Eden river; preserves narrative geography without a modern hydrological claim."
+          }
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewer": "Independent AI-assisted source audit /root/audit_bible_dataset_quality with separate Genesis1–25 and26–50 source reviewers; not human scholarly certification",
+        "reviewed_utc": "2026-10-30T01:43:00Z",
+        "relation_hashes": {
+          "r:gihon:branch_of:eden-river": "942e983e337ad48ad41b6996f21fc7251c333a0b87ee87eb66ec3221f20a8e48"
+        },
+        "scope": "Original documented connection omission resolved by the cited meaningful source-backed records; not exhaustive extraction of the passage."
+      }
+    }
+  ]
+}

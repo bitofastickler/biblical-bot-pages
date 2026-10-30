@@ -22,3 +22,8 @@ SOFTWARE.
 
 The bundled World English Bible text is public domain, separately described
 in THIRD_PARTY_NOTICES.md.
+
+The app and imported graph code, schema definitions and documentation are covered
+by this MIT license. Curated graph annotations are separately licensed under
+CC BY 4.0, attributed to bitofastickler. Bundled WEB scripture remains public
+domain. See knowledge-graph/LICENSING.md for scope and attribution.

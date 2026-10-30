@@ -1,0 +1,550 @@
+{
+  "entities": [],
+  "extensions": [],
+  "relations": [
+    {
+      "subject": "ahuzzath",
+      "predicate": "friend_of",
+      "object": "abimelech-isaac",
+      "evidence": "26:26",
+      "note": "Named friendship in Isaac’s episode only; no identity with earlier royal entourage is inferred.",
+      "speaker": null
+    },
+    {
+      "subject": "hirah",
+      "predicate": "friend_of",
+      "object": "judah",
+      "evidence": "38:12",
+      "note": "Explicitly identified as Judah’s friend, not a co-occurrence association.",
+      "speaker": null
+    },
+    {
+      "subject": "potiphera",
+      "predicate": "priest_of",
+      "object": "on-place",
+      "evidence": "41:45",
+      "note": "Priesthood role associated with the named place On; Potiphera is not Potiphar.",
+      "speaker": null
+    },
+    {
+      "subject": "isaac",
+      "predicate": "named",
+      "object": "esek-well",
+      "evidence": "26:18 26:19 26:20",
+      "note": "Isaac is the contextual naming subject; servants dug the well. This edge does not credit him with solitary digging.",
+      "speaker": null
+    },
+    {
+      "subject": "isaac",
+      "predicate": "named",
+      "object": "sitnah-well",
+      "evidence": "26:18 26:19 26:20 26:21",
+      "note": "The named individual continues as the naming subject; the plural digging party is not collapsed into Isaac as sole builder.",
+      "speaker": null
+    },
+    {
+      "subject": "isaac",
+      "predicate": "named",
+      "object": "rehoboth-well",
+      "evidence": "26:18 26:20 26:21 26:22",
+      "note": "Names the specific well Rehoboth, not other Rehoboth places or their builders.",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "named",
+      "object": "mahanaim",
+      "evidence": "32:1 32:2",
+      "note": "Naming act is narrated; the identity of the angels is not resolved.",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "named",
+      "object": "peniel",
+      "evidence": "32:30",
+      "note": "Naming is narrated. Jacob’s explanation about seeing God is speech, not an identity equation between the wrestler and God.",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "named",
+      "object": "galeed-heap",
+      "evidence": "31:46 31:47",
+      "note": "Names the heap Galeed; its alias Jegar Sahadutha is Laban’s naming of the same heap. Does not ascribe sole construction to Jacob.",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "camped_at",
+      "object": "gilead-mountain",
+      "evidence": "31:23 31:25",
+      "note": "Jacob’s pitched tent is explicitly located by the narrative; no modern mountain coordinates are asserted.",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "crossed",
+      "object": "jabbok",
+      "evidence": "32:21 32:22 32:23 32:24",
+      "note": "Context identifies Jacob, who crosses the ford with his family; not an assertion that he crossed alone.",
+      "speaker": null
+    },
+    {
+      "subject": "tamar",
+      "predicate": "waited_at",
+      "object": "enaim",
+      "evidence": "38:13 38:14",
+      "note": "Records her sitting at the gate, not a claim that she was a prostitute or a permanent resident.",
+      "speaker": null
+    },
+    {
+      "subject": "rachel",
+      "predicate": "buried_on_way_to",
+      "object": "ephrath-bethlehem",
+      "evidence": "35:16 35:18 35:19",
+      "note": "Route-relative burial location only; it is explicitly not an assertion of burial inside Bethlehem.",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "sent_messengers_to",
+      "object": "edom-land",
+      "evidence": "32:3",
+      "note": "Jacob sends messengers toward Esau in the land of Seir, field of Edom. Person Esau and territory Edom remain distinct; no identity/modern-border claim.",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "resided_in",
+      "object": "rameses-land",
+      "evidence": "47:7 47:11",
+      "note": "Jacob is the explicitly identified father among the family Joseph settles in Rameses. This contextual individual participation does not equate Rameses with Goshen or a later city.",
+      "speaker": null
+    },
+    {
+      "subject": "joseph",
+      "predicate": "traveled_to",
+      "object": "atad-threshing-floor",
+      "evidence": "50:7 50:8 50:9 50:10",
+      "note": "Joseph is explicitly named as leading/participating in the funeral party that arrives at Atad; this is a shared journey, not an assertion that he traveled alone.",
+      "speaker": null
+    },
+    {
+      "subject": "deborah-rebekah",
+      "predicate": "nurse_of",
+      "object": "rebekah",
+      "evidence": "35:8",
+      "note": "Explicit household role named in the verse, without inferring later servant identities.",
+      "speaker": null
+    },
+    {
+      "subject": "hamor",
+      "predicate": "addressed",
+      "object": "jacob",
+      "evidence": "34:6 34:8",
+      "note": "Hamor goes to Jacob to discuss the proposed marriage; this does not assert that the marriage took place or assign individual agents to the later joint killings.",
+      "speaker": null
+    },
+    {
+      "subject": "laban",
+      "predicate": "named",
+      "object": "galeed-heap",
+      "evidence": "31:46 31:47",
+      "note": "Laban names the heap Jegar Sahadutha, an explicit alias of the heap Jacob calls Galeed.",
+      "speaker": null
+    },
+    {
+      "subject": "laban",
+      "predicate": "camped_at",
+      "object": "gilead-mountain",
+      "evidence": "31:25",
+      "note": "Laban and his relatives encamp there; not a solitary journey.",
+      "speaker": null
+    },
+    {
+      "subject": "hirah",
+      "predicate": "traveled_to",
+      "object": "timnah-judah",
+      "evidence": "38:12",
+      "note": "Hirah accompanies Judah to the sheep shearers; a shared journey with explicit named participants.",
+      "speaker": null
+    }
+  ],
+  "uncertainties": [],
+  "description_updates": {},
+  "predicate_definitions": {
+    "friend_of": {
+      "subject_types": [
+        "person"
+      ],
+      "object_types": [
+        "person"
+      ],
+      "symmetric": true,
+      "description": "Explicitly named friendship, stored once; not inferred from proximity."
+    },
+    "priest_of": {
+      "subject_types": [
+        "person"
+      ],
+      "object_types": [
+        "place"
+      ],
+      "symmetric": false,
+      "description": "Person serving as priest of the named place; no identification of the worshipped deity is implied."
+    },
+    "named": {
+      "subject_types": [
+        "person"
+      ],
+      "object_types": [
+        "place",
+        "object"
+      ],
+      "symmetric": false,
+      "description": "Narrated naming of a place or object; the assigned name is in entity aliases and evidence. Does not imply sole construction."
+    },
+    "camped_at": {
+      "subject_types": [
+        "person"
+      ],
+      "object_types": [
+        "place"
+      ],
+      "symmetric": false,
+      "description": "Temporary encampment at the cited textual place, including explicit group participation."
+    },
+    "crossed": {
+      "subject_types": [
+        "person"
+      ],
+      "object_types": [
+        "place"
+      ],
+      "symmetric": false,
+      "description": "Narrated crossing of a named watercourse/ford; no modern route reconstructed."
+    },
+    "waited_at": {
+      "subject_types": [
+        "person"
+      ],
+      "object_types": [
+        "place"
+      ],
+      "symmetric": false,
+      "description": "Person sits/waits at named place; not permanent residence or an occupation."
+    },
+    "buried_on_way_to": {
+      "subject_types": [
+        "person"
+      ],
+      "object_types": [
+        "place"
+      ],
+      "symmetric": false,
+      "description": "Route-relative burial; explicitly not burial inside the destination town."
+    },
+    "sent_messengers_to": {
+      "subject_types": [
+        "person"
+      ],
+      "object_types": [
+        "place"
+      ],
+      "symmetric": false,
+      "description": "Sender dispatches messengers toward named location; does not establish sender arrival."
+    },
+    "nurse_of": {
+      "subject_types": [
+        "person"
+      ],
+      "object_types": [
+        "person"
+      ],
+      "symmetric": false,
+      "description": "Explicit nurse/household-care role; does not infer biological motherhood."
+    }
+  },
+  "issue_resolutions": [
+    {
+      "original_issue_fingerprint": "69cf463b390214a5d2dd",
+      "entities": [
+        "bg:ahuzzath"
+      ],
+      "added_relation_ids": [
+        "r:ahuzzath:friend_of:abimelech-isaac"
+      ],
+      "status": "resolved",
+      "reason": "Named friendship in Isaac’s episode only; no identity with earlier royal entourage is inferred.",
+      "evidence": [
+        "GEN.26.26"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "e4700991ddb2992ec347",
+      "entities": [
+        "bg:hirah"
+      ],
+      "added_relation_ids": [
+        "r:hirah:friend_of:judah",
+        "r:hirah:traveled_to:timnah-judah"
+      ],
+      "status": "resolved",
+      "reason": "Explicitly identified as Judah’s friend, not a co-occurrence association.",
+      "evidence": [
+        "GEN.38.12"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "f3cc2474b68893a6d6b0",
+      "entities": [
+        "bg:on-place"
+      ],
+      "added_relation_ids": [
+        "r:potiphera:priest_of:on-place"
+      ],
+      "status": "resolved",
+      "reason": "Priesthood role associated with the named place On; Potiphera is not Potiphar.",
+      "evidence": [
+        "GEN.41.45"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "bbee4d6f559127441dba",
+      "entities": [
+        "bg:esek-well"
+      ],
+      "added_relation_ids": [
+        "r:isaac:named:esek-well"
+      ],
+      "status": "resolved",
+      "reason": "Isaac is the contextual naming subject; servants dug the well. This edge does not credit him with solitary digging.",
+      "evidence": [
+        "GEN.26.18",
+        "GEN.26.19",
+        "GEN.26.20"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "aefd32fd6087fe1669a3",
+      "entities": [
+        "bg:sitnah-well"
+      ],
+      "added_relation_ids": [
+        "r:isaac:named:sitnah-well"
+      ],
+      "status": "resolved",
+      "reason": "The named individual continues as the naming subject; the plural digging party is not collapsed into Isaac as sole builder.",
+      "evidence": [
+        "GEN.26.18",
+        "GEN.26.19",
+        "GEN.26.20",
+        "GEN.26.21"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "c589e9fa17bd397fa224",
+      "entities": [
+        "bg:rehoboth-well"
+      ],
+      "added_relation_ids": [
+        "r:isaac:named:rehoboth-well"
+      ],
+      "status": "resolved",
+      "reason": "Names the specific well Rehoboth, not other Rehoboth places or their builders.",
+      "evidence": [
+        "GEN.26.18",
+        "GEN.26.20",
+        "GEN.26.21",
+        "GEN.26.22"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "36b00afaee37be4913c8",
+      "entities": [
+        "bg:mahanaim"
+      ],
+      "added_relation_ids": [
+        "r:jacob:named:mahanaim"
+      ],
+      "status": "resolved",
+      "reason": "Naming act is narrated; the identity of the angels is not resolved.",
+      "evidence": [
+        "GEN.32.1",
+        "GEN.32.2"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "d2383fa349dfc71483e4",
+      "entities": [
+        "bg:peniel"
+      ],
+      "added_relation_ids": [
+        "r:jacob:named:peniel"
+      ],
+      "status": "resolved",
+      "reason": "Naming is narrated. Jacob’s explanation about seeing God is speech, not an identity equation between the wrestler and God.",
+      "evidence": [
+        "GEN.32.30"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "3dcac566c5d1eabcbcd0",
+      "entities": [
+        "bg:galeed-heap"
+      ],
+      "added_relation_ids": [
+        "r:jacob:named:galeed-heap",
+        "r:laban:named:galeed-heap"
+      ],
+      "status": "resolved",
+      "reason": "Names the heap Galeed; its alias Jegar Sahadutha is Laban’s naming of the same heap. Does not ascribe sole construction to Jacob.",
+      "evidence": [
+        "GEN.31.46",
+        "GEN.31.47"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "3407cfce26869e8ab0da",
+      "entities": [
+        "bg:gilead-mountain"
+      ],
+      "added_relation_ids": [
+        "r:jacob:camped_at:gilead-mountain",
+        "r:laban:camped_at:gilead-mountain"
+      ],
+      "status": "resolved",
+      "reason": "Jacob’s pitched tent is explicitly located by the narrative; no modern mountain coordinates are asserted.",
+      "evidence": [
+        "GEN.31.23",
+        "GEN.31.25"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "b71646b7ce3bafc944a1",
+      "entities": [
+        "bg:jabbok"
+      ],
+      "added_relation_ids": [
+        "r:jacob:crossed:jabbok"
+      ],
+      "status": "resolved",
+      "reason": "Context identifies Jacob, who crosses the ford with his family; not an assertion that he crossed alone.",
+      "evidence": [
+        "GEN.32.21",
+        "GEN.32.22",
+        "GEN.32.23",
+        "GEN.32.24"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "9a5efdf8d35c452cd11a",
+      "entities": [
+        "bg:enaim"
+      ],
+      "added_relation_ids": [
+        "r:tamar:waited_at:enaim"
+      ],
+      "status": "resolved",
+      "reason": "Records her sitting at the gate, not a claim that she was a prostitute or a permanent resident.",
+      "evidence": [
+        "GEN.38.13",
+        "GEN.38.14"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "a02350c168b629c32919",
+      "entities": [
+        "bg:ephrath-bethlehem"
+      ],
+      "added_relation_ids": [
+        "r:rachel:buried_on_way_to:ephrath-bethlehem"
+      ],
+      "status": "resolved",
+      "reason": "Route-relative burial location only; it is explicitly not an assertion of burial inside Bethlehem.",
+      "evidence": [
+        "GEN.35.16",
+        "GEN.35.18",
+        "GEN.35.19"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "807b7b6acc907c1a1705",
+      "entities": [
+        "bg:edom-land"
+      ],
+      "added_relation_ids": [
+        "r:jacob:sent_messengers_to:edom-land"
+      ],
+      "status": "resolved",
+      "reason": "Jacob sends messengers toward Esau in the land of Seir, field of Edom. Person Esau and territory Edom remain distinct; no identity/modern-border claim.",
+      "evidence": [
+        "GEN.32.3"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "8f7ba1cb20bafa8a1fb9",
+      "entities": [
+        "bg:rameses-land"
+      ],
+      "added_relation_ids": [
+        "r:jacob:resided_in:rameses-land"
+      ],
+      "status": "resolved",
+      "reason": "Jacob is the explicitly identified father among the family Joseph settles in Rameses. This contextual individual participation does not equate Rameses with Goshen or a later city.",
+      "evidence": [
+        "GEN.47.7",
+        "GEN.47.11"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "a5e4725a5c7a0ca47b8c",
+      "entities": [
+        "bg:atad-threshing-floor"
+      ],
+      "added_relation_ids": [
+        "r:joseph:traveled_to:atad-threshing-floor"
+      ],
+      "status": "resolved",
+      "reason": "Joseph is explicitly named as leading/participating in the funeral party that arrives at Atad; this is a shared journey, not an assertion that he traveled alone.",
+      "evidence": [
+        "GEN.50.7",
+        "GEN.50.8",
+        "GEN.50.9",
+        "GEN.50.10"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "7ed79b9168dd6b727d5f",
+      "entities": [
+        "bg:allon-bacuth",
+        "bg:deborah-rebekah"
+      ],
+      "added_relation_ids": [
+        "r:deborah-rebekah:nurse_of:rebekah"
+      ],
+      "status": "resolved",
+      "reason": "Explicit household role named in the verse, without inferring later servant identities.",
+      "evidence": [
+        "GEN.35.8"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "bf1786692a7fafcf18b3",
+      "entities": [
+        "bg:hamor",
+        "bg:shechem-person"
+      ],
+      "added_relation_ids": [
+        "r:hamor:addressed:jacob"
+      ],
+      "status": "resolved",
+      "reason": "Hamor goes to Jacob to discuss the proposed marriage; this does not assert that the marriage took place or assign individual agents to the later joint killings.",
+      "evidence": [
+        "GEN.34.6",
+        "GEN.34.8"
+      ]
+    }
+  ]
+}

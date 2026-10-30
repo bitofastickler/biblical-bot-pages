@@ -1,0 +1,1287 @@
+{
+  "entities": [
+    {
+      "key": "potiphar",
+      "label": "Potiphar",
+      "type": "person",
+      "aliases": [
+        "Potiphar"
+      ],
+      "scope": "37 39",
+      "description": "Potiphar is Pharaoh’s officer and captain of the guard who buys Joseph in Egypt and makes him overseer of his household. He is not merged with Potiphera, the priest of On named later.",
+      "description_evidence": [
+        "GEN.37.36",
+        "GEN.39.1",
+        "GEN.39.4",
+        "GEN.41.45"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "potiphar-wife",
+      "label": "Potiphar’s wife (unnamed)",
+      "type": "person",
+      "aliases": [
+        "his master’s wife"
+      ],
+      "scope": "39:7 39:8",
+      "description": "Potiphar’s unnamed wife repeatedly asks Joseph to lie with her; after he refuses and runs away, she accuses him before her household and husband. The accusation is reported as her speech, not adopted as a fact about Joseph.",
+      "description_evidence": [
+        "GEN.39.1",
+        "GEN.39.7",
+        "GEN.39.8",
+        "GEN.39.10",
+        "GEN.39.12",
+        "GEN.39.14",
+        "GEN.39.17"
+      ],
+      "editorial_note": "Unnamed role-scoped person, not given a traditional personal name. Only two explicit role-phrase mentions are annotated; pronouns omitted."
+    },
+    {
+      "key": "pharaoh-joseph",
+      "label": "Pharaoh (Joseph narrative)",
+      "type": "person",
+      "aliases": [
+        "Pharaoh"
+      ],
+      "scope": "37 39 40 41 42 44 45 46 47 50",
+      "description": "The unnamed Pharaoh of the Joseph narrative summons Joseph to interpret dreams and places him over Egypt. He welcomes Joseph’s family and later permits Joseph to bury his father in Canaan.",
+      "description_evidence": [
+        "GEN.41.14",
+        "GEN.41.25",
+        "GEN.41.43",
+        "GEN.45.17",
+        "GEN.45.18",
+        "GEN.50.5",
+        "GEN.50.6"
+      ],
+      "editorial_note": "Narrative-role continuity within Genesis37–50; not a historical identification of a particular monarch or a claim about reign chronology. Separate from Pharaoh in Genesis12."
+    },
+    {
+      "key": "chief-cupbearer",
+      "label": "Chief cup bearer (Joseph narrative)",
+      "type": "person",
+      "aliases": [
+        "chief cup bearer"
+      ],
+      "scope": "40 41",
+      "description": "Pharaoh’s chief cup bearer is imprisoned with Joseph, who interprets his dream. He is restored to office, initially forgets Joseph, and later tells Pharaoh about him.",
+      "description_evidence": [
+        "GEN.40.2",
+        "GEN.40.3",
+        "GEN.40.9",
+        "GEN.40.12",
+        "GEN.40.13",
+        "GEN.40.21",
+        "GEN.40.23",
+        "GEN.41.9",
+        "GEN.41.12"
+      ],
+      "editorial_note": "Unnamed official; scoped title mentions only."
+    },
+    {
+      "key": "chief-baker",
+      "label": "Chief baker (Joseph narrative)",
+      "type": "person",
+      "aliases": [
+        "chief baker"
+      ],
+      "scope": "40 41",
+      "description": "Pharaoh’s chief baker is imprisoned with Joseph and tells him a dream. Joseph predicts his death, and the narrative later reports that Pharaoh hangs him.",
+      "description_evidence": [
+        "GEN.40.2",
+        "GEN.40.3",
+        "GEN.40.16",
+        "GEN.40.18",
+        "GEN.40.19",
+        "GEN.40.20",
+        "GEN.40.22"
+      ],
+      "editorial_note": "Unnamed official; scoped title mentions only. Prediction and narrated outcome are distinguished."
+    },
+    {
+      "key": "asenath",
+      "label": "Asenath",
+      "type": "person",
+      "aliases": [
+        "Asenath"
+      ],
+      "scope": "41 46",
+      "description": "Asenath, daughter of Potiphera the priest of On, is given to Joseph as his wife. She bears him Manasseh and Ephraim before the famine.",
+      "description_evidence": [
+        "GEN.41.45",
+        "GEN.41.50",
+        "GEN.41.51",
+        "GEN.41.52",
+        "GEN.46.20"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "potiphera",
+      "label": "Potiphera",
+      "type": "person",
+      "aliases": [
+        "Potiphera"
+      ],
+      "scope": "41 46",
+      "description": "Potiphera is the priest of On and Asenath’s father. His name is kept distinct from Potiphar, the officer who buys Joseph.",
+      "description_evidence": [
+        "GEN.41.45",
+        "GEN.41.50",
+        "GEN.46.20",
+        "GEN.39.1"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "manasseh",
+      "label": "Manasseh",
+      "type": "person",
+      "aliases": [
+        "Manasseh"
+      ],
+      "scope": "41 46 48 50",
+      "description": "Manasseh is Joseph and Asenath’s firstborn son. When Jacob blesses the two brothers, he places his left hand on Manasseh and gives the younger Ephraim precedence.",
+      "description_evidence": [
+        "GEN.41.50",
+        "GEN.41.51",
+        "GEN.48.13",
+        "GEN.48.14",
+        "GEN.48.17",
+        "GEN.48.19",
+        "GEN.48.20"
+      ],
+      "editorial_note": "Individual son in these scenes; no automatic merging with later tribe or territory."
+    },
+    {
+      "key": "ephraim",
+      "label": "Ephraim",
+      "type": "person",
+      "aliases": [
+        "Ephraim"
+      ],
+      "scope": "41 46 48 50",
+      "description": "Ephraim is Joseph and Asenath’s younger son. Jacob crosses his hands to place his right hand on Ephraim and puts him before Manasseh in his blessing.",
+      "description_evidence": [
+        "GEN.41.50",
+        "GEN.41.51",
+        "GEN.41.52",
+        "GEN.48.13",
+        "GEN.48.14",
+        "GEN.48.19",
+        "GEN.48.20"
+      ],
+      "editorial_note": "Individual son in these scenes; future people-group predictions remain attributed to Jacob."
+    },
+    {
+      "key": "machir-manasseh",
+      "label": "Machir (Manasseh’s son)",
+      "type": "person",
+      "aliases": [
+        "Machir"
+      ],
+      "scope": "50",
+      "description": "Machir is identified as Manasseh’s son in the closing account of Joseph’s life. The narrative says that Machir’s children were born on Joseph’s knees.",
+      "description_evidence": [
+        "GEN.50.23"
+      ],
+      "editorial_note": "No further adoption, parentage, or later tribal identity is inferred from the idiom."
+    },
+    {
+      "key": "hirah",
+      "label": "Hirah",
+      "type": "person",
+      "aliases": [
+        "Hirah"
+      ],
+      "scope": "38",
+      "description": "Hirah is the Adullamite whom Judah visits and later accompanies to the sheep shearers. He is called Judah’s friend and is sent with the promised goat to find the woman Judah had met.",
+      "description_evidence": [
+        "GEN.38.1",
+        "GEN.38.12",
+        "GEN.38.20"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "shua-canaanite",
+      "label": "Shua (Judah’s father-in-law)",
+      "type": "person",
+      "aliases": [
+        "Shua"
+      ],
+      "scope": "38",
+      "description": "Shua is the Canaanite man whose unnamed daughter becomes Judah’s wife. The narrative later reports the daughter’s death, without giving her a personal name.",
+      "description_evidence": [
+        "GEN.38.2",
+        "GEN.38.12"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "shua-daughter",
+      "label": "Shua’s daughter (unnamed)",
+      "type": "person",
+      "aliases": [
+        "Shua’s daughter"
+      ],
+      "scope": "38:12",
+      "description": "Shua’s unnamed daughter becomes Judah’s wife and bears Er, Onan and Shelah. She later dies, and Judah travels with Hirah after his mourning.",
+      "description_evidence": [
+        "GEN.38.2",
+        "GEN.38.3",
+        "GEN.38.4",
+        "GEN.38.5",
+        "GEN.38.12"
+      ],
+      "editorial_note": "No traditional personal name is assigned; only an explicit role phrase is annotated."
+    },
+    {
+      "key": "er-judah",
+      "label": "Er (Judah’s son)",
+      "type": "person",
+      "aliases": [
+        "Er"
+      ],
+      "scope": "38 46",
+      "description": "Er is Judah’s firstborn son and Tamar’s husband. The narrative says that he was wicked in Yahweh’s sight and that Yahweh killed him.",
+      "description_evidence": [
+        "GEN.38.3",
+        "GEN.38.6",
+        "GEN.38.7",
+        "GEN.46.12"
+      ],
+      "editorial_note": "Textual attribution, not independent moral or historical verification."
+    },
+    {
+      "key": "onan",
+      "label": "Onan",
+      "type": "person",
+      "aliases": [
+        "Onan"
+      ],
+      "scope": "38 46",
+      "description": "Onan is Judah’s son and Er’s brother. After Judah tells him to provide offspring for his brother through Tamar, he refuses to provide that offspring; the narrative reports his death as Yahweh’s action.",
+      "description_evidence": [
+        "GEN.38.4",
+        "GEN.38.8",
+        "GEN.38.9",
+        "GEN.38.10",
+        "GEN.46.12"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "shelah-judah",
+      "label": "Shelah (Judah’s son)",
+      "type": "person",
+      "aliases": [
+        "Shelah"
+      ],
+      "scope": "38 46",
+      "description": "Shelah is Judah’s son whom Tamar is told to wait for after Er and Onan die. Although he grows up, she is not given to him as a wife; he is distinct from Shelah in the earlier genealogy through Eber.",
+      "description_evidence": [
+        "GEN.38.5",
+        "GEN.38.11",
+        "GEN.38.14",
+        "GEN.38.26",
+        "GEN.11.14"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "tamar",
+      "label": "Tamar",
+      "type": "person",
+      "aliases": [
+        "Tamar"
+      ],
+      "scope": "38",
+      "description": "Tamar is Er’s wife and Judah’s daughter-in-law. After being withheld from Shelah, she conceives by Judah and gives birth to twins, Perez and Zerah.",
+      "description_evidence": [
+        "GEN.38.6",
+        "GEN.38.11",
+        "GEN.38.14",
+        "GEN.38.18",
+        "GEN.38.25",
+        "GEN.38.26",
+        "GEN.38.27",
+        "GEN.38.29",
+        "GEN.38.30"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "perez",
+      "label": "Perez",
+      "type": "person",
+      "aliases": [
+        "Perez"
+      ],
+      "scope": "38 46",
+      "description": "Perez is one of Tamar’s twins by Judah and the brother of Zerah. Genesis 46 names Hezron and Hamul as his sons.",
+      "description_evidence": [
+        "GEN.38.18",
+        "GEN.38.27",
+        "GEN.38.29",
+        "GEN.38.30",
+        "GEN.46.12"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "zerah-tamar",
+      "label": "Zerah (Tamar’s son)",
+      "type": "person",
+      "aliases": [
+        "Zerah"
+      ],
+      "scope": "38 46",
+      "description": "Zerah is Tamar’s son by Judah and Perez’s twin brother, identified in the birth account by the scarlet thread on his hand. He is kept separate from the Zerah in Esau’s family list.",
+      "description_evidence": [
+        "GEN.38.18",
+        "GEN.38.27",
+        "GEN.38.29",
+        "GEN.38.30",
+        "GEN.46.12",
+        "GEN.36.13"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "dothan",
+      "label": "Dothan",
+      "type": "place",
+      "aliases": [
+        "Dothan"
+      ],
+      "scope": "37",
+      "description": "Dothan is where Joseph finds his brothers after looking for them at Shechem. The account of their plot against him follows his arrival there.",
+      "description_evidence": [
+        "GEN.37.14",
+        "GEN.37.17",
+        "GEN.37.18"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "timnah-judah",
+      "label": "Timnah (Judah narrative)",
+      "type": "place",
+      "aliases": [
+        "Timnah"
+      ],
+      "scope": "38",
+      "description": "Timnah is where Judah goes with Hirah to his sheep shearers after his wife’s death. Tamar learns he is going there and waits by the road at Enaim.",
+      "description_evidence": [
+        "GEN.38.12",
+        "GEN.38.13",
+        "GEN.38.14"
+      ],
+      "editorial_note": "Not merged with people named Timna in genealogies; no modern-site identification."
+    },
+    {
+      "key": "enaim",
+      "label": "Enaim",
+      "type": "place",
+      "aliases": [
+        "Enaim"
+      ],
+      "scope": "38",
+      "description": "Enaim is the place on the road to Timnah where Tamar waits with her face covered. Hirah later asks there about the woman Judah had met.",
+      "description_evidence": [
+        "GEN.38.14",
+        "GEN.38.20",
+        "GEN.38.21",
+        "GEN.38.22"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "on-place",
+      "label": "On",
+      "type": "place",
+      "aliases": [
+        "On"
+      ],
+      "scope": "41:45 41:50 46:20",
+      "description": "On is the place associated with Potiphera’s priesthood in the notices naming Asenath as Joseph’s wife and their sons’ mother. No modern identification is assigned here.",
+      "description_evidence": [
+        "GEN.41.45",
+        "GEN.41.50",
+        "GEN.46.20"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "goshen",
+      "label": "Goshen",
+      "type": "place",
+      "aliases": [
+        "Goshen"
+      ],
+      "scope": "45 46 47 50",
+      "description": "Goshen is the area in Egypt where Joseph meets his father and where the family settles during the famine. Their children and livestock remain there when the burial party goes to Canaan.",
+      "description_evidence": [
+        "GEN.46.28",
+        "GEN.46.29",
+        "GEN.47.6",
+        "GEN.47.27",
+        "GEN.50.8"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "rameses-land",
+      "label": "Land of Rameses",
+      "type": "place",
+      "aliases": [
+        "Rameses"
+      ],
+      "scope": "47",
+      "description": "The land of Rameses is the area where Joseph gives his father and brothers a possession, described as part of the best land of Egypt. It is not automatically equated with Goshen or a later named city.",
+      "description_evidence": [
+        "GEN.47.11"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "atad-threshing-floor",
+      "label": "Threshing floor of Atad / Abel Mizraim",
+      "type": "place",
+      "aliases": [
+        "threshing floor of Atad",
+        "floor of Atad",
+        "Abel Mizraim"
+      ],
+      "scope": "50",
+      "description": "The funeral party for Jacob mourns at the threshing floor of Atad beyond the Jordan. The account says the place is called Abel Mizraim because of the mourning observed there.",
+      "description_evidence": [
+        "GEN.50.10",
+        "GEN.50.11"
+      ],
+      "editorial_note": "Atad is treated as part of a place designation, not an independently identified person."
+    }
+  ],
+  "extensions": [
+    {
+      "key": "deity-god",
+      "aliases": [
+        "Yahweh",
+        "God"
+      ],
+      "scope": "37 38 39 40 41 42 43 44 45 46 47 48 49 50"
+    },
+    {
+      "key": "joseph",
+      "aliases": [
+        "Joseph"
+      ],
+      "scope": "37 38 39 40 41 42 43 44 45 46 47 48 49 50"
+    },
+    {
+      "key": "jacob",
+      "aliases": [
+        "Jacob"
+      ],
+      "scope": "37 42 45 46 47 48"
+    },
+    {
+      "key": "jacob",
+      "aliases": [
+        "Jacob"
+      ],
+      "scope": "49:1 49:2 49:33 50:24"
+    },
+    {
+      "key": "judah",
+      "aliases": [
+        "Judah"
+      ],
+      "scope": "37 38 43 44 46 49"
+    },
+    {
+      "key": "reuben",
+      "aliases": [
+        "Reuben"
+      ],
+      "scope": "37 42 46 48 49"
+    },
+    {
+      "key": "simeon",
+      "aliases": [
+        "Simeon"
+      ],
+      "scope": "42 43 46 48 49"
+    },
+    {
+      "key": "levi",
+      "aliases": [
+        "Levi"
+      ],
+      "scope": "46 49"
+    },
+    {
+      "key": "benjamin",
+      "aliases": [
+        "Benjamin"
+      ],
+      "scope": "42 43 44 45 46 49"
+    },
+    {
+      "key": "dan-person",
+      "aliases": [
+        "Dan"
+      ],
+      "scope": "46 49"
+    },
+    {
+      "key": "naphtali",
+      "aliases": [
+        "Naphtali"
+      ],
+      "scope": "46 49"
+    },
+    {
+      "key": "gad",
+      "aliases": [
+        "Gad"
+      ],
+      "scope": "46 49"
+    },
+    {
+      "key": "asher",
+      "aliases": [
+        "Asher"
+      ],
+      "scope": "46 49"
+    },
+    {
+      "key": "issachar",
+      "aliases": [
+        "Issachar"
+      ],
+      "scope": "46 49"
+    },
+    {
+      "key": "zebulun",
+      "aliases": [
+        "Zebulun"
+      ],
+      "scope": "46 49"
+    },
+    {
+      "key": "rachel",
+      "aliases": [
+        "Rachel"
+      ],
+      "scope": "46 48"
+    },
+    {
+      "key": "leah",
+      "aliases": [
+        "Leah"
+      ],
+      "scope": "46 49"
+    },
+    {
+      "key": "bilhah",
+      "aliases": [
+        "Bilhah"
+      ],
+      "scope": "37 46"
+    },
+    {
+      "key": "zilpah",
+      "aliases": [
+        "Zilpah"
+      ],
+      "scope": "37 46"
+    },
+    {
+      "key": "dinah",
+      "aliases": [
+        "Dinah"
+      ],
+      "scope": "46"
+    },
+    {
+      "key": "laban",
+      "aliases": [
+        "Laban"
+      ],
+      "scope": "46"
+    },
+    {
+      "key": "isaac",
+      "aliases": [
+        "Isaac"
+      ],
+      "scope": "46 48 49 50"
+    },
+    {
+      "key": "rebekah",
+      "aliases": [
+        "Rebekah"
+      ],
+      "scope": "49"
+    },
+    {
+      "key": "abram",
+      "aliases": [
+        "Abraham"
+      ],
+      "scope": "48 49 50"
+    },
+    {
+      "key": "sarai",
+      "aliases": [
+        "Sarah"
+      ],
+      "scope": "49"
+    },
+    {
+      "key": "canaan-land",
+      "aliases": [
+        "Canaan"
+      ],
+      "scope": "37 38 39 40 41 42 43 44 45 46 47 48 49 50"
+    },
+    {
+      "key": "egypt",
+      "aliases": [
+        "Egypt"
+      ],
+      "scope": "37 38 39 40 41 42 43 44 45 46 47 48 49 50"
+    },
+    {
+      "key": "shechem-place",
+      "aliases": [
+        "Shechem"
+      ],
+      "scope": "37"
+    },
+    {
+      "key": "hebron",
+      "aliases": [
+        "Hebron"
+      ],
+      "scope": "37"
+    },
+    {
+      "key": "beersheba",
+      "aliases": [
+        "Beersheba"
+      ],
+      "scope": "46"
+    },
+    {
+      "key": "machpelah",
+      "aliases": [
+        "Machpelah"
+      ],
+      "scope": "49 50"
+    },
+    {
+      "key": "mamre-place",
+      "aliases": [
+        "Mamre"
+      ],
+      "scope": "49 50"
+    },
+    {
+      "key": "ephron",
+      "aliases": [
+        "Ephron"
+      ],
+      "scope": "49 50"
+    },
+    {
+      "key": "jacob",
+      "aliases": [
+        "Israel"
+      ],
+      "scope": "37:3 37:13 43:6 43:8 43:11 45:28 46:1 46:2 46:29 46:30 47:29 47:31 48:2 48:8 48:10 48:11 48:13 48:14 48:21 49:2 50:2 50:3"
+    },
+    {
+      "key": "joseph",
+      "aliases": [
+        "Zaphenath-Paneah"
+      ],
+      "scope": "41:45"
+    },
+    {
+      "key": "bethel",
+      "aliases": [
+        "Luz"
+      ],
+      "scope": "48:3"
+    },
+    {
+      "key": "ephrath-bethlehem",
+      "aliases": [
+        "Ephrath",
+        "Bethlehem"
+      ],
+      "scope": "48:7"
+    },
+    {
+      "key": "paddan-aram",
+      "aliases": [
+        "Paddan Aram"
+      ],
+      "scope": "46:15"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "potiphera",
+      "predicate": "parent_of",
+      "object": "asenath",
+      "evidence": "41:45",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "joseph",
+      "predicate": "parent_of",
+      "object": "manasseh",
+      "evidence": "41:50 41:51",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "joseph",
+      "predicate": "parent_of",
+      "object": "ephraim",
+      "evidence": "41:50 41:52",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "asenath",
+      "predicate": "parent_of",
+      "object": "manasseh",
+      "evidence": "41:50 41:51",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "asenath",
+      "predicate": "parent_of",
+      "object": "ephraim",
+      "evidence": "41:50 41:52",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "manasseh",
+      "predicate": "parent_of",
+      "object": "machir-manasseh",
+      "evidence": "50:23",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "shua-canaanite",
+      "predicate": "parent_of",
+      "object": "shua-daughter",
+      "evidence": "38:2 38:12",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "judah",
+      "predicate": "parent_of",
+      "object": "er-judah",
+      "evidence": "38:2 38:3 38:6",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "judah",
+      "predicate": "parent_of",
+      "object": "onan",
+      "evidence": "38:2 38:4",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "judah",
+      "predicate": "parent_of",
+      "object": "shelah-judah",
+      "evidence": "38:2 38:5",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "shua-daughter",
+      "predicate": "parent_of",
+      "object": "er-judah",
+      "evidence": "38:2 38:3",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "shua-daughter",
+      "predicate": "parent_of",
+      "object": "onan",
+      "evidence": "38:2 38:4",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "shua-daughter",
+      "predicate": "parent_of",
+      "object": "shelah-judah",
+      "evidence": "38:2 38:5",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "judah",
+      "predicate": "parent_of",
+      "object": "perez",
+      "evidence": "38:18 38:25 38:26 38:27 38:29",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "judah",
+      "predicate": "parent_of",
+      "object": "zerah-tamar",
+      "evidence": "38:18 38:25 38:26 38:27 38:30",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "tamar",
+      "predicate": "parent_of",
+      "object": "perez",
+      "evidence": "38:24 38:25 38:27 38:29",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "tamar",
+      "predicate": "parent_of",
+      "object": "zerah-tamar",
+      "evidence": "38:24 38:25 38:27 38:30",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "joseph",
+      "predicate": "spouse_of",
+      "object": "asenath",
+      "evidence": "41:45",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "judah",
+      "predicate": "spouse_of",
+      "object": "shua-daughter",
+      "evidence": "38:2 38:12",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "er-judah",
+      "predicate": "spouse_of",
+      "object": "tamar",
+      "evidence": "38:6",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "manasseh",
+      "predicate": "sibling_of",
+      "object": "ephraim",
+      "evidence": "41:50 41:51 41:52",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "perez",
+      "predicate": "sibling_of",
+      "object": "zerah-tamar",
+      "evidence": "38:27 38:29 38:30",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "joseph",
+      "predicate": "sibling_of",
+      "object": "benjamin",
+      "evidence": "43:29",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "joseph",
+      "predicate": "servant_of",
+      "object": "potiphar",
+      "evidence": "39:1 39:2 39:4",
+      "note": "Narrated enslavement/household service; not endorsement.",
+      "speaker": null
+    },
+    {
+      "subject": "potiphar",
+      "predicate": "spouse_of",
+      "object": "potiphar-wife",
+      "evidence": "39:1 39:7 39:9",
+      "note": "Role-resolved unnamed wife in this household narrative.",
+      "speaker": null
+    },
+    {
+      "subject": "pharaoh-joseph",
+      "predicate": "king_of",
+      "object": "egypt",
+      "evidence": "41:46",
+      "note": "Unnamed ruler within Joseph narrative only.",
+      "speaker": null
+    },
+    {
+      "subject": "joseph",
+      "predicate": "bound",
+      "object": "simeon",
+      "evidence": "42:24",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "joseph",
+      "predicate": "traveled_to",
+      "object": "shechem-place",
+      "evidence": "37:14",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "joseph",
+      "predicate": "traveled_to",
+      "object": "dothan",
+      "evidence": "37:17",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "judah",
+      "predicate": "traveled_to",
+      "object": "timnah-judah",
+      "evidence": "38:12",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "traveled_to",
+      "object": "beersheba",
+      "evidence": "46:1",
+      "note": "Israel/Jacob continuity is explicit in 46:2.",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "traveled_to",
+      "object": "egypt",
+      "evidence": "46:5 46:6",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "traveled_to",
+      "object": "goshen",
+      "evidence": "46:28 46:29",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "joseph",
+      "predicate": "traveled_to",
+      "object": "goshen",
+      "evidence": "46:29",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "resided_in",
+      "object": "egypt",
+      "evidence": "47:28",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "joseph",
+      "predicate": "resided_in",
+      "object": "egypt",
+      "evidence": "50:22",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "joseph",
+      "predicate": "died_in",
+      "object": "egypt",
+      "evidence": "50:22 50:26",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "buried_at",
+      "object": "machpelah",
+      "evidence": "49:33 50:12 50:13",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "joseph",
+      "predicate": "buried",
+      "object": "jacob",
+      "evidence": "50:7 50:12 50:13 50:14",
+      "note": "Joseph participates with his brothers; not a claim he acts alone.",
+      "speaker": null
+    },
+    {
+      "subject": "deity-god",
+      "predicate": "addressed",
+      "object": "jacob",
+      "evidence": "46:2 46:3",
+      "note": "Narrative identifies a vision; not a modern historical verification.",
+      "speaker": null
+    },
+    {
+      "subject": "pharaoh-joseph",
+      "predicate": "appointed_to_rule",
+      "object": "joseph",
+      "evidence": "41:42 41:43",
+      "note": "Narrator reports appointment over Egypt; Pharaoh retains the throne (41:40).",
+      "speaker": null
+    },
+    {
+      "subject": "joseph",
+      "predicate": "interpreted_dream_for",
+      "object": "pharaoh-joseph",
+      "evidence": "41:15 41:25 41:26 41:27 41:28 41:29 41:30",
+      "note": "Records interpretation speech; predicted events are not inferred from dream symbolism alone.",
+      "speaker": null
+    },
+    {
+      "subject": "joseph",
+      "predicate": "interpreted_dream_for",
+      "object": "chief-cupbearer",
+      "evidence": "40:9 40:12 40:13",
+      "note": "Interpretation speech act; later restoration is separately narrated in40:21.",
+      "speaker": null
+    },
+    {
+      "subject": "joseph",
+      "predicate": "interpreted_dream_for",
+      "object": "chief-baker",
+      "evidence": "40:16 40:18 40:19",
+      "note": "Interpretation speech act; later execution is separately narrated in40:22.",
+      "speaker": null
+    },
+    {
+      "subject": "joseph",
+      "predicate": "provided_food_for",
+      "object": "jacob",
+      "evidence": "47:11 47:12",
+      "note": "The narrative includes the brothers and whole household as recipients; this selected edge identifies the father only.",
+      "speaker": null
+    }
+  ],
+  "uncertainties": [
+    {
+      "id": "u:joseph-sale-agents",
+      "verses": [
+        "GEN.37.25",
+        "GEN.37.27",
+        "GEN.37.28",
+        "GEN.37.36",
+        "GEN.39.1",
+        "GEN.45.4"
+      ],
+      "issue": "The sale account names Ishmaelites and Midianites and has potentially ambiguous agents; Joseph later addresses his brothers as those who sold him.",
+      "handling": "No unqualified named-brother seller edge is generated; descriptions report the sale without forcing every agent."
+    },
+    {
+      "id": "u:potiphar-potiphera",
+      "verses": [
+        "GEN.39.1",
+        "GEN.41.45"
+      ],
+      "issue": "Potiphar the officer and Potiphera the priest have similar names but different descriptions.",
+      "handling": "Separate IDs; no same_as or automatic alias."
+    },
+    {
+      "id": "u:judah-namesakes",
+      "verses": [
+        "GEN.11.14",
+        "GEN.36.13",
+        "GEN.38.5",
+        "GEN.38.30"
+      ],
+      "issue": "Shelah in Judah’s family and Zerah born to Tamar have namesakes in earlier genealogies.",
+      "handling": "Separate scoped IDs; no cross-genealogy merge."
+    },
+    {
+      "id": "u:joseph-pharaoh",
+      "verses": [
+        "GEN.12.15",
+        "GEN.41.46",
+        "GEN.50.6"
+      ],
+      "issue": "Pharaoh is a royal title, not a supplied personal name or independent historical identification.",
+      "handling": "Joseph-narrative role entry is separate from Genesis12; narrative continuity is not a claim about dynasty or exact reign."
+    },
+    {
+      "id": "u:joseph-accusations",
+      "verses": [
+        "GEN.37.33",
+        "GEN.39.14",
+        "GEN.39.17",
+        "GEN.42.9",
+        "GEN.44.1",
+        "GEN.44.2",
+        "GEN.44.12"
+      ],
+      "issue": "Characters report Joseph dead, accuse him, accuse brothers of spying, and treat a planted cup as evidence.",
+      "handling": "No death-at-37, sexual-assault, spy, or theft fact edges are asserted from those speeches."
+    },
+    {
+      "id": "u:jacob-israel-collective",
+      "verses": [
+        "GEN.46.8",
+        "GEN.47.27",
+        "GEN.48.20",
+        "GEN.49.7",
+        "GEN.49.28",
+        "GEN.50.25"
+      ],
+      "issue": "Israel can denote Jacob or his descendants/tribes; poetic Jacob can also be collective.",
+      "handling": "Only curated individual Israel mentions are assigned to Jacob. Collective47:27,48:20,49:7,49:28,50:25 are excluded from that alias scope."
+    },
+    {
+      "id": "u:jacob-blessings",
+      "verses": [
+        "GEN.48.5",
+        "GEN.48.19",
+        "GEN.48.20",
+        "GEN.49.1",
+        "GEN.49.28"
+      ],
+      "issue": "Jacob’s blessings include adoption-like language, future claims, metaphors and tribal references.",
+      "handling": "Direct-address son names in the blessing remain individual-address mentions, while collective Israel is excluded. No biological parent_of edges to Joseph’s sons, fulfilled prophecy edges or later national identities are inferred."
+    },
+    {
+      "id": "u:joseph-burial-scope",
+      "verses": [
+        "GEN.50.25",
+        "GEN.50.26"
+      ],
+      "issue": "Joseph asks for future transport of his bones, but Genesis ends with his coffin in Egypt.",
+      "handling": "No later burial location or fulfilled transport edge is added from books outside this source phase."
+    },
+    {
+      "id": "u:genesis49-burial-claims",
+      "verses": [
+        "GEN.49.29",
+        "GEN.49.30",
+        "GEN.49.31"
+      ],
+      "issue": "Isaac/Rebekah/Leah burials at Machpelah are reported in Jacob’s instructions rather than independently narrated here.",
+      "handling": "This selective file does not add unqualified narrator-attributed burial edges for those statements; human review may add attributed edges."
+    },
+    {
+      "id": "u:anonymous-household",
+      "verses": [
+        "GEN.38.2",
+        "GEN.38.12",
+        "GEN.39.7",
+        "GEN.40.2"
+      ],
+      "issue": "Some central people are identified only by household or official roles.",
+      "handling": "Unnamed role entries have explicit phrase scopes; no traditional personal names or broad pronoun resolution."
+    }
+  ],
+  "description_updates": {
+    "bg:joseph": {
+      "description": "Joseph, son of Jacob and Rachel, is sold into Egypt, serves in Potiphar’s house and later interprets Pharaoh’s dreams. Pharaoh puts him over Egypt, and Joseph supplies food for his family during the famine before dying there.",
+      "description_evidence": [
+        "GEN.30.22",
+        "GEN.30.23",
+        "GEN.30.24",
+        "GEN.37.28",
+        "GEN.39.1",
+        "GEN.41.25",
+        "GEN.41.43",
+        "GEN.47.12",
+        "GEN.50.22",
+        "GEN.50.26",
+        "GEN.46.19"
+      ]
+    },
+    "bg:judah": {
+      "description": "Judah is Jacob and Leah’s son, who proposes selling Joseph and later offers to remain in Egypt in Benjamin’s place. His family story includes Tamar and their twins Perez and Zerah.",
+      "description_evidence": [
+        "GEN.29.35",
+        "GEN.37.26",
+        "GEN.37.27",
+        "GEN.38.18",
+        "GEN.38.27",
+        "GEN.38.29",
+        "GEN.38.30",
+        "GEN.44.32",
+        "GEN.44.33",
+        "GEN.35.23"
+      ]
+    },
+    "bg:benjamin": {
+      "description": "Benjamin is Jacob and Rachel’s younger son and Joseph’s brother. He accompanies the brothers to Egypt, where Joseph recognizes him and later reveals himself to the family.",
+      "description_evidence": [
+        "GEN.35.18",
+        "GEN.35.24",
+        "GEN.43.15",
+        "GEN.43.29",
+        "GEN.45.3",
+        "GEN.45.12",
+        "GEN.45.14"
+      ]
+    }
+  },
+  "predicate_definitions": {
+    "appointed_to_rule": {
+      "subject_types": [
+        "person"
+      ],
+      "object_types": [
+        "person"
+      ],
+      "direction": "Appointing ruler → appointee. Jurisdiction and limits remain in evidence/note; not sovereignty or equal kingship."
+    },
+    "interpreted_dream_for": {
+      "subject_types": [
+        "person"
+      ],
+      "object_types": [
+        "person"
+      ],
+      "direction": "Interpreter → dreamer. Speech act recorded in text, not a general proof of predictive accuracy."
+    },
+    "provided_food_for": {
+      "subject_types": [
+        "person"
+      ],
+      "object_types": [
+        "person"
+      ],
+      "direction": "Provider → recipient. Material provision in cited episode, not an unlimited ongoing obligation."
+    }
+  }
+}
