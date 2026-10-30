@@ -28,6 +28,8 @@ Use Node 24+, Python 3.12+ and the locked npm dependencies. Run `npm test`, `npm
 
 The release wrapper propagates UTF-8 mode to Python subprocesses on Windows. In this Windows sandbox, set TMP/TEMP to an approved writable temp directory when needed. Set `PLAYWRIGHT_BROWSERS_PATH` to the existing browser cache if the sandbox redirects LocalAppData. These are test environment accommodations, not application requirements.
 
-## Publication decision
+## Licensing and publication
 
-No push, PR, deployment or sharing change has been made. The original app and standalone private Site remain untouched. The original graph provenance explicitly leaves the annotation license undecided; see [licensing status](../knowledge-graph/LICENSING.md). The owner must choose a curated-data license and authorize a license for imported graph code/documentation before approving public distribution. The existing Pages workflow will deploy a subsequent authorized merge/push to main; this prepared branch is not publication approval.
+The owner authorized MIT for imported graph code/documentation and CC BY 4.0 for curated annotations, credited to bitofastickler, on 2026-10-30. WEB scripture remains public domain. See [license scope](../knowledge-graph/LICENSING.md). Generated provenance and the built graph include the current grant; historical baseline provenance remains unchanged as an audit record.
+
+The integration is prepared for a draft pull request. A draft PR does not deploy the app. The existing Pages workflow deploys only a subsequent authorized push/merge to main or manual workflow dispatch. Production deployment, merging and private Site sharing changes are outside this preparation step.

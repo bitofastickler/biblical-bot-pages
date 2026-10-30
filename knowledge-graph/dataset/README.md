@@ -54,7 +54,7 @@ The pilot preserves separate Cain-line and Seth-line Enoch/Lamech, two Nahors, p
 
 The World English Bible is public domain; see the [publisher’s notice](https://ebible.org/engwebp/copyright.htm). The WEB name is a trademark; modified text should not be presented as the unchanged WEB. This does not establish that every other file in the user’s repository shares that status. Only the provided WEB corpus is copied here. Repository code/assets are not incorporated.
 
-**No new distribution license has been selected or imposed for the original annotations/scripts.** The user should choose appropriate terms before public redistribution. Public-domain status of the source text and licensing of this new editorial layer are separate questions. This package intentionally contains no blanket LICENSE file.
+The owner selected licenses on 2026-10-30: **MIT for code, schema definitions and explanatory documentation; CC BY 4.0 for curated annotations, credited to bitofastickler.** WEB scripture remains public domain. See [license scope and attribution](../LICENSING.md). The original source had no selected annotation license; preserved historical provenance records that earlier status, while the current grant applies to the supplied annotation corpus.
 
 ## Suggested next acceptance gate
 

@@ -55,6 +55,6 @@ Imports are limited to 2 MB and validated against an explicit allowlist before r
 
 App source is MIT licensed; Bible text is public domain under its separate notice.
 
-## Bible graph integration (private review)
+## Bible graph integration
 
-The Graph entry opens selected Genesis 1–50 annotations with source evidence, the existing 3D/list explorer, and the quality report. Reader passages link to the graph; graph source passages link back to the reader. Other Bible books remain readable but are explicitly not yet annotated. See [integration guide](docs/knowledge-graph.md). Run `npm test`, `npm run build` (Python 3 required), then `npm run test:browser` with the local server running. Public release is pending the graph licensing decision; the app MIT license does not automatically cover imported graph materials.
+The Graph entry opens selected Genesis 1–50 annotations with source evidence, the existing 3D/list explorer, and the quality report. Reader passages link to the graph; graph source passages link back to the reader. Other Bible books remain readable but are explicitly not yet annotated. See [integration guide](docs/knowledge-graph.md). Run `npm test`, `npm run build` (Python 3 required), then `npm run test:browser` with the local server running. Graph code and documentation are MIT; curated annotations are CC BY 4.0, credited to bitofastickler; WEB scripture remains public domain. See [license scope and attribution](knowledge-graph/LICENSING.md).

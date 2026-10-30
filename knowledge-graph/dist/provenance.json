@@ -14,7 +14,13 @@
   "upstream_public_domain_notice": "https://ebible.org/engwebp/copyright.htm",
   "transform": "Exact UTF-8 source blob retained. Pilot text copied without normalization.",
   "annotation_method": "AI-assisted manual curation against the actual supplied text; deterministic scoped literal mention expansion; not expert-certified.",
-  "annotation_license": "Not selected; user decision required. No new license is imposed.",
+  "annotation_license": "CC BY 4.0",
+  "annotation_license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "annotation_attribution": "Bible knowledge graph — Genesis curated annotations, by bitofastickler, licensed CC BY 4.0.",
+  "annotation_license_selected_utc": "2026-10-30",
+  "code_license": "MIT",
+  "scripture_license": "Public domain (World English Bible)",
+  "license_scope": "Curated annotations: CC BY 4.0; code, schema definitions and explanatory documentation: MIT; WEB scripture: public domain. See LICENSING.md; historical provenance retains original recorded status.",
   "scope": {
     "book": "Genesis",
     "chapters": [

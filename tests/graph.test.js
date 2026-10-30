@@ -27,6 +27,11 @@ test('shareable selections preserve stable entity and verse identifiers',()=>{
   assert.equal(url.searchParams.get('verse'),'GEN.14.17');
   assert.equal(selectionUrl(url.href,'GEN','bg:noah',null).searchParams.has('verse'),false);
 });
-test('annotation licensing remains undecided',()=>{
-  assert.equal(read('../knowledge-graph/dist/provenance.json').annotation_license,'Not selected; user decision required. No new license is imposed.');
+test('generated provenance preserves distinct annotation, code and scripture licenses',()=>{
+  const p=read('../knowledge-graph/dist/provenance.json');
+  assert.equal(p.annotation_license,'CC BY 4.0');
+  assert.equal(p.annotation_license_url,'https://creativecommons.org/licenses/by/4.0/');
+  assert.match(p.annotation_attribution,/by bitofastickler/);
+  assert.equal(p.code_license,'MIT');
+  assert.equal(p.scripture_license,'Public domain (World English Bible)');
 });

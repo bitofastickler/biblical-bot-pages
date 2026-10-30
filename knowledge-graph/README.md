@@ -1,6 +1,6 @@
 # Bible graph integration
 
-This is a private, repository-ready integration of the Genesis v0.5 source. See [integration guide](../docs/knowledge-graph.md) and [licensing status](LICENSING.md). The historical Site notes below describe the source release, not publication of this integration. The original hosting identity is deliberately absent.
+This is a repository-ready integration of the Genesis v0.5 source. See [integration guide](../docs/knowledge-graph.md) and [licensing status](LICENSING.md). The historical Site notes below describe the source release, not publication of this integration. The original hosting identity is deliberately absent.
 
 # Genesis constellation pilot
 Private standalone static preview. Does not modify the upstream application or pilot source data.
