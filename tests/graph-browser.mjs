@@ -1,0 +1,52 @@
+import {chromium} from '@playwright/test';
+import assert from 'node:assert/strict';
+import {mkdir,writeFile} from 'node:fs/promises';
+const base=process.env.TEST_URL||'http://127.0.0.1:4173/biblical-bot-pages/';
+const browser=await chromium.launch({headless:true});
+const errors=[],failed=[],external=[];
+try{
+for(const width of [1440,390,320]){
+  const page=await browser.newPage({viewport:{width,height:900}});
+  page.on('pageerror',e=>errors.push(e.message));
+  page.on('response',r=>{if(r.status()>=400)failed.push(r.url());});
+  page.on('request',r=>{if(new URL(r.url()).origin!==new URL(base).origin)external.push(r.url());});
+  await page.goto(base+'#Genesis%2014%3A17');
+  await page.locator('#passage-title').filter({hasText:'Genesis 14:17'}).waitFor();
+  await page.locator('#passage-graph').click();
+  await page.locator('#count').filter({hasText:'193'}).waitFor();
+  await page.locator('#reader').filter({hasText:'Genesis 14:17'}).waitFor();
+  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`graph overflow ${width}`);
+  await page.locator('#listToggle').click();
+  await page.locator('#search').fill('Melchizedek');
+  await page.locator('#entityList button').click();
+  assert.match(await page.locator('#details h2').textContent(),/Melchizedek/);
+  const mel=page.url(), historyLength=await page.evaluate(()=>history.length);
+  await page.locator('#entityList button').click();
+  assert.equal(await page.evaluate(()=>history.length),historyLength,'repeat selection should not duplicate history');
+  await page.locator('#details [data-verse]').first().click();
+  const source=page.url();assert.notEqual(source,mel);
+  await page.goBack();await page.waitForURL(mel);assert.equal(await page.locator('#reader').count(),0);
+  await page.goForward();await page.waitForURL(source);await page.locator('#reader').waitFor();
+  await page.locator('#reader a').click();
+  await page.locator('#passage-title').filter({hasText:'Genesis 14:18'}).waitFor();
+  await page.locator('#lookup').fill('John 3:16');await page.locator('#lookup-form button').click();
+  assert.match(await page.locator('#graph-coverage').textContent(),/Genesis only/);
+  await page.goBack();await page.locator('#passage-title').filter({hasText:'Genesis 14:18'}).waitFor();
+  await page.goForward();await page.locator('#passage-title').filter({hasText:'John 3:16'}).waitFor();
+  await page.locator('#passage-graph').click();
+  await page.getByRole('heading',{name:'This book is not yet annotated'}).waitFor();
+  await page.getByRole('link',{name:'Explore Genesis',exact:true}).click();
+  await page.locator('#count').filter({hasText:'193'}).waitFor();
+  await page.getByRole('link',{name:'Quality report'}).click();
+  await page.locator('#qualityContent').filter({hasText:'43 of 43'}).waitFor();
+  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`quality overflow ${width}`);
+  await mkdir('.local',{recursive:true});await page.screenshot({path:`.local/graph-quality-${width}.png`,fullPage:true});
+  await page.getByRole('link',{name:'Back to graph',exact:false}).click();
+  await page.locator('#count').filter({hasText:'193'}).waitFor();
+  await page.screenshot({path:`.local/graph-${width}.png`,fullPage:true});
+  await page.close();
+}
+assert.deepEqual(errors,[]);assert.deepEqual(failed,[]);assert.deepEqual(external,[]);
+await writeFile('.local/graph-browser-result.json',JSON.stringify({passed:true,widths:[1440,390,320],errors,failed,external},null,2));
+console.log('Graph browser integration passed at desktop, 390px and 320px.');
+}finally{await browser.close();}

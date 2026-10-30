@@ -1,0 +1,1409 @@
+{
+  "version": 1,
+  "method": "Manually authored source-anchored editorial expectations; not generated from graph adjacency or acceptance-baseline equality. This is a deliberately small checklist, not an exhaustive gold standard. Reviewer must adjudicate missing/mismatched anchors. Checklist independently challenged against source by a separate reviewing agent; includes known current omissions, not only implemented edges.",
+  "entities": [
+    {
+      "id": "bg:adam",
+      "aliases": [
+        "Adam"
+      ],
+      "evidence": [
+        "GEN.3.17"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:eve",
+      "aliases": [
+        "Eve"
+      ],
+      "evidence": [
+        "GEN.3.20"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:cain",
+      "aliases": [
+        "Cain"
+      ],
+      "evidence": [
+        "GEN.4.1"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:abel",
+      "aliases": [
+        "Abel"
+      ],
+      "evidence": [
+        "GEN.4.2"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:noah",
+      "aliases": [
+        "Noah"
+      ],
+      "evidence": [
+        "GEN.5.29"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:shem",
+      "aliases": [
+        "Shem"
+      ],
+      "evidence": [
+        "GEN.5.32"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:ham",
+      "aliases": [
+        "Ham"
+      ],
+      "evidence": [
+        "GEN.5.32"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:japheth",
+      "aliases": [
+        "Japheth"
+      ],
+      "evidence": [
+        "GEN.5.32"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:abram",
+      "aliases": [
+        "Abram"
+      ],
+      "evidence": [
+        "GEN.11.26"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:sarai",
+      "aliases": [
+        "Sarai"
+      ],
+      "evidence": [
+        "GEN.11.29"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:lot",
+      "aliases": [
+        "Lot"
+      ],
+      "evidence": [
+        "GEN.11.27"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:abram",
+      "aliases": [
+        "Abraham"
+      ],
+      "evidence": [
+        "GEN.17.5"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:sarai",
+      "aliases": [
+        "Sarah"
+      ],
+      "evidence": [
+        "GEN.17.15"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:hagar",
+      "aliases": [
+        "Hagar"
+      ],
+      "evidence": [
+        "GEN.16.1"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:ishmael",
+      "aliases": [
+        "Ishmael"
+      ],
+      "evidence": [
+        "GEN.16.15"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:isaac",
+      "aliases": [
+        "Isaac"
+      ],
+      "evidence": [
+        "GEN.21.3"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:rebekah",
+      "aliases": [
+        "Rebekah"
+      ],
+      "evidence": [
+        "GEN.22.23"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:laban",
+      "aliases": [
+        "Laban"
+      ],
+      "evidence": [
+        "GEN.24.29"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:jacob",
+      "aliases": [
+        "Jacob"
+      ],
+      "evidence": [
+        "GEN.25.26"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:esau",
+      "aliases": [
+        "Esau",
+        "Edom"
+      ],
+      "evidence": [
+        "GEN.25.30"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:leah",
+      "aliases": [
+        "Leah"
+      ],
+      "evidence": [
+        "GEN.29.16"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:rachel",
+      "aliases": [
+        "Rachel"
+      ],
+      "evidence": [
+        "GEN.29.16"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:joseph",
+      "aliases": [
+        "Joseph"
+      ],
+      "evidence": [
+        "GEN.30.24"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:judah",
+      "aliases": [
+        "Judah"
+      ],
+      "evidence": [
+        "GEN.29.35"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:benjamin",
+      "aliases": [
+        "Benjamin"
+      ],
+      "evidence": [
+        "GEN.35.18"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:manasseh",
+      "aliases": [
+        "Manasseh"
+      ],
+      "evidence": [
+        "GEN.41.51"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:ephraim",
+      "aliases": [
+        "Ephraim"
+      ],
+      "evidence": [
+        "GEN.41.52"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:jacob",
+      "aliases": [
+        "Jacob",
+        "Israel"
+      ],
+      "evidence": [
+        "GEN.32.28",
+        "GEN.35.10"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:joseph",
+      "aliases": [
+        "Joseph",
+        "Zaphenath-Paneah"
+      ],
+      "evidence": [
+        "GEN.41.45"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:benjamin",
+      "aliases": [
+        "Benjamin",
+        "Benoni"
+      ],
+      "evidence": [
+        "GEN.35.18"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:bilhah",
+      "aliases": [
+        "Bilhah"
+      ],
+      "evidence": [
+        "GEN.30.4"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:zilpah",
+      "aliases": [
+        "Zilpah"
+      ],
+      "evidence": [
+        "GEN.30.9"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:reuben",
+      "aliases": [
+        "Reuben"
+      ],
+      "evidence": [
+        "GEN.29.32"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:simeon",
+      "aliases": [
+        "Simeon"
+      ],
+      "evidence": [
+        "GEN.29.33"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:levi",
+      "aliases": [
+        "Levi"
+      ],
+      "evidence": [
+        "GEN.29.34"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:dan-person",
+      "aliases": [
+        "Dan"
+      ],
+      "evidence": [
+        "GEN.30.6"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:naphtali",
+      "aliases": [
+        "Naphtali"
+      ],
+      "evidence": [
+        "GEN.30.8"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:gad",
+      "aliases": [
+        "Gad"
+      ],
+      "evidence": [
+        "GEN.30.11"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:asher",
+      "aliases": [
+        "Asher"
+      ],
+      "evidence": [
+        "GEN.30.13"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:issachar",
+      "aliases": [
+        "Issachar"
+      ],
+      "evidence": [
+        "GEN.30.18"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:zebulun",
+      "aliases": [
+        "Zebulun"
+      ],
+      "evidence": [
+        "GEN.30.20"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:dinah",
+      "aliases": [
+        "Dinah"
+      ],
+      "evidence": [
+        "GEN.30.21"
+      ],
+      "required": true
+    },
+    {
+      "id": "bg:tamar",
+      "aliases": [
+        "Tamar"
+      ],
+      "evidence": [
+        "GEN.38.6"
+      ],
+      "required": true
+    }
+  ],
+  "relations": [
+    {
+      "subject": "bg:adam",
+      "predicate": "spouse_of",
+      "object": "bg:eve",
+      "evidence": [
+        "GEN.4.1"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:cain",
+      "predicate": "killed",
+      "object": "bg:abel",
+      "evidence": [
+        "GEN.4.8"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:noah",
+      "predicate": "parent_of",
+      "object": "bg:shem",
+      "evidence": [
+        "GEN.5.32"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:noah",
+      "predicate": "parent_of",
+      "object": "bg:ham",
+      "evidence": [
+        "GEN.5.32"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:noah",
+      "predicate": "parent_of",
+      "object": "bg:japheth",
+      "evidence": [
+        "GEN.5.32"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:abram",
+      "predicate": "spouse_of",
+      "object": "bg:sarai",
+      "evidence": [
+        "GEN.11.29"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:abram",
+      "predicate": "parent_of",
+      "object": "bg:ishmael",
+      "evidence": [
+        "GEN.16.15"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:hagar",
+      "predicate": "parent_of",
+      "object": "bg:ishmael",
+      "evidence": [
+        "GEN.16.15"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:abram",
+      "predicate": "parent_of",
+      "object": "bg:isaac",
+      "evidence": [
+        "GEN.21.3"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:sarai",
+      "predicate": "parent_of",
+      "object": "bg:isaac",
+      "evidence": [
+        "GEN.21.2",
+        "GEN.21.3"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:isaac",
+      "predicate": "spouse_of",
+      "object": "bg:rebekah",
+      "evidence": [
+        "GEN.24.67"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:isaac",
+      "predicate": "parent_of",
+      "object": "bg:jacob",
+      "evidence": [
+        "GEN.25.26"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:rebekah",
+      "predicate": "parent_of",
+      "object": "bg:jacob",
+      "evidence": [
+        "GEN.25.21",
+        "GEN.25.26"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:isaac",
+      "predicate": "parent_of",
+      "object": "bg:esau",
+      "evidence": [
+        "GEN.25.21",
+        "GEN.25.25",
+        "GEN.25.26"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:jacob",
+      "predicate": "spouse_of",
+      "object": "bg:leah",
+      "evidence": [
+        "GEN.29.23",
+        "GEN.29.25"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:jacob",
+      "predicate": "spouse_of",
+      "object": "bg:rachel",
+      "evidence": [
+        "GEN.29.28"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:rachel",
+      "predicate": "parent_of",
+      "object": "bg:joseph",
+      "evidence": [
+        "GEN.30.22",
+        "GEN.30.23",
+        "GEN.30.24"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:jacob",
+      "predicate": "parent_of",
+      "object": "bg:joseph",
+      "evidence": [
+        "GEN.30.25"
+      ],
+      "mode": "narration",
+      "required": true,
+      "reviewed_evidence_sets": [
+        [
+          "GEN.30.25"
+        ],
+        [
+          "GEN.35.22",
+          "GEN.35.24"
+        ]
+      ]
+    },
+    {
+      "subject": "bg:rachel",
+      "predicate": "parent_of",
+      "object": "bg:benjamin",
+      "evidence": [
+        "GEN.35.16",
+        "GEN.35.17",
+        "GEN.35.18"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:joseph",
+      "predicate": "parent_of",
+      "object": "bg:manasseh",
+      "evidence": [
+        "GEN.41.50",
+        "GEN.41.51"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:joseph",
+      "predicate": "parent_of",
+      "object": "bg:ephraim",
+      "evidence": [
+        "GEN.41.50",
+        "GEN.41.52"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:eve",
+      "predicate": "parent_of",
+      "object": "bg:seth",
+      "evidence": [
+        "GEN.4.1",
+        "GEN.4.25"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:bethuel",
+      "predicate": "parent_of",
+      "object": "bg:rebekah",
+      "evidence": [
+        "GEN.24.15"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:rebekah",
+      "predicate": "sibling_of",
+      "object": "bg:laban",
+      "evidence": [
+        "GEN.24.29"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:lot",
+      "predicate": "parent_of",
+      "object": "bg:moab-lot",
+      "evidence": [
+        "GEN.19.36",
+        "GEN.19.37"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:lot",
+      "predicate": "parent_of",
+      "object": "bg:ben-ammi",
+      "evidence": [
+        "GEN.19.36",
+        "GEN.19.38"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:joseph",
+      "predicate": "spouse_of",
+      "object": "bg:asenath",
+      "evidence": [
+        "GEN.41.45"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:asenath",
+      "predicate": "parent_of",
+      "object": "bg:manasseh",
+      "evidence": [
+        "GEN.41.50",
+        "GEN.41.51",
+        "GEN.46.20"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:asenath",
+      "predicate": "parent_of",
+      "object": "bg:ephraim",
+      "evidence": [
+        "GEN.41.50",
+        "GEN.41.52",
+        "GEN.46.20"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:potiphera",
+      "predicate": "parent_of",
+      "object": "bg:asenath",
+      "evidence": [
+        "GEN.41.45"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:judah",
+      "predicate": "parent_of",
+      "object": "bg:er-judah",
+      "evidence": [
+        "GEN.46.12"
+      ],
+      "mode": "narration",
+      "required": true,
+      "reviewed_evidence_sets": [
+        [
+          "GEN.46.12"
+        ],
+        [
+          "GEN.38.2",
+          "GEN.38.3",
+          "GEN.38.6"
+        ]
+      ]
+    },
+    {
+      "subject": "bg:joseph",
+      "predicate": "bound",
+      "object": "bg:simeon",
+      "evidence": [
+        "GEN.42.24"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:jacob",
+      "predicate": "buried_at",
+      "object": "bg:machpelah",
+      "evidence": [
+        "GEN.50.13"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:jacob",
+      "predicate": "parent_of",
+      "object": "bg:reuben",
+      "evidence": [
+        "GEN.35.22",
+        "GEN.35.23"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:jacob",
+      "predicate": "parent_of",
+      "object": "bg:simeon",
+      "evidence": [
+        "GEN.35.22",
+        "GEN.35.23"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:jacob",
+      "predicate": "parent_of",
+      "object": "bg:levi",
+      "evidence": [
+        "GEN.35.22",
+        "GEN.35.23"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:jacob",
+      "predicate": "parent_of",
+      "object": "bg:judah",
+      "evidence": [
+        "GEN.35.22",
+        "GEN.35.23"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:jacob",
+      "predicate": "parent_of",
+      "object": "bg:issachar",
+      "evidence": [
+        "GEN.35.22",
+        "GEN.35.23"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:jacob",
+      "predicate": "parent_of",
+      "object": "bg:zebulun",
+      "evidence": [
+        "GEN.35.22",
+        "GEN.35.23"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:leah",
+      "predicate": "parent_of",
+      "object": "bg:reuben",
+      "evidence": [
+        "GEN.35.22",
+        "GEN.35.23"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:leah",
+      "predicate": "parent_of",
+      "object": "bg:simeon",
+      "evidence": [
+        "GEN.35.22",
+        "GEN.35.23"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:leah",
+      "predicate": "parent_of",
+      "object": "bg:levi",
+      "evidence": [
+        "GEN.35.22",
+        "GEN.35.23"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:leah",
+      "predicate": "parent_of",
+      "object": "bg:judah",
+      "evidence": [
+        "GEN.35.22",
+        "GEN.35.23"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:leah",
+      "predicate": "parent_of",
+      "object": "bg:issachar",
+      "evidence": [
+        "GEN.35.22",
+        "GEN.35.23"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:leah",
+      "predicate": "parent_of",
+      "object": "bg:zebulun",
+      "evidence": [
+        "GEN.35.22",
+        "GEN.35.23"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:jacob",
+      "predicate": "parent_of",
+      "object": "bg:benjamin",
+      "evidence": [
+        "GEN.35.22",
+        "GEN.35.24"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:jacob",
+      "predicate": "parent_of",
+      "object": "bg:dan-person",
+      "evidence": [
+        "GEN.35.22",
+        "GEN.35.25"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:jacob",
+      "predicate": "parent_of",
+      "object": "bg:naphtali",
+      "evidence": [
+        "GEN.35.22",
+        "GEN.35.25"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:bilhah",
+      "predicate": "parent_of",
+      "object": "bg:dan-person",
+      "evidence": [
+        "GEN.35.22",
+        "GEN.35.25"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:bilhah",
+      "predicate": "parent_of",
+      "object": "bg:naphtali",
+      "evidence": [
+        "GEN.35.22",
+        "GEN.35.25"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:jacob",
+      "predicate": "parent_of",
+      "object": "bg:gad",
+      "evidence": [
+        "GEN.35.22",
+        "GEN.35.26"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:jacob",
+      "predicate": "parent_of",
+      "object": "bg:asher",
+      "evidence": [
+        "GEN.35.22",
+        "GEN.35.26"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:zilpah",
+      "predicate": "parent_of",
+      "object": "bg:gad",
+      "evidence": [
+        "GEN.35.22",
+        "GEN.35.26"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:zilpah",
+      "predicate": "parent_of",
+      "object": "bg:asher",
+      "evidence": [
+        "GEN.35.22",
+        "GEN.35.26"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:melchizedek",
+      "predicate": "pronounced_blessing_on",
+      "object": "bg:abram",
+      "evidence": [
+        "GEN.14.18",
+        "GEN.14.19"
+      ],
+      "mode": "speech",
+      "required": true
+    },
+    {
+      "subject": "bg:abram",
+      "predicate": "gave_tenth_to",
+      "object": "bg:melchizedek",
+      "evidence": [
+        "GEN.14.20"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:abram",
+      "predicate": "paid",
+      "object": "bg:ephron",
+      "evidence": [
+        "GEN.23.16"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:ephron",
+      "predicate": "sold_to",
+      "object": "bg:abram",
+      "evidence": [
+        "GEN.23.16",
+        "GEN.23.17",
+        "GEN.23.18"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:deborah-rebekah",
+      "predicate": "nurse_of",
+      "object": "bg:rebekah",
+      "evidence": [
+        "GEN.35.8"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:potiphera",
+      "predicate": "priest_of",
+      "object": "bg:on-place",
+      "evidence": [
+        "GEN.41.45"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:ahuzzath",
+      "predicate": "friend_of",
+      "object": "bg:abimelech-isaac",
+      "evidence": [
+        "GEN.26.26"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:hirah",
+      "predicate": "friend_of",
+      "object": "bg:judah",
+      "evidence": [
+        "GEN.38.12"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:rachel",
+      "predicate": "buried_on_way_to",
+      "object": "bg:ephrath-bethlehem",
+      "evidence": [
+        "GEN.35.19"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:pharaoh-gen12",
+      "predicate": "addressed",
+      "object": "bg:abram",
+      "evidence": [
+        "GEN.12.18"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:abram",
+      "predicate": "named_as_prospective_heir",
+      "object": "bg:eliezer-damascus",
+      "evidence": [
+        "GEN.15.2"
+      ],
+      "mode": "speech",
+      "required": true
+    },
+    {
+      "subject": "bg:deity-god",
+      "predicate": "prohibited_eating_from",
+      "object": "bg:tree-knowledge",
+      "evidence": [
+        "GEN.2.16",
+        "GEN.2.17"
+      ],
+      "mode": "speech",
+      "required": true
+    },
+    {
+      "subject": "bg:deity-god",
+      "predicate": "placed_guards_for",
+      "object": "bg:tree-life",
+      "evidence": [
+        "GEN.3.24"
+      ],
+      "mode": "narration",
+      "required": true
+    },
+    {
+      "subject": "bg:hiddekel",
+      "predicate": "flows_in_front_of",
+      "object": "bg:assyria",
+      "evidence": [
+        "GEN.2.14"
+      ],
+      "mode": "narration",
+      "required": true
+    }
+  ],
+  "forbidden_relations": [
+    {
+      "subject": "bg:abram",
+      "predicate": "killed",
+      "object": "bg:isaac",
+      "evidence": [
+        "GEN.22.12"
+      ]
+    },
+    {
+      "subject": "bg:abram",
+      "predicate": "sibling_of",
+      "object": "bg:sarai",
+      "evidence": [
+        "GEN.20.12"
+      ]
+    },
+    {
+      "subject": "bg:esau",
+      "predicate": "killed",
+      "object": "bg:jacob",
+      "evidence": [
+        "GEN.27.41"
+      ]
+    },
+    {
+      "subject": "bg:jacob",
+      "predicate": "parent_of",
+      "object": "bg:manasseh",
+      "evidence": [
+        "GEN.48.5"
+      ]
+    },
+    {
+      "subject": "bg:jacob",
+      "predicate": "parent_of",
+      "object": "bg:ephraim",
+      "evidence": [
+        "GEN.48.5"
+      ]
+    },
+    {
+      "subject": "bg:rachel",
+      "predicate": "buried_at",
+      "object": "bg:ephrath-bethlehem",
+      "evidence": [
+        "GEN.35.19"
+      ]
+    },
+    {
+      "subject": "bg:abram",
+      "predicate": "resided_in",
+      "object": "bg:ai-place",
+      "evidence": [
+        "GEN.12.8"
+      ]
+    },
+    {
+      "subject": "bg:hiddekel",
+      "predicate": "flows_through",
+      "object": "bg:assyria",
+      "evidence": [
+        "GEN.2.14"
+      ]
+    },
+    {
+      "subject": "bg:isaac",
+      "predicate": "built",
+      "object": "bg:esek-well",
+      "evidence": [
+        "GEN.26.19"
+      ]
+    },
+    {
+      "subject": "bg:isaac",
+      "predicate": "built",
+      "object": "bg:sitnah-well",
+      "evidence": [
+        "GEN.26.19",
+        "GEN.26.21"
+      ]
+    },
+    {
+      "subject": "bg:eliezer-damascus",
+      "predicate": "traveled_to",
+      "object": "bg:mesopotamia",
+      "evidence": [
+        "GEN.24.2",
+        "GEN.24.10"
+      ]
+    }
+  ],
+  "forbidden_mentions": [
+    {
+      "entity_id": "bg:ham",
+      "verse_id": "GEN.14.5"
+    },
+    {
+      "entity_id": "bg:nahor-terah",
+      "verse_id": "GEN.24.10"
+    },
+    {
+      "entity_id": "bg:eliezer-damascus",
+      "chapter": 24
+    },
+    {
+      "entity_id": "bg:jacob",
+      "verse_id": "GEN.32.32",
+      "surface": "Israel"
+    },
+    {
+      "entity_id": "bg:jacob",
+      "verse_id": "GEN.49.28",
+      "surface": "Israel"
+    },
+    {
+      "entity_id": "bg:jacob",
+      "verse_id": "GEN.34.7",
+      "surface": "Israel"
+    },
+    {
+      "entity_id": "bg:jacob",
+      "verse_id": "GEN.36.31",
+      "surface": "Israel"
+    },
+    {
+      "entity_id": "bg:jacob",
+      "verse_id": "GEN.47.27",
+      "surface": "Israel"
+    },
+    {
+      "entity_id": "bg:jacob",
+      "verse_id": "GEN.49.7",
+      "surface": "Israel"
+    },
+    {
+      "entity_id": "bg:jacob",
+      "verse_id": "GEN.49.16",
+      "surface": "Israel"
+    },
+    {
+      "entity_id": "bg:jacob",
+      "verse_id": "GEN.50.25",
+      "surface": "Israel"
+    },
+    {
+      "entity_id": "bg:jacob",
+      "verse_id": "GEN.48.20",
+      "surface": "Israel"
+    },
+    {
+      "entity_id": "bg:jacob",
+      "verse_id": "GEN.49.7",
+      "surface": "Jacob"
+    },
+    {
+      "entity_id": "bg:shelah",
+      "chapter": 38
+    },
+    {
+      "entity_id": "bg:shelah",
+      "chapter": 46
+    },
+    {
+      "entity_id": "bg:zerah-tamar",
+      "chapter": 36
+    },
+    {
+      "entity_id": "bg:pharaoh-gen12",
+      "chapter": 37
+    },
+    {
+      "entity_id": "bg:pharaoh-gen12",
+      "chapter": 38
+    },
+    {
+      "entity_id": "bg:pharaoh-gen12",
+      "chapter": 39
+    },
+    {
+      "entity_id": "bg:pharaoh-gen12",
+      "chapter": 40
+    },
+    {
+      "entity_id": "bg:pharaoh-gen12",
+      "chapter": 41
+    },
+    {
+      "entity_id": "bg:pharaoh-gen12",
+      "chapter": 42
+    },
+    {
+      "entity_id": "bg:pharaoh-gen12",
+      "chapter": 43
+    },
+    {
+      "entity_id": "bg:pharaoh-gen12",
+      "chapter": 44
+    },
+    {
+      "entity_id": "bg:pharaoh-gen12",
+      "chapter": 45
+    },
+    {
+      "entity_id": "bg:pharaoh-gen12",
+      "chapter": 46
+    },
+    {
+      "entity_id": "bg:pharaoh-gen12",
+      "chapter": 47
+    },
+    {
+      "entity_id": "bg:pharaoh-gen12",
+      "chapter": 48
+    },
+    {
+      "entity_id": "bg:pharaoh-gen12",
+      "chapter": 49
+    },
+    {
+      "entity_id": "bg:pharaoh-gen12",
+      "chapter": 50
+    }
+  ]
+}

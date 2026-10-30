@@ -22,3 +22,7 @@ Do not import entire legacy directories or any configuration, studies, user tabl
 ## Other assets
 
 The design uses original CSS and a text-based brand mark. Fonts are operating-system fonts; no font files, stock images, icon libraries, or original app assets were copied. There are no third-party JavaScript runtime packages. Playwright is a development-only Apache-2.0 dependency; its package includes its license. Browser binaries are test tooling and are not distributed in the website.
+
+## Curated Bible graph
+
+The private integration imports Genesis graph v0.5 from Site source commit `98ae702b51a3f52c89438a10dbacb29e1a7e9bcc`. All source, curation, uncertainty records and release checks are in `knowledge-graph/`. Its source Bible bytes match this app's bundled WEB snapshot. No runtime package/CDN was added. The curated annotations and vendored graph materials have no selected redistribution license; see `knowledge-graph/LICENSING.md`. Do not infer a license from the public-domain scripture or the app MIT grant.

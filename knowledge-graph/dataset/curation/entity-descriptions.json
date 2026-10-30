@@ -1,0 +1,620 @@
+{
+  "bg:deity-god": {
+    "description": "God is presented as creator of the heavens and earth and as the one who addresses Noah about the flood and covenant. The narrative also uses the name Yahweh God.",
+    "description_evidence": [
+      "GEN.1.1",
+      "GEN.2.4",
+      "GEN.6.13",
+      "GEN.6.17",
+      "GEN.9.8",
+      "GEN.9.9"
+    ]
+  },
+  "bg:adam": {
+    "description": "Adam is named as Eve’s husband and Seth’s father in the early family narrative. This individual is kept distinct from the collective use of “Adam” for humankind in Genesis 5:2.",
+    "description_evidence": [
+      "GEN.3.17",
+      "GEN.3.20",
+      "GEN.4.1",
+      "GEN.4.25",
+      "GEN.5.2",
+      "GEN.5.3"
+    ]
+  },
+  "bg:eve": {
+    "description": "Eve is the name the man gives his wife; she later gives birth to Cain and Abel. Her name is explained in the narrative in connection with being the mother of all the living.",
+    "description_evidence": [
+      "GEN.3.20",
+      "GEN.4.1",
+      "GEN.4.2"
+    ]
+  },
+  "bg:cain": {
+    "description": "Cain, born to Eve, tills the ground and brings an offering to Yahweh. He kills his brother Abel and later lives in Nod, east of Eden.",
+    "description_evidence": [
+      "GEN.4.1",
+      "GEN.4.2",
+      "GEN.4.3",
+      "GEN.4.8",
+      "GEN.4.16"
+    ]
+  },
+  "bg:abel": {
+    "description": "Abel is Cain’s brother and a keeper of sheep whose offering Yahweh regards favorably. Cain kills him in the field.",
+    "description_evidence": [
+      "GEN.4.2",
+      "GEN.4.4",
+      "GEN.4.8"
+    ]
+  },
+  "bg:seth": {
+    "description": "Seth is the son named after Abel’s death and the father of Enosh. Genesis 5 continues Adam’s genealogy through him.",
+    "description_evidence": [
+      "GEN.4.25",
+      "GEN.4.26",
+      "GEN.5.3",
+      "GEN.5.6"
+    ]
+  },
+  "bg:enosh": {
+    "description": "Enosh is Seth’s son and Kenan’s father in the Genesis 5 genealogy. The account of his naming also notes that people began to call on Yahweh’s name at that time.",
+    "description_evidence": [
+      "GEN.4.26",
+      "GEN.5.9"
+    ]
+  },
+  "bg:enoch-cain": {
+    "description": "This Enoch is Cain’s son and Irad’s father; Cain names a city after him. He is distinct from Enoch, Jared’s son, in Genesis 5.",
+    "description_evidence": [
+      "GEN.4.17",
+      "GEN.4.18",
+      "GEN.5.18"
+    ]
+  },
+  "bg:irad": {
+    "description": "Irad is Enoch’s son and Mehujael’s father in the genealogy descending from Cain. The passage provides no further individual story about him.",
+    "description_evidence": [
+      "GEN.4.17",
+      "GEN.4.18"
+    ]
+  },
+  "bg:mehujael": {
+    "description": "Mehujael is Irad’s son and Methushael’s father in Cain’s family line. He appears in the compact genealogy leading to Lamech.",
+    "description_evidence": [
+      "GEN.4.18"
+    ]
+  },
+  "bg:methushael": {
+    "description": "Methushael is Mehujael’s son and the father of the Lamech in Cain’s line. He is not the similarly named Methuselah in Genesis 5.",
+    "description_evidence": [
+      "GEN.4.18",
+      "GEN.5.21",
+      "GEN.5.25"
+    ]
+  },
+  "bg:lamech-cain": {
+    "description": "This Lamech, a descendant of Cain, takes Adah and Zillah as wives. He tells them that he has killed a man; he is distinct from Noah’s father, also named Lamech.",
+    "description_evidence": [
+      "GEN.4.17",
+      "GEN.4.18",
+      "GEN.4.19",
+      "GEN.4.23",
+      "GEN.5.28",
+      "GEN.5.29"
+    ]
+  },
+  "bg:adah": {
+    "description": "Adah is one of Lamech’s two wives in Cain’s family line and the mother of Jabal. Lamech addresses her and Zillah in his speech about killing a man.",
+    "description_evidence": [
+      "GEN.4.17",
+      "GEN.4.18",
+      "GEN.4.19",
+      "GEN.4.20",
+      "GEN.4.23"
+    ]
+  },
+  "bg:zillah": {
+    "description": "Zillah is one of Lamech’s two wives in Cain’s family line and the mother of Tubal Cain. She and Adah are addressed in Lamech’s speech.",
+    "description_evidence": [
+      "GEN.4.17",
+      "GEN.4.18",
+      "GEN.4.19",
+      "GEN.4.22",
+      "GEN.4.23"
+    ]
+  },
+  "bg:jabal": {
+    "description": "Jabal is Adah’s son and Jubal’s brother. The text describes him as the father of those who live in tents and keep livestock.",
+    "description_evidence": [
+      "GEN.4.20",
+      "GEN.4.21"
+    ]
+  },
+  "bg:jubal": {
+    "description": "Jubal is Jabal’s brother and is described as the father of all who play the harp and pipe. His brief notice appears in Cain’s family genealogy.",
+    "description_evidence": [
+      "GEN.4.17",
+      "GEN.4.18",
+      "GEN.4.19",
+      "GEN.4.20",
+      "GEN.4.21"
+    ]
+  },
+  "bg:tubal-cain": {
+    "description": "Tubal Cain is Zillah’s son, described as a forger of cutting tools of bronze and iron. Naamah is named as his sister.",
+    "description_evidence": [
+      "GEN.4.22"
+    ]
+  },
+  "bg:naamah": {
+    "description": "Naamah is named as Tubal Cain’s sister in Cain’s family genealogy. This passage gives no further individual story about her.",
+    "description_evidence": [
+      "GEN.4.17",
+      "GEN.4.18",
+      "GEN.4.19",
+      "GEN.4.22"
+    ]
+  },
+  "bg:kenan": {
+    "description": "Kenan is Enosh’s son and Mahalalel’s father in the Genesis 5 genealogy. His entry records his lifespan and other unnamed children.",
+    "description_evidence": [
+      "GEN.5.9",
+      "GEN.5.12",
+      "GEN.5.13",
+      "GEN.5.14"
+    ]
+  },
+  "bg:mahalalel": {
+    "description": "Mahalalel is Kenan’s son and Jared’s father in the Genesis 5 genealogy. His entry records his lifespan and other unnamed children.",
+    "description_evidence": [
+      "GEN.5.12",
+      "GEN.5.15",
+      "GEN.5.16",
+      "GEN.5.17"
+    ]
+  },
+  "bg:jared": {
+    "description": "Jared is Mahalalel’s son and the father of the Enoch in Genesis 5. This identifies a different Enoch from Cain’s son in Genesis 4.",
+    "description_evidence": [
+      "GEN.5.15",
+      "GEN.5.18",
+      "GEN.4.17"
+    ]
+  },
+  "bg:enoch-seth": {
+    "description": "This Enoch is Jared’s son and Methuselah’s father. The narrative says that he walked with God and was not found because God took him; he is distinct from Cain’s son Enoch.",
+    "description_evidence": [
+      "GEN.5.18",
+      "GEN.5.21",
+      "GEN.5.24",
+      "GEN.4.17"
+    ]
+  },
+  "bg:methuselah": {
+    "description": "Methuselah is Enoch’s son and the father of Noah’s father Lamech. His entry records a lifespan of 969 years within the narrative’s genealogy.",
+    "description_evidence": [
+      "GEN.5.21",
+      "GEN.5.25",
+      "GEN.5.27",
+      "GEN.5.28",
+      "GEN.5.29"
+    ]
+  },
+  "bg:lamech-seth": {
+    "description": "This Lamech is Methuselah’s son and Noah’s father, not the Lamech in Cain’s line. On naming Noah, he speaks of hoped-for comfort from the toil associated with the cursed ground.",
+    "description_evidence": [
+      "GEN.5.25",
+      "GEN.5.28",
+      "GEN.5.29",
+      "GEN.4.18"
+    ]
+  },
+  "bg:noah": {
+    "description": "Noah is presented as a righteous man who follows God’s instructions concerning the ship and survives the flood with his family. God later addresses him and his sons about the covenant.",
+    "description_evidence": [
+      "GEN.6.9",
+      "GEN.6.14",
+      "GEN.6.22",
+      "GEN.7.13",
+      "GEN.7.23",
+      "GEN.9.8",
+      "GEN.9.9"
+    ]
+  },
+  "bg:shem": {
+    "description": "Shem is one of Noah’s three sons and enters the ship with the family. He and Japheth cover their father without looking at his nakedness, and Genesis 11 traces a genealogy from Shem through Arpachshad.",
+    "description_evidence": [
+      "GEN.5.32",
+      "GEN.7.13",
+      "GEN.9.23",
+      "GEN.11.10"
+    ]
+  },
+  "bg:ham": {
+    "description": "Ham is one of Noah’s three sons and is identified as Canaan’s father. He sees his father’s nakedness and tells his brothers; the subsequent curse spoken by Noah names Canaan, not Ham.",
+    "description_evidence": [
+      "GEN.9.18",
+      "GEN.9.22",
+      "GEN.9.24",
+      "GEN.9.25"
+    ]
+  },
+  "bg:japheth": {
+    "description": "Japheth is one of Noah’s three sons who enter the ship. He and Shem cover their father without looking at his nakedness, and Genesis 10 lists his sons.",
+    "description_evidence": [
+      "GEN.7.13",
+      "GEN.9.23",
+      "GEN.10.2"
+    ]
+  },
+  "bg:nimrod": {
+    "description": "Nimrod is presented as Cush’s offspring and a mighty hunter before Yahweh. The beginning of his kingdom includes Babel, Erech, Accad and Calneh in Shinar.",
+    "description_evidence": [
+      "GEN.10.8",
+      "GEN.10.9",
+      "GEN.10.10"
+    ]
+  },
+  "bg:arpachshad": {
+    "description": "Arpachshad is Shem’s son and Shelah’s father. He appears in both the Genesis 10 family list and the genealogy leading toward Terah’s family in Genesis 11.",
+    "description_evidence": [
+      "GEN.10.22",
+      "GEN.10.24",
+      "GEN.11.10",
+      "GEN.11.12",
+      "GEN.11.26"
+    ]
+  },
+  "bg:shelah": {
+    "description": "Shelah is Arpachshad’s son and Eber’s father. His place in the family line is repeated in Genesis 10 and 11.",
+    "description_evidence": [
+      "GEN.10.24",
+      "GEN.11.12",
+      "GEN.11.14"
+    ]
+  },
+  "bg:eber": {
+    "description": "Eber is Shelah’s son and the father of Peleg and Joktan. Genesis 11 follows the branch through Peleg.",
+    "description_evidence": [
+      "GEN.10.24",
+      "GEN.10.25",
+      "GEN.11.14",
+      "GEN.11.16"
+    ]
+  },
+  "bg:peleg": {
+    "description": "Peleg is Eber’s son, Joktan’s brother and Reu’s father. The account connects his name with the statement that the earth was divided in his days.",
+    "description_evidence": [
+      "GEN.10.25",
+      "GEN.11.18"
+    ]
+  },
+  "bg:reu": {
+    "description": "Reu is Peleg’s son and Serug’s father in the genealogy from Shem toward Terah. His entry also records years lived and other unnamed children.",
+    "description_evidence": [
+      "GEN.11.18",
+      "GEN.11.20",
+      "GEN.11.21",
+      "GEN.11.26"
+    ]
+  },
+  "bg:serug": {
+    "description": "Serug is Reu’s son and the father of the older Nahor in Genesis 11. This Nahor is Terah’s father, not Terah’s son of the same name.",
+    "description_evidence": [
+      "GEN.11.20",
+      "GEN.11.22",
+      "GEN.11.24",
+      "GEN.11.26"
+    ]
+  },
+  "bg:nahor-serug": {
+    "description": "This Nahor is Serug’s son and Terah’s father. He is distinct from Terah’s son Nahor, who marries Milcah.",
+    "description_evidence": [
+      "GEN.11.22",
+      "GEN.11.24",
+      "GEN.11.26",
+      "GEN.11.29"
+    ]
+  },
+  "bg:terah": {
+    "description": "Terah is the father of Abram, Nahor and Haran. He leaves Ur of the Chaldees with Abram, Sarai and Lot toward Canaan, settles in Haran, and dies there.",
+    "description_evidence": [
+      "GEN.11.27",
+      "GEN.11.31",
+      "GEN.11.32"
+    ]
+  },
+  "bg:abram": {
+    "description": "Abram is Terah’s son and Sarai’s husband. In this pilot’s closing passage, he travels with Terah’s household from Ur of the Chaldees toward Canaan and reaches Haran.",
+    "description_evidence": [
+      "GEN.11.27",
+      "GEN.11.29",
+      "GEN.11.31"
+    ]
+  },
+  "bg:nahor-terah": {
+    "description": "This Nahor is Terah’s son and Milcah’s husband. He is distinct from the earlier Nahor who is Terah’s father.",
+    "description_evidence": [
+      "GEN.11.24",
+      "GEN.11.26",
+      "GEN.11.29"
+    ]
+  },
+  "bg:haran-person": {
+    "description": "Haran is Terah’s son and the father of Lot, Milcah and Iscah. He dies in Ur of the Chaldees while Terah is still alive; he is not the place called Haran where the family later settles.",
+    "description_evidence": [
+      "GEN.11.27",
+      "GEN.11.28",
+      "GEN.11.29",
+      "GEN.11.31"
+    ]
+  },
+  "bg:lot": {
+    "description": "Lot is Haran’s son and Terah’s grandson. He travels with Terah, Abram and Sarai from Ur of the Chaldees and reaches Haran.",
+    "description_evidence": [
+      "GEN.11.27",
+      "GEN.11.31"
+    ]
+  },
+  "bg:sarai": {
+    "description": "Sarai is Abram’s wife and Terah’s daughter-in-law. The narrative says she has no child and places her among those traveling from Ur of the Chaldees to Haran.",
+    "description_evidence": [
+      "GEN.11.29",
+      "GEN.11.30",
+      "GEN.11.31"
+    ]
+  },
+  "bg:milcah": {
+    "description": "Milcah is Haran’s daughter and the wife of Nahor, Terah’s son. The marriage notice also names Iscah as another child of Haran.",
+    "description_evidence": [
+      "GEN.11.26",
+      "GEN.11.29"
+    ]
+  },
+  "bg:iscah": {
+    "description": "Iscah is named as a child of Haran in the notice about Abram’s and Nahor’s marriages. No further individual story is given here.",
+    "description_evidence": [
+      "GEN.11.29"
+    ]
+  },
+  "bg:eden": {
+    "description": "Eden is the region where Yahweh God plants the garden and places the man. A river is described as flowing out of Eden to water the garden; no modern location is established by this pilot.",
+    "description_evidence": [
+      "GEN.2.8",
+      "GEN.2.10"
+    ]
+  },
+  "bg:nod": {
+    "description": "Nod is the land east of Eden where Cain lives after leaving Yahweh’s presence. The pilot records this textual location without assigning modern coordinates.",
+    "description_evidence": [
+      "GEN.4.16"
+    ]
+  },
+  "bg:pishon": {
+    "description": "Pishon is the first named river in the account of the river flowing out of Eden. It is described as flowing through Havilah, a land associated with gold.",
+    "description_evidence": [
+      "GEN.2.10",
+      "GEN.2.11"
+    ]
+  },
+  "bg:gihon": {
+    "description": "Gihon is the second named river in the Eden river account. It is described as flowing through the whole land of Cush.",
+    "description_evidence": [
+      "GEN.2.10",
+      "GEN.2.13"
+    ]
+  },
+  "bg:hiddekel": {
+    "description": "Hiddekel is the third named river in the Eden river account. The text says it flows in front of Assyria; no modern-river identification is added here.",
+    "description_evidence": [
+      "GEN.2.10",
+      "GEN.2.14"
+    ]
+  },
+  "bg:euphrates": {
+    "description": "The Euphrates is the fourth named river in the Eden river account. This pilot records the name as given without reconstructing the river system’s geography.",
+    "description_evidence": [
+      "GEN.2.10",
+      "GEN.2.14"
+    ]
+  },
+  "bg:havilah-land": {
+    "description": "Havilah is the land through which the Pishon flows, described as containing gold, bdellium and onyx. This place is not merged with the genealogical names Havilah elsewhere in Genesis 10.",
+    "description_evidence": [
+      "GEN.2.11",
+      "GEN.2.12",
+      "GEN.10.7",
+      "GEN.10.29"
+    ]
+  },
+  "bg:cush-land": {
+    "description": "Cush is the land through which the Gihon is said to flow. This place entry is kept separate from Cush in the Genesis 10 genealogy, without asserting whether the names have a historical connection.",
+    "description_evidence": [
+      "GEN.2.13",
+      "GEN.10.6",
+      "GEN.10.7"
+    ]
+  },
+  "bg:assyria": {
+    "description": "Assyria is named in relation to Hiddekel and in the account of cities including Nineveh and Calah. This pilot does not resolve the actor in Genesis 10:11 or assign modern geographic boundaries.",
+    "description_evidence": [
+      "GEN.2.14",
+      "GEN.10.11",
+      "GEN.10.12"
+    ]
+  },
+  "bg:ararat-mountains": {
+    "description": "Ararat’s mountains are where the ship comes to rest as the floodwaters recede. The phrase names a mountainous area in the text, not a uniquely identified modern summit.",
+    "description_evidence": [
+      "GEN.8.4"
+    ]
+  },
+  "bg:shinar": {
+    "description": "Shinar is the land containing the first cities named as part of Nimrod’s kingdom. The later Babel account places the travelers’ settlement on a plain in Shinar.",
+    "description_evidence": [
+      "GEN.10.8",
+      "GEN.10.9",
+      "GEN.10.10",
+      "GEN.11.2"
+    ]
+  },
+  "bg:babel": {
+    "description": "Babel is named among the beginnings of Nimrod’s kingdom and as the city associated with the confusion of language. These mentions share one editorial place entry here, without an archaeological identification.",
+    "description_evidence": [
+      "GEN.10.10",
+      "GEN.11.8",
+      "GEN.11.9"
+    ]
+  },
+  "bg:ur-chaldees": {
+    "description": "Ur of the Chaldees is named as Haran’s birthplace and the place where he dies. Terah’s household later leaves it to travel toward Canaan.",
+    "description_evidence": [
+      "GEN.11.28",
+      "GEN.11.31"
+    ]
+  },
+  "bg:canaan-land": {
+    "description": "Canaan is the land Terah’s household intends to reach after leaving Ur of the Chaldees. The party instead settles in Haran in this passage; this land entry is separate from Canaan in Noah’s family genealogy.",
+    "description_evidence": [
+      "GEN.11.31",
+      "GEN.9.18"
+    ]
+  },
+  "bg:haran-place": {
+    "description": "Haran is the place where Terah’s traveling household settles on the way toward Canaan and where Terah dies. It is distinct from Terah’s son Haran, who had died in Ur of the Chaldees.",
+    "description_evidence": [
+      "GEN.11.28",
+      "GEN.11.31",
+      "GEN.11.32"
+    ]
+  },
+  "bg:serpent": {
+    "description": "The serpent questions the woman about God’s command and tells her that eating will not bring the death she describes. The Genesis account presents a speaking animal; this pilot does not equate it with a later named figure.",
+    "description_evidence": [
+      "GEN.3.1",
+      "GEN.3.2",
+      "GEN.3.3",
+      "GEN.3.4",
+      "GEN.3.5"
+    ]
+  },
+  "bg:ship-noah": {
+    "description": "The ship is the vessel God instructs Noah to make to preserve life through the flood. It carries Noah, his family and animals, then comes to rest on Ararat’s mountains.",
+    "description_evidence": [
+      "GEN.6.14",
+      "GEN.6.18",
+      "GEN.6.19",
+      "GEN.6.22",
+      "GEN.7.13",
+      "GEN.7.14",
+      "GEN.8.4"
+    ]
+  },
+  "bg:tree-life": {
+    "description": "The tree of life is named among the trees in the garden. After the man is sent out, cherubim and a flaming sword guard the way to it.",
+    "description_evidence": [
+      "GEN.2.9",
+      "GEN.3.22",
+      "GEN.3.23",
+      "GEN.3.24"
+    ]
+  },
+  "bg:tree-knowledge": {
+    "description": "The tree of the knowledge of good and evil is named among the garden’s trees. God commands the man not to eat from it and warns that eating will bring death.",
+    "description_evidence": [
+      "GEN.2.9",
+      "GEN.2.16",
+      "GEN.2.17"
+    ]
+  },
+  "bg:canaan-genealogical": {
+    "description": "Canaan is presented as Ham’s offspring and becomes the target of Noah’s spoken curse. Genesis 10 lists descendants and peoples under this name; this entry leaves individual and people-group readings unresolved.",
+    "description_evidence": [
+      "GEN.9.18",
+      "GEN.9.24",
+      "GEN.9.25",
+      "GEN.10.15",
+      "GEN.10.16",
+      "GEN.10.17",
+      "GEN.10.18"
+    ]
+  },
+  "bg:cush-genealogical": {
+    "description": "Cush is listed among Ham’s sons and as the parent of Nimrod, alongside other genealogical descendants. This entry preserves the family-list presentation without equating it with the land called Cush.",
+    "description_evidence": [
+      "GEN.10.6",
+      "GEN.10.7",
+      "GEN.10.8",
+      "GEN.2.13"
+    ]
+  },
+  "bg:mizraim": {
+    "description": "Mizraim is listed among Ham’s sons and as the ancestor of several named groups in Genesis 10. The entry preserves that genealogical presentation without deciding between individual and people-group readings.",
+    "description_evidence": [
+      "GEN.10.6",
+      "GEN.10.13",
+      "GEN.10.14"
+    ]
+  },
+  "bg:put": {
+    "description": "Put is one of the sons listed under Ham in Genesis 10. This brief genealogical entry does not supply an individual story or resolve whether the name represents a person or people.",
+    "description_evidence": [
+      "GEN.10.6"
+    ]
+  },
+  "bg:gomer": {
+    "description": "Gomer is listed among Japheth’s sons and as the parent of Ashkenaz, Riphath and Togarmah. This pilot retains the genealogy’s wording without forcing an individual or people-group interpretation.",
+    "description_evidence": [
+      "GEN.10.2",
+      "GEN.10.3"
+    ]
+  },
+  "bg:magog": {
+    "description": "Magog is one of the sons listed under Japheth in Genesis 10. No later uses of the name or modern people-group identifications are attached to this pilot entry.",
+    "description_evidence": [
+      "GEN.10.2"
+    ]
+  },
+  "bg:madai": {
+    "description": "Madai is one of the sons listed under Japheth in Genesis 10. The entry preserves its place in that genealogy without adding a modern ethnic or geographic identification.",
+    "description_evidence": [
+      "GEN.10.2"
+    ]
+  },
+  "bg:javan": {
+    "description": "Javan is listed among Japheth’s sons and as the parent of Elishah, Tarshish, Kittim and Dodanim. The pilot leaves the individual or people-group interpretation unresolved.",
+    "description_evidence": [
+      "GEN.10.2",
+      "GEN.10.4"
+    ]
+  },
+  "bg:tubal": {
+    "description": "Tubal is one of the sons listed under Japheth in Genesis 10. This genealogical name is distinct from the earlier craftsman named Tubal Cain.",
+    "description_evidence": [
+      "GEN.10.2",
+      "GEN.4.22"
+    ]
+  },
+  "bg:meshech": {
+    "description": "Meshech is one of the sons listed under Japheth in Genesis 10. This pilot records the genealogical name without adding a modern people-group identification.",
+    "description_evidence": [
+      "GEN.10.2"
+    ]
+  },
+  "bg:tiras": {
+    "description": "Tiras is one of the sons listed under Japheth in Genesis 10. The passage gives no separate individual story, and this pilot leaves its person or people-group interpretation unresolved.",
+    "description_evidence": [
+      "GEN.10.2"
+    ]
+  },
+  "bg:joktan": {
+    "description": "Joktan is Eber’s son and Peleg’s brother, with a list of sons of his own in Genesis 10. This entry preserves the genealogical presentation without forcing an individual or people-group interpretation.",
+    "description_evidence": [
+      "GEN.10.25",
+      "GEN.10.26",
+      "GEN.10.27",
+      "GEN.10.28",
+      "GEN.10.29"
+    ]
+  }
+}

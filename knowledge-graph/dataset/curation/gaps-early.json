@@ -1,0 +1,1010 @@
+{
+  "entities": [
+    {
+      "key": "garden-eden",
+      "label": "Garden in Eden",
+      "type": "place",
+      "aliases": [
+        "garden"
+      ],
+      "scope": "2:8 2:9 2:10 2:15",
+      "description": "The garden planted by Yahweh God in Eden is where the man is placed. The account names the tree of life and the tree of the knowledge of good and evil among its trees.",
+      "description_evidence": [
+        "GEN.2.8",
+        "GEN.2.9",
+        "GEN.2.15"
+      ],
+      "editorial_note": "Textual garden, distinguished from the wider named region Eden; no modern geography."
+    },
+    {
+      "key": "eden-river",
+      "label": "River flowing out of Eden",
+      "type": "place",
+      "aliases": [
+        "A river"
+      ],
+      "scope": "2:10",
+      "description": "An unnamed river flows out of Eden to water the garden and divides into the source of four named rivers. Its identity is retained as the narrative describes it, without a modern river reconstruction.",
+      "description_evidence": [
+        "GEN.2.10",
+        "GEN.2.11",
+        "GEN.2.13",
+        "GEN.2.14"
+      ],
+      "editorial_note": "Anonymous textual river; not equated with one of its four named branches or a modern river."
+    },
+    {
+      "key": "abraham-servant-gen24",
+      "label": "Abraham’s unnamed servant (Genesis 24)",
+      "type": "person",
+      "aliases": [
+        "his servant",
+        "The servant",
+        "Abraham’s servant"
+      ],
+      "scope": "24:2 24:9 24:10 24:34 24:52 24:59 24:66",
+      "description": "Abraham sends his unnamed senior household servant to his relatives to find a wife for Isaac. The servant travels to Mesopotamia and returns with Rebekah; the text does not name him Eliezer.",
+      "description_evidence": [
+        "GEN.24.2",
+        "GEN.24.4",
+        "GEN.24.10",
+        "GEN.24.59",
+        "GEN.24.61",
+        "GEN.24.66"
+      ],
+      "editorial_note": "Role-labeled person scoped to this mission; no identity with Eliezer asserted. Literal role mentions are narrowly scoped and exclude “your servant Isaac” in 24:14."
+    }
+  ],
+  "extensions": [],
+  "relations": [
+    {
+      "subject": "deity-god",
+      "predicate": "planted",
+      "object": "garden-eden",
+      "evidence": "2:8",
+      "note": "Narrated planting, not historical/geographic verification.",
+      "speaker": null
+    },
+    {
+      "subject": "garden-eden",
+      "predicate": "located_in",
+      "object": "eden",
+      "evidence": "2:8",
+      "note": "Garden is in the named region, not equivalent to it.",
+      "speaker": null
+    },
+    {
+      "subject": "tree-life",
+      "predicate": "located_in",
+      "object": "garden-eden",
+      "evidence": "2:9",
+      "note": "The text names the tree of life in the garden; no symbolic identity is inferred.",
+      "speaker": null
+    },
+    {
+      "subject": "tree-knowledge",
+      "predicate": "located_in",
+      "object": "garden-eden",
+      "evidence": "2:9",
+      "note": "The named tree occurs among the garden trees; this edge does not model a doctrine or command fulfillment.",
+      "speaker": null
+    },
+    {
+      "subject": "eden-river",
+      "predicate": "flows_from",
+      "object": "eden",
+      "evidence": "2:10",
+      "note": "Textual river origin, not modern coordinates.",
+      "speaker": null
+    },
+    {
+      "subject": "eden-river",
+      "predicate": "waters",
+      "object": "garden-eden",
+      "evidence": "2:10",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "pishon",
+      "predicate": "branch_of",
+      "object": "eden-river",
+      "evidence": "2:10 2:11",
+      "note": "The passage identifies this among the four rivers sourced from the parted Eden river; preserves narrative geography without a modern hydrological claim.",
+      "speaker": null
+    },
+    {
+      "subject": "gihon",
+      "predicate": "branch_of",
+      "object": "eden-river",
+      "evidence": "2:10 2:13",
+      "note": "The passage identifies this among the four rivers sourced from the parted Eden river; preserves narrative geography without a modern hydrological claim.",
+      "speaker": null
+    },
+    {
+      "subject": "hiddekel",
+      "predicate": "branch_of",
+      "object": "eden-river",
+      "evidence": "2:10 2:14",
+      "note": "The passage identifies this among the four rivers sourced from the parted Eden river; preserves narrative geography without a modern hydrological claim.",
+      "speaker": null
+    },
+    {
+      "subject": "euphrates",
+      "predicate": "branch_of",
+      "object": "eden-river",
+      "evidence": "2:10 2:14",
+      "note": "The passage identifies this among the four rivers sourced from the parted Eden river; preserves narrative geography without a modern hydrological claim.",
+      "speaker": null
+    },
+    {
+      "subject": "hiddekel",
+      "predicate": "flows_in_front_of",
+      "object": "assyria",
+      "evidence": "2:14",
+      "note": "Preserves WEB’s relative wording; does not say the river flows through Assyria or assign cardinal coordinates.",
+      "speaker": null
+    },
+    {
+      "subject": "babel",
+      "predicate": "located_in",
+      "object": "shinar",
+      "evidence": "10:10",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "nimrod",
+      "predicate": "kingdom_includes",
+      "object": "babel",
+      "evidence": "10:8 10:9 10:10",
+      "note": "Babel is listed among the beginning cities of his kingdom. No modern political entitlement.",
+      "speaker": null
+    },
+    {
+      "subject": "abram",
+      "predicate": "camped_west_of",
+      "object": "ai-place",
+      "evidence": "12:6 12:7 12:8",
+      "note": "Ai is east of the tent location and Bethel west; not a claim Abram lived inside Ai.",
+      "speaker": null
+    },
+    {
+      "subject": "abram",
+      "predicate": "traveled_to",
+      "object": "moreh-oak",
+      "evidence": "12:6",
+      "note": "Narrated passage to the landmark at Shechem; not modern coordinates.",
+      "speaker": null
+    },
+    {
+      "subject": "lot",
+      "predicate": "chose_region",
+      "object": "jordan-plain",
+      "evidence": "13:10 13:11",
+      "note": "Choice of the well-watered region for separation from Abram; no land-title claim.",
+      "speaker": null
+    },
+    {
+      "subject": "pharaoh-gen12",
+      "predicate": "addressed",
+      "object": "abram",
+      "evidence": "12:18 12:19",
+      "note": "Records Pharaoh’s confrontation, not truth of every assertion in his speech.",
+      "speaker": null
+    },
+    {
+      "subject": "serpent",
+      "predicate": "addressed",
+      "object": "eve",
+      "evidence": "3:1 3:2 3:4 3:17 3:20",
+      "note": "The woman in this scene is contextually the wife later named Eve. Speech act only; no Satan identity or endorsement of the serpent’s claims.",
+      "speaker": null
+    },
+    {
+      "subject": "abram",
+      "predicate": "named_as_prospective_heir",
+      "object": "eliezer-damascus",
+      "evidence": "15:2 15:3 15:4",
+      "note": "Abram’s stated expectation while childless; Yahweh’s reply in15:4 rejects this outcome. Not a completed inheritance, adoption, or servant identity.",
+      "speaker": "abram"
+    },
+    {
+      "subject": "deity-god",
+      "predicate": "destroyed",
+      "object": "gomorrah",
+      "evidence": "19:24 19:25",
+      "note": "Narrated city destruction; no added blame of modern peoples or archaeological identification.",
+      "speaker": null
+    },
+    {
+      "subject": "melchizedek",
+      "predicate": "pronounced_blessing_on",
+      "object": "abram",
+      "evidence": "14:18 14:19 14:20",
+      "note": "The utterance blesses Abram; this records the blessing, not independent fulfillment.",
+      "speaker": "melchizedek"
+    },
+    {
+      "subject": "abram",
+      "predicate": "gave_tenth_to",
+      "object": "melchizedek",
+      "evidence": "14:18 14:19 14:20",
+      "note": "Abram gives a tenth of all in the narrated encounter; no general rule about compulsory giving is inferred.",
+      "speaker": null
+    },
+    {
+      "subject": "abram",
+      "predicate": "paid",
+      "object": "ephron",
+      "evidence": "23:15 23:16 23:17 23:18",
+      "note": "Four hundred shekels of silver paid in the field/cave transaction; the separately curated acquired edge identifies the property as Machpelah.",
+      "speaker": null
+    },
+    {
+      "subject": "ephron",
+      "predicate": "sold_to",
+      "object": "abram",
+      "evidence": "23:8 23:9 23:13 23:15 23:16 23:17 23:18",
+      "note": "Contextual transaction relation: Ephron’s field and cave become Abraham’s possession after the named payment; no modern land title.",
+      "speaker": null
+    },
+    {
+      "subject": "abraham-servant-gen24",
+      "predicate": "servant_of",
+      "object": "abram",
+      "evidence": "24:2 24:9",
+      "note": "Narrator identifies this unnamed servant and his master; no equation with Eliezer.",
+      "speaker": null
+    },
+    {
+      "subject": "abraham-servant-gen24",
+      "predicate": "traveled_to",
+      "object": "mesopotamia",
+      "evidence": "24:9 24:10",
+      "note": "The explicitly unnamed servant is the narrative traveler; no city-of-Nahor person/place conflation.",
+      "speaker": null
+    },
+    {
+      "subject": "ishmael",
+      "predicate": "resided_in",
+      "object": "paran-wilderness",
+      "evidence": "16:15 21:9 21:14 21:20 21:21",
+      "note": "Contextual continuity of Hagar’s son named Ishmael in16:15; Genesis21 uses boy/son rather than repeating his name. No literal name mention is fabricated.",
+      "speaker": null
+    },
+    {
+      "subject": "abram",
+      "predicate": "traveled_to",
+      "object": "moriah-land",
+      "evidence": "22:1 22:2 22:3 22:9",
+      "note": "Command plus narrated departure and arrival at the designated place supports travel to the named land. The particular mountain remains unnamed; no later sanctuary identity.",
+      "speaker": null
+    },
+    {
+      "subject": "beer-lahai-roi",
+      "predicate": "on_route_to",
+      "object": "shur",
+      "evidence": "16:7 16:13 16:14",
+      "note": "Contextual fountain/well continuity in Hagar’s encounter: the fountain is on the way to Shur and the well is subsequently named. No modern route reconstructed.",
+      "speaker": null
+    },
+    {
+      "subject": "chedorlaomer",
+      "predicate": "participated_in_campaign_at",
+      "object": "kadesh",
+      "evidence": "14:5 14:6 14:7",
+      "note": "Chedorlaomer and the kings with him are the collective campaign participants. This does not attribute each act of violence to him personally.",
+      "speaker": null
+    },
+    {
+      "subject": "abram",
+      "predicate": "military_victory_over",
+      "object": "chedorlaomer",
+      "evidence": "14:14 14:15 14:16 14:17",
+      "note": "Narrative describes Abram’s return from defeating Chedorlaomer and allied kings; he leads trained men and servants. This is not a claim that he personally killed this individual.",
+      "speaker": null
+    },
+    {
+      "subject": "birsha",
+      "predicate": "military_opponent_of",
+      "object": "chedorlaomer",
+      "evidence": "14:1 14:2 14:8 14:9",
+      "note": "Named rulers in opposing coalitions in the account of the kings. Symmetric opposition stored once; not personal combat, a separate bilateral campaign, or identification of a later unnamed royal title.",
+      "speaker": null
+    },
+    {
+      "subject": "deity-god",
+      "predicate": "prohibited_eating_from",
+      "object": "tree-knowledge",
+      "evidence": "2:16 2:17",
+      "note": "Command spoken to the man concerning the named tree; not a claim of biological poison, later theology or every human’s identical command.",
+      "speaker": "deity-god"
+    },
+    {
+      "subject": "deity-god",
+      "predicate": "placed_guards_for",
+      "object": "tree-life",
+      "evidence": "3:22 3:23 3:24",
+      "note": "Narrator describes God placing cherubim and a flaming sword to guard the way to the tree. The edge records arranging guards, not God acting as the individual guard or an identity for the cherubim.",
+      "speaker": null
+    }
+  ],
+  "uncertainties": [
+    {
+      "id": "u:gapfill-eden-river-geography",
+      "verses": [
+        "GEN.2.8",
+        "GEN.2.9",
+        "GEN.2.10",
+        "GEN.2.11",
+        "GEN.2.13",
+        "GEN.2.14"
+      ],
+      "issue": "The garden, region Eden, unnamed river and four named branches are distinct textual referents; their modern geographic arrangement is unresolved.",
+      "handling": "Added only textual planting, location and river-branch relations. No map coordinates or identification with a reconstructed historical system."
+    },
+    {
+      "id": "u:gapfill-servant-heir-distinction",
+      "verses": [
+        "GEN.15.2",
+        "GEN.15.4",
+        "GEN.24.2",
+        "GEN.24.10"
+      ],
+      "issue": "Abram’s anticipated heir Eliezer and the unnamed later household servant are not identified as the same person by these passages.",
+      "handling": "Keep distinct IDs; heir expectation is attributed speech rejected by the subsequent reply, while the unnamed servant’s travel is a narrated action."
+    }
+  ],
+  "description_updates": {},
+  "predicate_definitions": {
+    "located_in": {
+      "subject_types": [
+        "place",
+        "object"
+      ],
+      "object_types": [
+        "place"
+      ],
+      "description": "Textual containment/location; not equivalence or modern coordinates.",
+      "symmetric": false
+    },
+    "planted": {
+      "subject_types": [
+        "deity",
+        "person"
+      ],
+      "object_types": [
+        "place",
+        "object"
+      ],
+      "description": "Narrated planting of the named garden or plant; not independent historical verification.",
+      "symmetric": false
+    },
+    "flows_from": {
+      "subject_types": [
+        "place"
+      ],
+      "object_types": [
+        "place"
+      ],
+      "description": "River subject flows out of textual place object.",
+      "symmetric": false
+    },
+    "waters": {
+      "subject_types": [
+        "place"
+      ],
+      "object_types": [
+        "place"
+      ],
+      "description": "River subject supplies water to garden/place object in narrative.",
+      "symmetric": false
+    },
+    "branch_of": {
+      "subject_types": [
+        "place"
+      ],
+      "object_types": [
+        "place"
+      ],
+      "description": "Named river subject is one of the rivers sourced by the divided river object in the textual account; no modern hydrological reconstruction.",
+      "symmetric": false
+    },
+    "flows_in_front_of": {
+      "subject_types": [
+        "place"
+      ],
+      "object_types": [
+        "place"
+      ],
+      "description": "River relative to named land using the supplied WEB phrase; not flow through or a modern cardinal bearing.",
+      "symmetric": false
+    },
+    "kingdom_includes": {
+      "subject_types": [
+        "person"
+      ],
+      "object_types": [
+        "place"
+      ],
+      "description": "Place object explicitly listed in subject’s kingdom; does not assert a modern title.",
+      "symmetric": false
+    },
+    "camped_west_of": {
+      "subject_types": [
+        "person"
+      ],
+      "object_types": [
+        "place"
+      ],
+      "description": "Person’s narrated tent location west of place object; not residence within the place.",
+      "symmetric": false
+    },
+    "chose_region": {
+      "subject_types": [
+        "person"
+      ],
+      "object_types": [
+        "place"
+      ],
+      "description": "Narrated selection of the region object; does not establish land ownership.",
+      "symmetric": false
+    },
+    "named_as_prospective_heir": {
+      "subject_types": [
+        "person"
+      ],
+      "object_types": [
+        "person"
+      ],
+      "required_mode": "speech",
+      "speaker_is_subject": true,
+      "description": "Speaker subject identifies object as anticipated heir; attributed speech required and not actual inheritance.",
+      "symmetric": false
+    },
+    "destroyed": {
+      "subject_types": [
+        "person",
+        "deity"
+      ],
+      "object_types": [
+        "place",
+        "object"
+      ],
+      "description": "Destruction narrated of a place/object; no claim beyond the text.",
+      "symmetric": false
+    },
+    "pronounced_blessing_on": {
+      "subject_types": [
+        "person",
+        "deity"
+      ],
+      "object_types": [
+        "person"
+      ],
+      "required_mode": "speech",
+      "speaker_is_subject": true,
+      "description": "Speaker subject utters blessing over person object, not a fulfillment/status claim.",
+      "symmetric": false
+    },
+    "gave_tenth_to": {
+      "subject_types": [
+        "person"
+      ],
+      "object_types": [
+        "person"
+      ],
+      "description": "Narrated transfer of a tenth to recipient; no universal obligation inferred.",
+      "symmetric": false
+    },
+    "paid": {
+      "subject_types": [
+        "person"
+      ],
+      "object_types": [
+        "person"
+      ],
+      "description": "Payer subject transfers the payment to recipient object; amount/property retained in evidence and note.",
+      "symmetric": false
+    },
+    "sold_to": {
+      "subject_types": [
+        "person"
+      ],
+      "object_types": [
+        "person"
+      ],
+      "description": "Seller subject transfers property for payment to buyer object in cited transaction; object is buyer, not property.",
+      "symmetric": false
+    },
+    "on_route_to": {
+      "subject_types": [
+        "place"
+      ],
+      "object_types": [
+        "place"
+      ],
+      "description": "Location subject explicitly or contextually on the way to place object; not a reconstructed modern route.",
+      "symmetric": false
+    },
+    "participated_in_campaign_at": {
+      "subject_types": [
+        "person"
+      ],
+      "object_types": [
+        "place"
+      ],
+      "description": "Subject participates in the stated military campaign at place object; does not individually attribute every collective action.",
+      "symmetric": false
+    },
+    "military_victory_over": {
+      "subject_types": [
+        "person"
+      ],
+      "object_types": [
+        "person"
+      ],
+      "description": "Narrated military leader subject returns victorious over opponent object with respective forces; not personal killing.",
+      "symmetric": false
+    },
+    "military_opponent_of": {
+      "subject_types": [
+        "person"
+      ],
+      "object_types": [
+        "person"
+      ],
+      "symmetric": true,
+      "description": "Named rulers in explicitly opposing military coalitions; not a personal duel or separate bilateral war."
+    },
+    "prohibited_eating_from": {
+      "subject_types": [
+        "deity",
+        "person"
+      ],
+      "object_types": [
+        "object"
+      ],
+      "required_mode": "speech",
+      "speaker_is_subject": true,
+      "description": "Speaker subject prohibits eating from named object in attributed command; addressee and scope in evidence/note.",
+      "symmetric": false
+    },
+    "placed_guards_for": {
+      "subject_types": [
+        "deity",
+        "person"
+      ],
+      "object_types": [
+        "object",
+        "place"
+      ],
+      "description": "Subject arranges guards for access to object/place; not necessarily personally guarding.",
+      "symmetric": false
+    }
+  },
+  "issue_resolutions": [
+    {
+      "original_issue_fingerprint": "a50e300201bb624566da",
+      "entities": [
+        "bg:ai-place"
+      ],
+      "added_relation_ids": [
+        "r:abram:camped_west_of:ai-place"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported camped west of relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.12.6",
+        "GEN.12.7",
+        "GEN.12.8"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "c09a49b73088e657825b",
+      "entities": [
+        "bg:assyria"
+      ],
+      "added_relation_ids": [
+        "r:hiddekel:flows_in_front_of:assyria"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported flows in front of relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.2.14"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "37a02fc061724a070308",
+      "entities": [
+        "bg:babel"
+      ],
+      "added_relation_ids": [
+        "r:babel:located_in:shinar",
+        "r:nimrod:kingdom_includes:babel"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported kingdom includes, located in relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.10.10",
+        "GEN.10.8",
+        "GEN.10.9"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "43634d3184c75532af56",
+      "entities": [
+        "bg:eden"
+      ],
+      "added_relation_ids": [
+        "r:deity-god:planted:garden-eden",
+        "r:garden-eden:located_in:eden",
+        "r:eden-river:flows_from:eden",
+        "r:eden-river:waters:garden-eden"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported flows from, located in, planted, waters relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.2.8",
+        "GEN.2.10"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "bdfed7cfd95a82acb30f",
+      "entities": [
+        "bg:eliezer-damascus"
+      ],
+      "added_relation_ids": [
+        "r:abram:named_as_prospective_heir:eliezer-damascus"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported named as prospective heir relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.15.2",
+        "GEN.15.3",
+        "GEN.15.4"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "97ffa5a245c6babc10c8",
+      "entities": [
+        "bg:euphrates"
+      ],
+      "added_relation_ids": [
+        "r:euphrates:branch_of:eden-river"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported branch of relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.2.10",
+        "GEN.2.14"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "39c089d3a75d84e934d8",
+      "entities": [
+        "bg:hiddekel"
+      ],
+      "added_relation_ids": [
+        "r:hiddekel:branch_of:eden-river",
+        "r:hiddekel:flows_in_front_of:assyria"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported branch of, flows in front of relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.2.10",
+        "GEN.2.14"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "d33c3ac8e7ca1fd07cd8",
+      "entities": [
+        "bg:jordan-plain"
+      ],
+      "added_relation_ids": [
+        "r:lot:chose_region:jordan-plain"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported chose region relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.13.10",
+        "GEN.13.11"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "225e6e39a1c4210a4563",
+      "entities": [
+        "bg:kadesh"
+      ],
+      "added_relation_ids": [
+        "r:chedorlaomer:participated_in_campaign_at:kadesh"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported participated in campaign at relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.14.5",
+        "GEN.14.6",
+        "GEN.14.7"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "3dd5eb3eba56365f38e8",
+      "entities": [
+        "bg:mesopotamia"
+      ],
+      "added_relation_ids": [
+        "r:abraham-servant-gen24:servant_of:abram",
+        "r:abraham-servant-gen24:traveled_to:mesopotamia"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported servant of, traveled to relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.24.2",
+        "GEN.24.9",
+        "GEN.24.10"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "5befdfb1dfb7868807ee",
+      "entities": [
+        "bg:moreh-oak"
+      ],
+      "added_relation_ids": [
+        "r:abram:traveled_to:moreh-oak"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported traveled to relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.12.6"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "b6ee859424646fbf7dd1",
+      "entities": [
+        "bg:moriah-land"
+      ],
+      "added_relation_ids": [
+        "r:abram:traveled_to:moriah-land"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported traveled to relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.22.1",
+        "GEN.22.2",
+        "GEN.22.3",
+        "GEN.22.9"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "a54d1f1c658b57cc2cc3",
+      "entities": [
+        "bg:paran-wilderness"
+      ],
+      "added_relation_ids": [
+        "r:ishmael:resided_in:paran-wilderness"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported resided in relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.16.15",
+        "GEN.21.9",
+        "GEN.21.14",
+        "GEN.21.20",
+        "GEN.21.21"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "546fd3b86e5a30db8528",
+      "entities": [
+        "bg:pharaoh-gen12"
+      ],
+      "added_relation_ids": [
+        "r:pharaoh-gen12:addressed:abram"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported addressed relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.12.18",
+        "GEN.12.19"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "2bdfdf24dcb73ea68702",
+      "entities": [
+        "bg:serpent"
+      ],
+      "added_relation_ids": [
+        "r:serpent:addressed:eve"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported addressed relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.3.1",
+        "GEN.3.2",
+        "GEN.3.4",
+        "GEN.3.17",
+        "GEN.3.20"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "a65110e79d324176426a",
+      "entities": [
+        "bg:shinar"
+      ],
+      "added_relation_ids": [
+        "r:babel:located_in:shinar",
+        "r:nimrod:kingdom_includes:babel"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported kingdom includes, located in relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.10.10",
+        "GEN.10.8",
+        "GEN.10.9"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "3c5fd048edbe1f11b4dc",
+      "entities": [
+        "bg:shur"
+      ],
+      "added_relation_ids": [
+        "r:beer-lahai-roi:on_route_to:shur"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported on route to relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.16.7",
+        "GEN.16.13",
+        "GEN.16.14"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "21fa1f05f698ab1a4727",
+      "entities": [
+        "bg:tree-knowledge"
+      ],
+      "added_relation_ids": [
+        "r:tree-knowledge:located_in:garden-eden",
+        "r:deity-god:prohibited_eating_from:tree-knowledge"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported located in relations; this resolves the documented missing connection, not every possible relationship in the passage. Also records the explicit prohibited eating from action with source context.",
+      "evidence": [
+        "GEN.2.9",
+        "GEN.2.16",
+        "GEN.2.17"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "1cc0faad0ef2c2a5fad5",
+      "entities": [
+        "bg:tree-life"
+      ],
+      "added_relation_ids": [
+        "r:tree-life:located_in:garden-eden",
+        "r:deity-god:placed_guards_for:tree-life"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported located in relations; this resolves the documented missing connection, not every possible relationship in the passage. Also records the explicit placed guards for action with source context.",
+      "evidence": [
+        "GEN.2.9",
+        "GEN.3.22",
+        "GEN.3.23",
+        "GEN.3.24"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "630a11037e1d563f85e1",
+      "entities": [
+        "bg:birsha",
+        "bg:gomorrah"
+      ],
+      "added_relation_ids": [
+        "r:deity-god:destroyed:gomorrah",
+        "r:birsha:military_opponent_of:chedorlaomer"
+      ],
+      "status": "resolved",
+      "reason": "The named rulers are linked as military opponents in explicitly opposing coalitions, not by guessed equivalence with later unnamed kings. Gomorrah’s narrated destruction is separately represented; the war participation gap is not claimed fixed merely by city connectivity.",
+      "evidence": [
+        "GEN.19.24",
+        "GEN.19.25",
+        "GEN.14.1",
+        "GEN.14.2",
+        "GEN.14.8",
+        "GEN.14.9"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "0b2138e7f057e899c422",
+      "entities": [
+        "bg:chedorlaomer",
+        "bg:elam-place"
+      ],
+      "added_relation_ids": [
+        "r:abram:military_victory_over:chedorlaomer"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported military victory over relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.14.14",
+        "GEN.14.15",
+        "GEN.14.16",
+        "GEN.14.17"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "fbc8967e44893154efb0",
+      "entities": [
+        "bg:cush-land",
+        "bg:gihon"
+      ],
+      "added_relation_ids": [
+        "r:gihon:branch_of:eden-river"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported branch of relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.2.10",
+        "GEN.2.13"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "7c607cefae29a33e5e75",
+      "entities": [
+        "bg:ephron",
+        "bg:zohar-ephron"
+      ],
+      "added_relation_ids": [
+        "r:abram:paid:ephron",
+        "r:ephron:sold_to:abram"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported paid, sold to relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.23.15",
+        "GEN.23.16",
+        "GEN.23.17",
+        "GEN.23.18",
+        "GEN.23.8",
+        "GEN.23.9",
+        "GEN.23.13"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "14967a6d38e23eb8e9b9",
+      "entities": [
+        "bg:havilah-land",
+        "bg:pishon"
+      ],
+      "added_relation_ids": [
+        "r:pishon:branch_of:eden-river"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported branch of relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.2.10",
+        "GEN.2.11"
+      ]
+    },
+    {
+      "original_issue_fingerprint": "77f0c5ded23d11966154",
+      "entities": [
+        "bg:melchizedek",
+        "bg:salem"
+      ],
+      "added_relation_ids": [
+        "r:melchizedek:pronounced_blessing_on:abram",
+        "r:abram:gave_tenth_to:melchizedek"
+      ],
+      "status": "resolved",
+      "reason": "Added specific source-supported gave tenth to, pronounced blessing on relations; this resolves the documented missing connection, not every possible relationship in the passage.",
+      "evidence": [
+        "GEN.14.18",
+        "GEN.14.19",
+        "GEN.14.20"
+      ]
+    }
+  ]
+}

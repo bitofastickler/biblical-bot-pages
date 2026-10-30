@@ -1,0 +1,318 @@
+{
+  "located_in": {
+    "subject_types": [
+      "place",
+      "object"
+    ],
+    "object_types": [
+      "place"
+    ],
+    "description": "Textual containment/location; not equivalence or modern coordinates.",
+    "symmetric": false
+  },
+  "planted": {
+    "subject_types": [
+      "deity",
+      "person"
+    ],
+    "object_types": [
+      "place",
+      "object"
+    ],
+    "description": "Narrated planting of the named garden or plant; not independent historical verification.",
+    "symmetric": false
+  },
+  "flows_from": {
+    "subject_types": [
+      "place"
+    ],
+    "object_types": [
+      "place"
+    ],
+    "description": "River subject flows out of textual place object.",
+    "symmetric": false
+  },
+  "waters": {
+    "subject_types": [
+      "place"
+    ],
+    "object_types": [
+      "place"
+    ],
+    "description": "River subject supplies water to garden/place object in narrative.",
+    "symmetric": false
+  },
+  "branch_of": {
+    "subject_types": [
+      "place"
+    ],
+    "object_types": [
+      "place"
+    ],
+    "description": "Named river subject is one of the rivers sourced by the divided river object in the textual account; no modern hydrological reconstruction.",
+    "symmetric": false
+  },
+  "flows_in_front_of": {
+    "subject_types": [
+      "place"
+    ],
+    "object_types": [
+      "place"
+    ],
+    "description": "River relative to named land using the supplied WEB phrase; not flow through or a modern cardinal bearing.",
+    "symmetric": false
+  },
+  "kingdom_includes": {
+    "subject_types": [
+      "person"
+    ],
+    "object_types": [
+      "place"
+    ],
+    "description": "Place object explicitly listed in subject’s kingdom; does not assert a modern title.",
+    "symmetric": false
+  },
+  "camped_west_of": {
+    "subject_types": [
+      "person"
+    ],
+    "object_types": [
+      "place"
+    ],
+    "description": "Person’s narrated tent location west of place object; not residence within the place.",
+    "symmetric": false
+  },
+  "chose_region": {
+    "subject_types": [
+      "person"
+    ],
+    "object_types": [
+      "place"
+    ],
+    "description": "Narrated selection of the region object; does not establish land ownership.",
+    "symmetric": false
+  },
+  "named_as_prospective_heir": {
+    "subject_types": [
+      "person"
+    ],
+    "object_types": [
+      "person"
+    ],
+    "required_mode": "speech",
+    "speaker_is_subject": true,
+    "description": "Speaker subject identifies object as anticipated heir; attributed speech required and not actual inheritance.",
+    "symmetric": false
+  },
+  "destroyed": {
+    "subject_types": [
+      "person",
+      "deity"
+    ],
+    "object_types": [
+      "place",
+      "object"
+    ],
+    "description": "Destruction narrated of a place/object; no claim beyond the text.",
+    "symmetric": false
+  },
+  "pronounced_blessing_on": {
+    "subject_types": [
+      "person",
+      "deity"
+    ],
+    "object_types": [
+      "person"
+    ],
+    "required_mode": "speech",
+    "speaker_is_subject": true,
+    "description": "Speaker subject utters blessing over person object, not a fulfillment/status claim.",
+    "symmetric": false
+  },
+  "gave_tenth_to": {
+    "subject_types": [
+      "person"
+    ],
+    "object_types": [
+      "person"
+    ],
+    "description": "Narrated transfer of a tenth to recipient; no universal obligation inferred.",
+    "symmetric": false
+  },
+  "paid": {
+    "subject_types": [
+      "person"
+    ],
+    "object_types": [
+      "person"
+    ],
+    "description": "Payer subject transfers the payment to recipient object; amount/property retained in evidence and note.",
+    "symmetric": false
+  },
+  "sold_to": {
+    "subject_types": [
+      "person"
+    ],
+    "object_types": [
+      "person"
+    ],
+    "description": "Seller subject transfers property for payment to buyer object in cited transaction; object is buyer, not property.",
+    "symmetric": false
+  },
+  "on_route_to": {
+    "subject_types": [
+      "place"
+    ],
+    "object_types": [
+      "place"
+    ],
+    "description": "Location subject explicitly or contextually on the way to place object; not a reconstructed modern route.",
+    "symmetric": false
+  },
+  "participated_in_campaign_at": {
+    "subject_types": [
+      "person"
+    ],
+    "object_types": [
+      "place"
+    ],
+    "description": "Subject participates in the stated military campaign at place object; does not individually attribute every collective action.",
+    "symmetric": false
+  },
+  "military_victory_over": {
+    "subject_types": [
+      "person"
+    ],
+    "object_types": [
+      "person"
+    ],
+    "description": "Narrated military leader subject returns victorious over opponent object with respective forces; not personal killing.",
+    "symmetric": false
+  },
+  "military_opponent_of": {
+    "subject_types": [
+      "person"
+    ],
+    "object_types": [
+      "person"
+    ],
+    "symmetric": true,
+    "description": "Named rulers in explicitly opposing military coalitions; not a personal duel or separate bilateral war."
+  },
+  "prohibited_eating_from": {
+    "subject_types": [
+      "deity",
+      "person"
+    ],
+    "object_types": [
+      "object"
+    ],
+    "required_mode": "speech",
+    "speaker_is_subject": true,
+    "description": "Speaker subject prohibits eating from named object in attributed command; addressee and scope in evidence/note.",
+    "symmetric": false
+  },
+  "placed_guards_for": {
+    "subject_types": [
+      "deity",
+      "person"
+    ],
+    "object_types": [
+      "object",
+      "place"
+    ],
+    "description": "Subject arranges guards for access to object/place; not necessarily personally guarding.",
+    "symmetric": false
+  },
+  "friend_of": {
+    "subject_types": [
+      "person"
+    ],
+    "object_types": [
+      "person"
+    ],
+    "symmetric": true,
+    "description": "Explicitly named friendship, stored once; not inferred from proximity."
+  },
+  "priest_of": {
+    "subject_types": [
+      "person"
+    ],
+    "object_types": [
+      "place"
+    ],
+    "symmetric": false,
+    "description": "Person serving as priest of the named place; no identification of the worshipped deity is implied."
+  },
+  "named": {
+    "subject_types": [
+      "person"
+    ],
+    "object_types": [
+      "place",
+      "object"
+    ],
+    "symmetric": false,
+    "description": "Narrated naming of a place or object; the assigned name is in entity aliases and evidence. Does not imply sole construction."
+  },
+  "camped_at": {
+    "subject_types": [
+      "person"
+    ],
+    "object_types": [
+      "place"
+    ],
+    "symmetric": false,
+    "description": "Temporary encampment at the cited textual place, including explicit group participation."
+  },
+  "crossed": {
+    "subject_types": [
+      "person"
+    ],
+    "object_types": [
+      "place"
+    ],
+    "symmetric": false,
+    "description": "Narrated crossing of a named watercourse/ford; no modern route reconstructed."
+  },
+  "waited_at": {
+    "subject_types": [
+      "person"
+    ],
+    "object_types": [
+      "place"
+    ],
+    "symmetric": false,
+    "description": "Person sits/waits at named place; not permanent residence or an occupation."
+  },
+  "buried_on_way_to": {
+    "subject_types": [
+      "person"
+    ],
+    "object_types": [
+      "place"
+    ],
+    "symmetric": false,
+    "description": "Route-relative burial; explicitly not burial inside the destination town."
+  },
+  "sent_messengers_to": {
+    "subject_types": [
+      "person"
+    ],
+    "object_types": [
+      "place"
+    ],
+    "symmetric": false,
+    "description": "Sender dispatches messengers toward named location; does not establish sender arrival."
+  },
+  "nurse_of": {
+    "subject_types": [
+      "person"
+    ],
+    "object_types": [
+      "person"
+    ],
+    "symmetric": false,
+    "description": "Explicit nurse/household-care role; does not infer biological motherhood."
+  }
+}

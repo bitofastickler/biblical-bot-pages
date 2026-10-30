@@ -22,3 +22,7 @@ SOFTWARE.
 
 The bundled World English Bible text is public domain, separately described
 in THIRD_PARTY_NOTICES.md.
+
+The curated graph annotations and vendored graph materials under knowledge-graph/
+are excluded from this MIT grant pending the owner's licensing decision.
+See knowledge-graph/LICENSING.md and the preserved provenance records.

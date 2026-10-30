@@ -1,0 +1,272 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "dataset_id",
+    "entities",
+    "mentions",
+    "relations",
+    "uncertainties"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "0.5.0"
+    },
+    "dataset_id": {
+      "const": "bible-graph-genesis-pilot"
+    },
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "label",
+          "type",
+          "aliases",
+          "description",
+          "description_evidence",
+          "editorial_note"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "type": {
+            "enum": [
+              "animal",
+              "deity",
+              "genealogical_referent",
+              "object",
+              "person",
+              "place"
+            ]
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "description": {
+            "type": "string"
+          },
+          "description_evidence": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "editorial_note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "mentions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "entity_id",
+          "verse_id",
+          "start",
+          "end",
+          "surface",
+          "resolution"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "entity_id": {
+            "type": "string"
+          },
+          "verse_id": {
+            "type": "string"
+          },
+          "start": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "end": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "surface": {
+            "type": "string"
+          },
+          "resolution": {
+            "const": "curated_name_scope"
+          }
+        }
+      }
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "subject",
+          "predicate",
+          "object",
+          "evidence",
+          "assertion",
+          "note"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "subject": {
+            "type": "string"
+          },
+          "predicate": {
+            "enum": [
+              "acquired",
+              "addressed",
+              "allied_with",
+              "appointed_to_rule",
+              "army_captain_of",
+              "bound",
+              "branch_of",
+              "built",
+              "buried",
+              "buried_at",
+              "buried_on_way_to",
+              "camped_at",
+              "camped_west_of",
+              "chose_region",
+              "claimed_half_sibling_of",
+              "covenant_with",
+              "crossed",
+              "destroyed",
+              "died_in",
+              "flows_from",
+              "flows_in_front_of",
+              "flows_through",
+              "friend_of",
+              "gave_tenth_to",
+              "genealogical_parent_of",
+              "interpreted_dream_for",
+              "killed",
+              "king_of",
+              "kingdom_includes",
+              "located_in",
+              "military_opponent_of",
+              "military_victory_over",
+              "named",
+              "named_as_prospective_heir",
+              "nurse_of",
+              "on_route_to",
+              "paid",
+              "parent_of",
+              "participated_in_campaign_at",
+              "placed_guards_for",
+              "planted",
+              "priest_of",
+              "prohibited_eating_from",
+              "promised_land_to",
+              "pronounced_blessing_on",
+              "pronounced_curse_on",
+              "provided_food_for",
+              "rescued",
+              "resided_in",
+              "rested_on",
+              "sent_messengers_to",
+              "servant_of",
+              "sibling_of",
+              "sold_birthright_to",
+              "sold_to",
+              "spouse_of",
+              "traveled_to",
+              "waited_at",
+              "waters"
+            ]
+          },
+          "object": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "assertion": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "scope",
+              "mode",
+              "speaker"
+            ],
+            "properties": {
+              "scope": {
+                "const": "in_text"
+              },
+              "mode": {
+                "enum": [
+                  "narration",
+                  "speech"
+                ]
+              },
+              "speaker": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "uncertainties": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "verses",
+          "issue",
+          "handling"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "verses": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "issue": {
+            "type": "string"
+          },
+          "handling": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Bible Graph Genesis pilot 0.5.0"
+}

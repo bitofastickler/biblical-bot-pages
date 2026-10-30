@@ -1,0 +1,2 @@
+# Preserve byte-checked source snapshots, baselines and report hashes on every OS.
+knowledge-graph/** -text whitespace=cr-at-eol

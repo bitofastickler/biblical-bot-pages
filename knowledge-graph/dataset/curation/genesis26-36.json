@@ -1,0 +1,1394 @@
+{
+  "entities": [
+    {
+      "key": "leah",
+      "label": "Leah",
+      "type": "person",
+      "aliases": [
+        "Leah"
+      ],
+      "scope": "29 30 31 33 34 35",
+      "description": "Leah is Laban’s elder daughter and one of Jacob’s wives. She is named as the mother of six sons and Dinah in the family narrative.",
+      "description_evidence": [
+        "GEN.29.16",
+        "GEN.29.23",
+        "GEN.30.21",
+        "GEN.34.1",
+        "GEN.35.23"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "rachel",
+      "label": "Rachel",
+      "type": "person",
+      "aliases": [
+        "Rachel"
+      ],
+      "scope": "29 30 31 33 35",
+      "description": "Rachel is Laban’s younger daughter, Jacob’s wife, and the mother of Joseph and Benjamin. She dies during Benjamin’s birth and is buried on the way to Ephrath.",
+      "description_evidence": [
+        "GEN.29.16",
+        "GEN.29.28",
+        "GEN.35.16",
+        "GEN.35.17",
+        "GEN.35.18",
+        "GEN.35.19",
+        "GEN.35.24"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "bilhah",
+      "label": "Bilhah",
+      "type": "person",
+      "aliases": [
+        "Bilhah"
+      ],
+      "scope": "29 30 35",
+      "description": "Bilhah is given to Rachel as a servant and later to Jacob as a wife. She bears Dan and Naphtali; Genesis 35 also describes her as Jacob’s concubine.",
+      "description_evidence": [
+        "GEN.29.29",
+        "GEN.30.4",
+        "GEN.30.5",
+        "GEN.30.6",
+        "GEN.30.7",
+        "GEN.30.8",
+        "GEN.35.22",
+        "GEN.35.25"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "zilpah",
+      "label": "Zilpah",
+      "type": "person",
+      "aliases": [
+        "Zilpah"
+      ],
+      "scope": "29 30 35",
+      "description": "Zilpah is given to Leah as a servant and later to Jacob as a wife. She bears Gad and Asher in the family narrative.",
+      "description_evidence": [
+        "GEN.29.24",
+        "GEN.30.9",
+        "GEN.30.10",
+        "GEN.30.11",
+        "GEN.30.12",
+        "GEN.30.13"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "reuben",
+      "label": "Reuben",
+      "type": "person",
+      "aliases": [
+        "Reuben"
+      ],
+      "scope": "29 30 35",
+      "description": "Reuben is Jacob’s firstborn son and Leah’s son. He brings mandrakes to Leah, and a later passage recounts his lying with Bilhah, his father’s concubine.",
+      "description_evidence": [
+        "GEN.29.32",
+        "GEN.30.14",
+        "GEN.35.22",
+        "GEN.35.23"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "simeon",
+      "label": "Simeon",
+      "type": "person",
+      "aliases": [
+        "Simeon"
+      ],
+      "scope": "29 34 35",
+      "description": "Simeon is one of Jacob and Leah’s sons and Dinah’s brother. He and Levi attack the city after Dinah’s violation and kill Hamor and Shechem.",
+      "description_evidence": [
+        "GEN.29.32",
+        "GEN.29.33",
+        "GEN.34.25",
+        "GEN.34.26",
+        "GEN.35.23",
+        "GEN.34.2"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "levi",
+      "label": "Levi",
+      "type": "person",
+      "aliases": [
+        "Levi"
+      ],
+      "scope": "29 34 35",
+      "description": "Levi is one of Jacob and Leah’s sons and Dinah’s brother. He and Simeon attack the city and kill Hamor and Shechem after the account of Dinah’s violation.",
+      "description_evidence": [
+        "GEN.29.32",
+        "GEN.29.33",
+        "GEN.29.34",
+        "GEN.34.25",
+        "GEN.34.26",
+        "GEN.35.23",
+        "GEN.34.2"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "judah",
+      "label": "Judah",
+      "type": "person",
+      "aliases": [
+        "Judah"
+      ],
+      "scope": "29 35",
+      "description": "Judah is the fourth son named in the sequence of Leah’s births. He is listed among Jacob’s sons by Leah.",
+      "description_evidence": [
+        "GEN.29.32",
+        "GEN.29.33",
+        "GEN.29.34",
+        "GEN.29.35",
+        "GEN.35.22",
+        "GEN.35.23"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "dan-person",
+      "label": "Dan (Jacob’s son)",
+      "type": "person",
+      "aliases": [
+        "Dan"
+      ],
+      "scope": "30:6 35:25",
+      "description": "Dan is the son Bilhah bears to Jacob and Rachel names. This individual is not merged with the place called Dan in the earlier account of Abram’s pursuit.",
+      "description_evidence": [
+        "GEN.30.4",
+        "GEN.30.5",
+        "GEN.30.6",
+        "GEN.35.25",
+        "GEN.14.14"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "naphtali",
+      "label": "Naphtali",
+      "type": "person",
+      "aliases": [
+        "Naphtali"
+      ],
+      "scope": "30 35",
+      "description": "Naphtali is Bilhah’s second son by Jacob, named by Rachel. He appears again in the list of Jacob’s sons.",
+      "description_evidence": [
+        "GEN.30.7",
+        "GEN.30.8",
+        "GEN.35.22",
+        "GEN.35.25"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "gad",
+      "label": "Gad",
+      "type": "person",
+      "aliases": [
+        "Gad"
+      ],
+      "scope": "30 35",
+      "description": "Gad is the first son named after Zilpah is given to Jacob as a wife. Leah names him, and Genesis 35 lists him among Zilpah’s sons.",
+      "description_evidence": [
+        "GEN.30.9",
+        "GEN.30.10",
+        "GEN.30.11",
+        "GEN.35.26"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "asher",
+      "label": "Asher",
+      "type": "person",
+      "aliases": [
+        "Asher"
+      ],
+      "scope": "30 35",
+      "description": "Asher is Zilpah’s second son by Jacob, named by Leah. He is later listed with Gad among Zilpah’s sons.",
+      "description_evidence": [
+        "GEN.30.12",
+        "GEN.30.13",
+        "GEN.35.26"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "issachar",
+      "label": "Issachar",
+      "type": "person",
+      "aliases": [
+        "Issachar"
+      ],
+      "scope": "30 35",
+      "description": "Issachar is the fifth son Leah bears to Jacob. He is listed among Leah’s sons in the later family summary.",
+      "description_evidence": [
+        "GEN.30.17",
+        "GEN.30.18",
+        "GEN.35.23"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "zebulun",
+      "label": "Zebulun",
+      "type": "person",
+      "aliases": [
+        "Zebulun"
+      ],
+      "scope": "30 35",
+      "description": "Zebulun is the sixth son Leah bears to Jacob. His birth is followed by the notice of Dinah’s birth.",
+      "description_evidence": [
+        "GEN.30.19",
+        "GEN.30.20",
+        "GEN.30.21",
+        "GEN.35.23"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "dinah",
+      "label": "Dinah",
+      "type": "person",
+      "aliases": [
+        "Dinah"
+      ],
+      "scope": "30 34",
+      "description": "Dinah is the daughter of Leah and Jacob. Genesis 34 recounts Shechem’s violation of her and the subsequent violence by her brothers Simeon and Levi.",
+      "description_evidence": [
+        "GEN.30.21",
+        "GEN.34.1",
+        "GEN.34.2",
+        "GEN.34.25",
+        "GEN.34.26"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "joseph",
+      "label": "Joseph",
+      "type": "person",
+      "aliases": [
+        "Joseph"
+      ],
+      "scope": "30 33 35",
+      "description": "Joseph is Rachel’s son, born before Jacob asks to leave Laban. He appears with Rachel when Jacob’s family meets Esau.",
+      "description_evidence": [
+        "GEN.30.22",
+        "GEN.30.23",
+        "GEN.30.24",
+        "GEN.30.25",
+        "GEN.33.2",
+        "GEN.33.7",
+        "GEN.35.24"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "benjamin",
+      "label": "Benjamin",
+      "type": "person",
+      "aliases": [
+        "Benjamin"
+      ],
+      "scope": "35",
+      "description": "Benjamin is Rachel’s son, whom she names Benoni as she is dying; his father names him Benjamin. He is listed with Joseph among Rachel’s sons.",
+      "description_evidence": [
+        "GEN.35.16",
+        "GEN.35.17",
+        "GEN.35.18",
+        "GEN.35.24"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "hamor",
+      "label": "Hamor",
+      "type": "person",
+      "aliases": [
+        "Hamor"
+      ],
+      "scope": "33 34",
+      "description": "Hamor is Shechem’s father, who negotiates with Jacob’s family after the violation of Dinah. Simeon and Levi kill him and his son in the attack on the city.",
+      "description_evidence": [
+        "GEN.33.19",
+        "GEN.34.4",
+        "GEN.34.6",
+        "GEN.34.25",
+        "GEN.34.26",
+        "GEN.34.2"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "shechem-person",
+      "label": "Shechem (Hamor’s son)",
+      "type": "person",
+      "aliases": [
+        "Shechem"
+      ],
+      "scope": "33:19 34:2 34:4 34:6 34:8 34:11 34:13 34:18 34:20 34:24 34:26",
+      "description": "Shechem, Hamor’s son, violates Dinah and seeks to marry her. He and Hamor are killed by Simeon and Levi; this person is distinct from the city named Shechem.",
+      "description_evidence": [
+        "GEN.34.2",
+        "GEN.34.4",
+        "GEN.34.25",
+        "GEN.34.26",
+        "GEN.33.18"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "deborah-rebekah",
+      "label": "Deborah (Rebekah’s nurse)",
+      "type": "person",
+      "aliases": [
+        "Deborah"
+      ],
+      "scope": "35:8",
+      "description": "Deborah is named as Rebekah’s nurse. Her death and burial below Bethel under the oak are recorded during Jacob’s return.",
+      "description_evidence": [
+        "GEN.35.8"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "abimelech-isaac",
+      "label": "Abimelech (Genesis 26)",
+      "type": "person",
+      "aliases": [
+        "Abimelech"
+      ],
+      "scope": "26",
+      "description": "Abimelech is the king of the Philistines whom Isaac encounters at Gerar. He later visits Isaac with Ahuzzath and Phicol, and the parties swear an oath before parting in peace.",
+      "description_evidence": [
+        "GEN.26.1",
+        "GEN.26.26",
+        "GEN.26.28",
+        "GEN.26.30",
+        "GEN.26.31"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "phicol-isaac",
+      "label": "Phicol (Genesis 26)",
+      "type": "person",
+      "aliases": [
+        "Phicol"
+      ],
+      "scope": "26:26",
+      "description": "Phicol is the captain of Abimelech’s army in the account of his visit to Isaac. This entry does not assert that he is the same person as the Phicol in Abraham’s earlier story.",
+      "description_evidence": [
+        "GEN.26.26",
+        "GEN.21.22"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "ahuzzath",
+      "label": "Ahuzzath",
+      "type": "person",
+      "aliases": [
+        "Ahuzzath"
+      ],
+      "scope": "26:26",
+      "description": "Ahuzzath is named as Abimelech’s friend when he accompanies the king and Phicol to Isaac. No further individual story is given in this passage.",
+      "description_evidence": [
+        "GEN.26.26"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "esek-well",
+      "label": "Esek (well)",
+      "type": "place",
+      "aliases": [
+        "Esek"
+      ],
+      "scope": "26:20",
+      "description": "Esek is the well Isaac names after the dispute between the herdsmen of Gerar and his own herdsmen. Its name is linked in the narrative to contention.",
+      "description_evidence": [
+        "GEN.26.19",
+        "GEN.26.20"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "sitnah-well",
+      "label": "Sitnah (well)",
+      "type": "place",
+      "aliases": [
+        "Sitnah"
+      ],
+      "scope": "26:21",
+      "description": "Sitnah is the name given to another well over which the herdsmen argue. The narrative places it between the disputes at Esek and the move to Rehoboth.",
+      "description_evidence": [
+        "GEN.26.20",
+        "GEN.26.21",
+        "GEN.26.22"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "rehoboth-well",
+      "label": "Rehoboth (well)",
+      "type": "place",
+      "aliases": [
+        "Rehoboth"
+      ],
+      "scope": "26:22",
+      "description": "Rehoboth is the well Isaac names where there is no dispute. This well is not automatically identified with the other place names containing Rehoboth in Genesis.",
+      "description_evidence": [
+        "GEN.26.22",
+        "GEN.10.11",
+        "GEN.36.37"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "gilead-mountain",
+      "label": "Mountain of Gilead",
+      "type": "place",
+      "aliases": [
+        "mountain of Gilead"
+      ],
+      "scope": "31",
+      "description": "The mountain of Gilead is where Laban overtakes Jacob after Jacob’s departure. Both households encamp there during their confrontation.",
+      "description_evidence": [
+        "GEN.31.21",
+        "GEN.31.23",
+        "GEN.31.25"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "galeed-heap",
+      "label": "Galeed / Jegar Sahadutha",
+      "type": "place",
+      "aliases": [
+        "Galeed",
+        "Jegar Sahadutha",
+        "Mizpah"
+      ],
+      "scope": "31",
+      "description": "Galeed is Jacob’s name for the heap of stones set up during his agreement with Laban; Laban calls it Jegar Sahadutha. The passage also associates it with the name Mizpah.",
+      "description_evidence": [
+        "GEN.31.44",
+        "GEN.31.45",
+        "GEN.31.46",
+        "GEN.31.47",
+        "GEN.31.48",
+        "GEN.31.49"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "mahanaim",
+      "label": "Mahanaim",
+      "type": "place",
+      "aliases": [
+        "Mahanaim"
+      ],
+      "scope": "32:2",
+      "description": "Mahanaim is the name Jacob gives the place where angels of God meet him. No modern geographic identification is added.",
+      "description_evidence": [
+        "GEN.32.1",
+        "GEN.32.2"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "seir-land",
+      "label": "Seir (hill country)",
+      "type": "place",
+      "aliases": [
+        "Seir"
+      ],
+      "scope": "32:3 33:14 33:16 36:8 36:9 36:30",
+      "description": "Seir is the hill country associated with Esau’s residence. This place is distinguished from Seir the Horite in the genealogy.",
+      "description_evidence": [
+        "GEN.32.3",
+        "GEN.36.8",
+        "GEN.36.9",
+        "GEN.36.20"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "edom-land",
+      "label": "Edom (land)",
+      "type": "place",
+      "aliases": [
+        "Edom"
+      ],
+      "scope": "32:3 36:16 36:17 36:21 36:31 36:32 36:43",
+      "description": "Edom is a territorial name in the account of Esau’s descendants and rulers. It is kept separate from explicit personal uses of Edom as Esau’s alternate name.",
+      "description_evidence": [
+        "GEN.32.3",
+        "GEN.36.8",
+        "GEN.36.16",
+        "GEN.36.31"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "jabbok",
+      "label": "Jabbok",
+      "type": "place",
+      "aliases": [
+        "Jabbok"
+      ],
+      "scope": "32:22",
+      "description": "The Jabbok is the stream whose ford Jacob crosses with his family before the wrestling episode. The narrative does not give a modern coordinate.",
+      "description_evidence": [
+        "GEN.32.22",
+        "GEN.32.23"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "peniel",
+      "label": "Peniel",
+      "type": "place",
+      "aliases": [
+        "Peniel"
+      ],
+      "scope": "32",
+      "description": "Peniel is the place Jacob names after the wrestling encounter, explaining that he has seen God face to face. The name is recorded without resolving the wrestler’s identity.",
+      "description_evidence": [
+        "GEN.32.24",
+        "GEN.32.29",
+        "GEN.32.30",
+        "GEN.32.31"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "succoth-place",
+      "label": "Succoth (place)",
+      "type": "place",
+      "aliases": [
+        "Succoth"
+      ],
+      "scope": "33",
+      "description": "Succoth is where Jacob builds a house and shelters for his livestock after parting from Esau. The narrative connects the name with those shelters.",
+      "description_evidence": [
+        "GEN.33.16",
+        "GEN.33.17"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "ephrath-bethlehem",
+      "label": "Ephrath / Bethlehem",
+      "type": "place",
+      "aliases": [
+        "Ephrath",
+        "Bethlehem"
+      ],
+      "scope": "35",
+      "description": "Ephrath, also called Bethlehem, is named along the route where Rachel dies and is buried. The text says her burial is on the way to the place, not necessarily inside the town.",
+      "description_evidence": [
+        "GEN.35.16",
+        "GEN.35.19"
+      ],
+      "editorial_note": ""
+    },
+    {
+      "key": "allon-bacuth",
+      "label": "Allon Bacuth",
+      "type": "place",
+      "aliases": [
+        "Allon Bacuth"
+      ],
+      "scope": "35:8",
+      "description": "Allon Bacuth is the name given to the oak below Bethel where Deborah, Rebekah’s nurse, is buried. It is recorded as a textual burial landmark.",
+      "description_evidence": [
+        "GEN.35.8"
+      ],
+      "editorial_note": ""
+    }
+  ],
+  "extensions": [
+    {
+      "key": "deity-god",
+      "aliases": [
+        "Yahweh God",
+        "Yahweh",
+        "God"
+      ],
+      "scope": "26 27 28 29 30 31 32 33 34 35 36"
+    },
+    {
+      "key": "abram",
+      "aliases": [
+        "Abraham"
+      ],
+      "scope": "26 28 31 32 35"
+    },
+    {
+      "key": "isaac",
+      "aliases": [
+        "Isaac"
+      ],
+      "scope": "26 27 28 31 32 35"
+    },
+    {
+      "key": "rebekah",
+      "aliases": [
+        "Rebekah"
+      ],
+      "scope": "26 27 28 29 35"
+    },
+    {
+      "key": "laban",
+      "aliases": [
+        "Laban"
+      ],
+      "scope": "27 28 29 30 31 32"
+    },
+    {
+      "key": "jacob",
+      "aliases": [
+        "Jacob"
+      ],
+      "scope": "27 28 29 30 31 32 33 34 35 36"
+    },
+    {
+      "key": "jacob",
+      "aliases": [
+        "Israel"
+      ],
+      "scope": "32:28 35:10 35:21 35:22"
+    },
+    {
+      "key": "esau",
+      "aliases": [
+        "Esau"
+      ],
+      "scope": "26 27 28 32 33 35 36"
+    },
+    {
+      "key": "esau",
+      "aliases": [
+        "Edom"
+      ],
+      "scope": "36:1 36:8 36:19"
+    },
+    {
+      "key": "ishmael",
+      "aliases": [
+        "Ishmael"
+      ],
+      "scope": "28 36"
+    },
+    {
+      "key": "bethuel",
+      "aliases": [
+        "Bethuel"
+      ],
+      "scope": "28"
+    },
+    {
+      "key": "gerar",
+      "aliases": [
+        "Gerar"
+      ],
+      "scope": "26"
+    },
+    {
+      "key": "egypt",
+      "aliases": [
+        "Egypt"
+      ],
+      "scope": "26"
+    },
+    {
+      "key": "beersheba",
+      "aliases": [
+        "Beersheba"
+      ],
+      "scope": "26 28"
+    },
+    {
+      "key": "bethel",
+      "aliases": [
+        "Bethel"
+      ],
+      "scope": "28 31 35"
+    },
+    {
+      "key": "bethel",
+      "aliases": [
+        "Luz"
+      ],
+      "scope": "28:19 35:6"
+    },
+    {
+      "key": "paddan-aram",
+      "aliases": [
+        "Paddan Aram"
+      ],
+      "scope": "28 31 33 35"
+    },
+    {
+      "key": "canaan-land",
+      "aliases": [
+        "Canaan"
+      ],
+      "scope": "31:18 33:18 35:6 36:5 36:6"
+    },
+    {
+      "key": "haran-place",
+      "aliases": [
+        "Haran"
+      ],
+      "scope": "27 28 29"
+    },
+    {
+      "key": "shechem-place",
+      "aliases": [
+        "Shechem"
+      ],
+      "scope": "33:18 35:4"
+    },
+    {
+      "key": "hebron",
+      "aliases": [
+        "Kiriath Arba",
+        "Hebron"
+      ],
+      "scope": "35:27"
+    },
+    {
+      "key": "mamre-place",
+      "aliases": [
+        "Mamre"
+      ],
+      "scope": "35:27"
+    },
+    {
+      "key": "benjamin",
+      "aliases": [
+        "Benoni"
+      ],
+      "scope": "35:18"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "jacob",
+      "predicate": "parent_of",
+      "object": "reuben",
+      "evidence": "29:32 35:22 35:23",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "leah",
+      "predicate": "parent_of",
+      "object": "reuben",
+      "evidence": "29:32 35:22 35:23",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "parent_of",
+      "object": "simeon",
+      "evidence": "29:32 29:33 35:22 35:23",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "leah",
+      "predicate": "parent_of",
+      "object": "simeon",
+      "evidence": "29:32 29:33 35:22 35:23",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "parent_of",
+      "object": "levi",
+      "evidence": "29:32 29:34 35:22 35:23",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "leah",
+      "predicate": "parent_of",
+      "object": "levi",
+      "evidence": "29:32 29:34 35:22 35:23",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "parent_of",
+      "object": "judah",
+      "evidence": "29:32 29:35 35:22 35:23",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "leah",
+      "predicate": "parent_of",
+      "object": "judah",
+      "evidence": "29:32 29:35 35:22 35:23",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "parent_of",
+      "object": "dan-person",
+      "evidence": "30:4 30:5 30:6 35:22 35:25",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "bilhah",
+      "predicate": "parent_of",
+      "object": "dan-person",
+      "evidence": "30:4 30:5 30:6 35:22 35:25",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "parent_of",
+      "object": "naphtali",
+      "evidence": "30:7 30:8 35:22 35:25",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "bilhah",
+      "predicate": "parent_of",
+      "object": "naphtali",
+      "evidence": "30:7 30:8 35:22 35:25",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "parent_of",
+      "object": "gad",
+      "evidence": "30:9 30:10 30:11 35:22 35:26",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "zilpah",
+      "predicate": "parent_of",
+      "object": "gad",
+      "evidence": "30:9 30:10 30:11 35:22 35:26",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "parent_of",
+      "object": "asher",
+      "evidence": "30:12 30:13 35:22 35:26",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "zilpah",
+      "predicate": "parent_of",
+      "object": "asher",
+      "evidence": "30:12 30:13 35:22 35:26",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "parent_of",
+      "object": "issachar",
+      "evidence": "30:17 30:18 35:22 35:23",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "leah",
+      "predicate": "parent_of",
+      "object": "issachar",
+      "evidence": "30:17 30:18 35:22 35:23",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "parent_of",
+      "object": "zebulun",
+      "evidence": "30:19 30:20 35:22 35:23",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "leah",
+      "predicate": "parent_of",
+      "object": "zebulun",
+      "evidence": "30:19 30:20 35:22 35:23",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "parent_of",
+      "object": "dinah",
+      "evidence": "34:1",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "leah",
+      "predicate": "parent_of",
+      "object": "dinah",
+      "evidence": "34:1",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "parent_of",
+      "object": "joseph",
+      "evidence": "30:22 30:23 30:24 35:22 35:24",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "rachel",
+      "predicate": "parent_of",
+      "object": "joseph",
+      "evidence": "30:22 30:23 30:24 35:22 35:24",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "parent_of",
+      "object": "benjamin",
+      "evidence": "35:16 35:17 35:18 35:22 35:24",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "rachel",
+      "predicate": "parent_of",
+      "object": "benjamin",
+      "evidence": "35:16 35:17 35:18 35:22 35:24",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "laban",
+      "predicate": "parent_of",
+      "object": "leah",
+      "evidence": "29:16",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "laban",
+      "predicate": "parent_of",
+      "object": "rachel",
+      "evidence": "29:16",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "bethuel",
+      "predicate": "parent_of",
+      "object": "laban",
+      "evidence": "28:5",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "hamor",
+      "predicate": "parent_of",
+      "object": "shechem-person",
+      "evidence": "34:2 34:6",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "spouse_of",
+      "object": "leah",
+      "evidence": "29:21 29:22 29:23 29:25 29:26 29:27 29:30",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "spouse_of",
+      "object": "rachel",
+      "evidence": "29:28",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "spouse_of",
+      "object": "bilhah",
+      "evidence": "30:4",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "spouse_of",
+      "object": "zilpah",
+      "evidence": "30:9",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "leah",
+      "predicate": "sibling_of",
+      "object": "rachel",
+      "evidence": "29:16 30:1",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "simeon",
+      "predicate": "sibling_of",
+      "object": "dinah",
+      "evidence": "34:25",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "levi",
+      "predicate": "sibling_of",
+      "object": "dinah",
+      "evidence": "34:25",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "bilhah",
+      "predicate": "servant_of",
+      "object": "rachel",
+      "evidence": "29:29",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "zilpah",
+      "predicate": "servant_of",
+      "object": "leah",
+      "evidence": "29:24",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "isaac",
+      "predicate": "resided_in",
+      "object": "gerar",
+      "evidence": "26:6",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "esau",
+      "predicate": "resided_in",
+      "object": "seir-land",
+      "evidence": "36:8",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "isaac",
+      "predicate": "traveled_to",
+      "object": "beersheba",
+      "evidence": "26:23",
+      "note": "Narrated travel/arrival, not a modern reconstructed route.",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "traveled_to",
+      "object": "paddan-aram",
+      "evidence": "28:5",
+      "note": "Narrated travel/arrival, not a modern reconstructed route.",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "traveled_to",
+      "object": "succoth-place",
+      "evidence": "33:17",
+      "note": "Narrated travel/arrival, not a modern reconstructed route.",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "traveled_to",
+      "object": "shechem-place",
+      "evidence": "33:18",
+      "note": "Narrated travel/arrival, not a modern reconstructed route.",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "traveled_to",
+      "object": "bethel",
+      "evidence": "35:6",
+      "note": "Narrated travel/arrival, not a modern reconstructed route.",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "traveled_to",
+      "object": "hebron",
+      "evidence": "35:27",
+      "note": "Narrated travel/arrival, not a modern reconstructed route.",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "covenant_with",
+      "object": "laban",
+      "evidence": "31:44 31:45 31:46 31:51 31:52 31:53",
+      "note": "Agreement and oath reported in narrative; quoted terms are not assertions of modern property title.",
+      "speaker": null
+    },
+    {
+      "subject": "isaac",
+      "predicate": "covenant_with",
+      "object": "abimelech-isaac",
+      "evidence": "26:26 26:28 26:30 26:31",
+      "note": "The narrative reports the parties swearing an oath; Abimelech is among the named visitors.",
+      "speaker": null
+    },
+    {
+      "subject": "phicol-isaac",
+      "predicate": "army_captain_of",
+      "object": "abimelech-isaac",
+      "evidence": "26:26",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "deity-god",
+      "predicate": "promised_land_to",
+      "object": "isaac",
+      "evidence": "26:2 26:3",
+      "note": "God’s attributed promise to Isaac and his offspring; not modern title.",
+      "speaker": "deity-god"
+    },
+    {
+      "subject": "deity-god",
+      "predicate": "promised_land_to",
+      "object": "jacob",
+      "evidence": "35:9 35:10 35:11 35:12",
+      "note": "God’s attributed promise to Jacob and his offspring; not modern title.",
+      "speaker": "deity-god"
+    },
+    {
+      "subject": "deity-god",
+      "predicate": "addressed",
+      "object": "jacob",
+      "evidence": "31:3 35:1",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "deity-god",
+      "predicate": "addressed",
+      "object": "isaac",
+      "evidence": "26:2 26:3",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "esau",
+      "predicate": "buried",
+      "object": "isaac",
+      "evidence": "35:29",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "jacob",
+      "predicate": "buried",
+      "object": "isaac",
+      "evidence": "35:29",
+      "note": "",
+      "speaker": null
+    },
+    {
+      "subject": "deborah-rebekah",
+      "predicate": "buried_at",
+      "object": "allon-bacuth",
+      "evidence": "35:8",
+      "note": "",
+      "speaker": null
+    }
+  ],
+  "uncertainties": [
+    {
+      "id": "u:joint-killing-shechem",
+      "verses": [
+        "GEN.34.25",
+        "GEN.34.26"
+      ],
+      "issue": "Simeon and Levi jointly kill Hamor and Shechem; the passage does not assign individual victims to individual attackers.",
+      "handling": "No pairwise killed edges are fabricated; event/joint-agent modeling is deferred, and descriptions cite the joint action."
+    },
+    {
+      "id": "u:jacob-israel",
+      "verses": [
+        "GEN.32.28",
+        "GEN.32.32",
+        "GEN.33.20",
+        "GEN.34.7",
+        "GEN.35.10",
+        "GEN.35.21",
+        "GEN.35.22",
+        "GEN.36.31"
+      ],
+      "issue": "Israel can name Jacob, a people, or a component of a named altar.",
+      "handling": "Personal alias is scoped to32:28,35:10,35:21,35:22 here; collective and altar-name uses are excluded from the Jacob mention layer."
+    },
+    {
+      "id": "u:wrestler-identity",
+      "verses": [
+        "GEN.32.24",
+        "GEN.32.28",
+        "GEN.32.29",
+        "GEN.32.30"
+      ],
+      "issue": "The wrestler is called a man, while Jacob interprets his experience as seeing God.",
+      "handling": "No forced identity with God, an angel, or a later theological figure; no objective God-wrestled-with edge."
+    },
+    {
+      "id": "u:abimelech-phicol-26",
+      "verses": [
+        "GEN.21.22",
+        "GEN.26.1",
+        "GEN.26.26"
+      ],
+      "issue": "Abimelech and Phicol recur in Isaac’s account without an explicit same-person statement.",
+      "handling": "Separate chapter-scoped IDs are used; possible continuity is left unresolved."
+    },
+    {
+      "id": "u:esau-wives-lists",
+      "verses": [
+        "GEN.26.34",
+        "GEN.28.9",
+        "GEN.36.2",
+        "GEN.36.3"
+      ],
+      "issue": "The wife names and parentages in Esau’s several lists differ; harmonization requires interpretation.",
+      "handling": "These wife identities and aliases are not resolved or merged in this selective phase."
+    },
+    {
+      "id": "u:esau-edom-seir",
+      "verses": [
+        "GEN.32.3",
+        "GEN.36.1",
+        "GEN.36.8",
+        "GEN.36.16",
+        "GEN.36.20",
+        "GEN.36.31"
+      ],
+      "issue": "Edom has personal and territorial uses, while Seir can be a place or genealogical figure.",
+      "handling": "Personal Edom aliases are explicitly scoped; territorial entries are separate; Seir the Horite is not assigned to the place."
+    },
+    {
+      "id": "u:laban-son-nahor",
+      "verses": [
+        "GEN.24.15",
+        "GEN.28.5",
+        "GEN.29.5"
+      ],
+      "issue": "Jacob calls Laban son of Nahor, while28:5 explicitly identifies him as Bethuel’s son.",
+      "handling": "Use explicit Bethuel parent edge; do not add a conflicting direct Nahor parent edge or overrule genealogical language."
+    },
+    {
+      "id": "u:dinah-marriage",
+      "verses": [
+        "GEN.34.2",
+        "GEN.34.4",
+        "GEN.34.12",
+        "GEN.34.25",
+        "GEN.34.26"
+      ],
+      "issue": "Shechem asks for Dinah as wife after violating her, but the passage does not narrate their marriage.",
+      "handling": "No spouse_of edge is created; descriptions preserve the violence without presenting a request as completed marriage."
+    },
+    {
+      "id": "u:benjamin-birthplace-summary",
+      "verses": [
+        "GEN.35.16",
+        "GEN.35.18",
+        "GEN.35.24",
+        "GEN.35.26"
+      ],
+      "issue": "The list summary says Jacob’s sons were born in Paddan Aram, while Benjamin’s birth is narrated on the way to Ephrath.",
+      "handling": "Parenthood and explicit name change are recorded; no inferred birthplace edge is added for Benjamin."
+    },
+    {
+      "id": "u:isaac-rebekah-sister-claim",
+      "verses": [
+        "GEN.26.7",
+        "GEN.26.8",
+        "GEN.26.9"
+      ],
+      "issue": "Isaac calls Rebekah his sister out of fear, while the narrator identifies her as his wife.",
+      "handling": "No sibling relation is inferred from this attributed claim; the existing spouse relation is retained."
+    }
+  ],
+  "description_updates": {
+    "bg:jacob": {
+      "description": "Jacob, also named Israel, is Isaac and Rebekah’s son and the father of the twelve sons listed in Genesis 35. He marries Leah and Rachel, returns from Laban’s household, and reconciles with Esau.",
+      "description_evidence": [
+        "GEN.25.21",
+        "GEN.25.24",
+        "GEN.25.26",
+        "GEN.29.23",
+        "GEN.29.28",
+        "GEN.31.17",
+        "GEN.31.18",
+        "GEN.33.4",
+        "GEN.35.10",
+        "GEN.35.22",
+        "GEN.35.23",
+        "GEN.35.24",
+        "GEN.35.25",
+        "GEN.35.26"
+      ]
+    },
+    "bg:laban": {
+      "description": "Laban is Bethuel’s son, Rebekah’s brother, and Leah and Rachel’s father. Jacob serves in his household and later leaves with his family; the two men conclude an agreement after Laban overtakes him.",
+      "description_evidence": [
+        "GEN.24.29",
+        "GEN.28.5",
+        "GEN.29.16",
+        "GEN.29.20",
+        "GEN.29.30",
+        "GEN.31.17",
+        "GEN.31.23",
+        "GEN.31.44",
+        "GEN.31.53"
+      ]
+    }
+  }
+}

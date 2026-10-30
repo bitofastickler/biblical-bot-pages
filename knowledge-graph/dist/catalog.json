@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "books": [
+    {
+      "id": "GEN",
+      "readerBook": "genesis",
+      "name": "Genesis",
+      "chapters": 50,
+      "graph": "graph.json",
+      "verses": "verses.json",
+      "coverage": "selective",
+      "entityNamespace": "bg",
+      "version": "0.5.0",
+      "scopes": [
+        {
+          "id": "early",
+          "label": "Beginnings \u00b7 1\u201311",
+          "start": 1,
+          "end": 11
+        },
+        {
+          "id": "abraham",
+          "label": "Abraham stories \u00b7 12\u201325",
+          "start": 12,
+          "end": 25
+        },
+        {
+          "id": "jacob",
+          "label": "Jacob & family \u00b7 26\u201336",
+          "start": 26,
+          "end": 36
+        },
+        {
+          "id": "joseph",
+          "label": "Joseph stories \u00b7 37\u201350",
+          "start": 37,
+          "end": 50
+        }
+      ]
+    }
+  ]
+}

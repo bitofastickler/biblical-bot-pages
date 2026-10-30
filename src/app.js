@@ -9,9 +9,17 @@ function recovery() {
   catch {$('recovery-status').textContent='Browser recovery unavailable. Download a snapshot to protect your work.';}
 }
 function changed() {study.updatedAt=new Date().toISOString();dirty=true;recovery();}
-function renderReader(reference, focus=false) {
+function renderReader(reference, focus=false, updateHistory=true) {
   const next=lookup(bible,reference);passage=next;
   const book=bible.books.find(b=>b.id===next.book);
+  const graphUrl=new URL('./graph/',location.href);
+  graphUrl.searchParams.set('book',next.book==='genesis'?'GEN':next.book);
+  if(next.book==='genesis')graphUrl.searchParams.set('verse',`GEN.${next.chapter}.${next.start||1}`);
+  $('passage-graph').href=graphUrl.href;
+  $('passage-graph').textContent=next.book==='genesis'?'Explore this passage in the graph':'Explore Bible graph';
+  $('graph-coverage').textContent=next.book==='genesis'?' — Selected Genesis annotations.':' — Graph coverage is currently Genesis only.';
+  const hash='#'+encodeURIComponent(next.reference);
+  if(updateHistory && location.hash!==hash)history.pushState(null,'',hash);
   $('passage-title').textContent=next.reference;$('book').value=book.id;
   $('chapter').replaceChildren(...Object.keys(book.chapters).map(c=>new Option(c,c)));$('chapter').value=next.chapter;
   $('verses').replaceChildren(...Object.entries(book.chapters[next.chapter]).filter(([v])=>next.start===null||(Number(v)>=next.start&&Number(v)<=next.end)).map(([v,text])=>{
@@ -53,9 +61,10 @@ async function start() {
     $('search-scope').append(...bible.books.map(b=>new Option(b.name,b.id)));
     study=newStudy('John 1');let recovered=false, invalidRecovery=false;
     try {const stored=localStorage.getItem(key);if(stored){study=parseStudy(stored,bible);recovered=true;}} catch {invalidRecovery=true;}
-    renderStudy();renderReader(study.reader);$('workspace').hidden=false;$('save').disabled=false;$('open').disabled=false;
+    renderStudy();renderReader(study.reader,false,false);$('workspace').hidden=false;$('save').disabled=false;$('open').disabled=false;
     status(invalidRecovery?'Browser recovery could not be read. Open a downloaded snapshot to restore your study.':recovered?'Restored your browser recovery copy. Download a snapshot for a durable backup.':'A quiet place to read, reflect, and keep what you discover. No account needed.',invalidRecovery);
-    if(location.hash && !['#reader','#study-notebook'].includes(location.hash)){try{renderReader(decodeURIComponent(location.hash.slice(1)));}catch(e){status(e.message,true);}}
+    if(!location.hash)history.replaceState(null,'','#'+encodeURIComponent(study.reader));
+    if(location.hash && !['#reader','#study-notebook','#bible-navigation'].includes(location.hash)){try{renderReader(decodeURIComponent(location.hash.slice(1)),false,false);}catch(e){status(e.message,true);}}
   }catch{status('The Bible could not load. Check your connection and reload this page. Your downloaded study files are safe.',true);}
 }
 $('lookup-form').onsubmit=e=>{e.preventDefault();try{renderReader($('lookup').value,true);status(`Reading ${passage.reference}.`);}catch(err){status(err.message,true);}};
@@ -80,4 +89,8 @@ $('replace-save').onclick=()=>{if(save()){pending?.();pending=null;$('replace-di
 $('replace-dialog').addEventListener('cancel',()=>{pending=null;});
 $('clear-recovery').onclick=()=>{try{localStorage.removeItem(key);recoveryEnabled=false;$('recovery-status').textContent='Browser recovery cleared and paused until reload. Your current notebook remains open.';}catch{status('This browser did not allow recovery storage to be cleared.',true);}};
 window.addEventListener('beforeunload',e=>{if(dirty){e.preventDefault();e.returnValue='';}});
+window.addEventListener('hashchange',()=>{
+  if(!bible || !location.hash || ['#reader','#study-notebook','#bible-navigation'].includes(location.hash))return;
+  try{renderReader(decodeURIComponent(location.hash.slice(1)),false,false);}catch(e){status(e.message,true);}
+});
 start();
