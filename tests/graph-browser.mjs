@@ -33,6 +33,12 @@ for(const width of [1440,390,320]){
   assert.match(await page.locator('#graph-coverage').textContent(),/Genesis only/);
   await page.goBack();await page.locator('#passage-title').filter({hasText:'Genesis 14:18'}).waitFor();
   await page.goForward();await page.locator('#passage-title').filter({hasText:'John 3:16'}).waitFor();
+  await page.locator('a.skip').focus();await page.locator('a.skip').click();
+  await page.locator('#lookup').fill('Genesis 1');await page.locator('#lookup-form button').click();
+  await page.goBack();await page.locator('#passage-title').filter({hasText:'John 3:16'}).waitFor();
+  assert.equal(new URL(page.url()).hash,'#reader');
+  await page.goForward();await page.locator('#passage-title').filter({hasText:'Genesis 1'}).waitFor();
+  await page.goBack();await page.locator('#passage-title').filter({hasText:'John 3:16'}).waitFor();
   await page.locator('#passage-graph').click();
   await page.getByRole('heading',{name:'This book is not yet annotated'}).waitFor();
   await page.getByRole('link',{name:'Explore Genesis',exact:true}).click();

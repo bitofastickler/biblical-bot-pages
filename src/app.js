@@ -19,7 +19,7 @@ function renderReader(reference, focus=false, updateHistory=true) {
   $('passage-graph').textContent=next.book==='genesis'?'Explore this passage in the graph':'Explore Bible graph';
   $('graph-coverage').textContent=next.book==='genesis'?' — Selected Genesis annotations.':' — Graph coverage is currently Genesis only.';
   const hash='#'+encodeURIComponent(next.reference);
-  if(updateHistory && location.hash!==hash)history.pushState(null,'',hash);
+  if(updateHistory && location.hash!==hash)history.pushState({readerReference:next.reference},'',hash);
   $('passage-title').textContent=next.reference;$('book').value=book.id;
   $('chapter').replaceChildren(...Object.keys(book.chapters).map(c=>new Option(c,c)));$('chapter').value=next.chapter;
   $('verses').replaceChildren(...Object.entries(book.chapters[next.chapter]).filter(([v])=>next.start===null||(Number(v)>=next.start&&Number(v)<=next.end)).map(([v,text])=>{
@@ -65,6 +65,7 @@ async function start() {
     status(invalidRecovery?'Browser recovery could not be read. Open a downloaded snapshot to restore your study.':recovered?'Restored your browser recovery copy. Download a snapshot for a durable backup.':'A quiet place to read, reflect, and keep what you discover. No account needed.',invalidRecovery);
     if(!location.hash)history.replaceState(null,'','#'+encodeURIComponent(study.reader));
     if(location.hash && !['#reader','#study-notebook','#bible-navigation'].includes(location.hash)){try{renderReader(decodeURIComponent(location.hash.slice(1)),false,false);}catch(e){status(e.message,true);}}
+    history.replaceState({readerReference:passage.reference},'',location.href);
   }catch{status('The Bible could not load. Check your connection and reload this page. Your downloaded study files are safe.',true);}
 }
 $('lookup-form').onsubmit=e=>{e.preventDefault();try{renderReader($('lookup').value,true);status(`Reading ${passage.reference}.`);}catch(err){status(err.message,true);}};
@@ -89,6 +90,18 @@ $('replace-save').onclick=()=>{if(save()){pending?.();pending=null;$('replace-di
 $('replace-dialog').addEventListener('cancel',()=>{pending=null;});
 $('clear-recovery').onclick=()=>{try{localStorage.removeItem(key);recoveryEnabled=false;$('recovery-status').textContent='Browser recovery cleared and paused until reload. Your current notebook remains open.';}catch{status('This browser did not allow recovery storage to be cleared.',true);}};
 window.addEventListener('beforeunload',e=>{if(dirty){e.preventDefault();e.returnValue='';}});
+const sectionHashes=['#reader','#study-notebook','#bible-navigation'];
+document.querySelectorAll('a[href^="#"]').forEach(link=>link.addEventListener('click',e=>{
+  const hash=link.getAttribute('href');
+  if(!passage || !sectionHashes.includes(hash))return;
+  e.preventDefault();
+  if(location.hash!==hash)history.pushState({readerReference:passage.reference},'',hash);
+  const target=document.getElementById(hash.slice(1));target.scrollIntoView();target.focus({preventScroll:true});
+}));
+window.addEventListener('popstate',e=>{
+  if(!bible || !sectionHashes.includes(location.hash) || !e.state?.readerReference)return;
+  try{renderReader(e.state.readerReference,false,false);}catch(err){status(err.message,true);}
+});
 window.addEventListener('hashchange',()=>{
   if(!bible || !location.hash || ['#reader','#study-notebook','#bible-navigation'].includes(location.hash))return;
   try{renderReader(decodeURIComponent(location.hash.slice(1)),false,false);}catch(e){status(e.message,true);}

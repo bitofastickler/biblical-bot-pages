@@ -3,7 +3,7 @@
 Run with Sites source helper commands: [["python3", "scripts/release_phase.py"]].
 Nonzero gate/test results propagate: the source helper must not commit/push/package.
 """
-import hashlib,json,shutil,subprocess,sys
+import hashlib,json,shutil,subprocess,sys,os
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 DATASET=ROOT/'dataset'
@@ -36,5 +36,7 @@ def main():
  subprocess.run(['node','--check',str(ROOT/'dist/quality.js')],check=True)
  print(json.dumps({'release_gate':'PASS','dataset_sha256':digest,'counts':report['counts']}))
 if __name__=='__main__':
+ # Python's -X utf8 is not inherited by subprocesses on Windows.
+ os.environ['PYTHONUTF8']='1'
  subprocess.run([sys.executable,'-m','unittest','discover','-s',str(ROOT/'tests'),'-v'],cwd=ROOT,check=True)
  main()

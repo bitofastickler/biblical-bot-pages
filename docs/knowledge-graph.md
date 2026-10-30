@@ -26,7 +26,7 @@ URLs are relative and require no server rewrites: `graph/?book=GEN&entity=bg%3Aa
 
 Use Node 24+, Python 3.12+ and the locked npm dependencies. Run `npm test`, `npm run build`, `npm run dev`, then `npm run test:browser`. The build invokes the original 11 release-boundary tests and 31 dataset tests and refuses to copy graph assets on a failed/stale gate. The browser command includes the original Chromium-to-Firefox study-file round trip plus graph navigation checks at 1440, 390 and 320 pixels. Local screenshots/results stay under ignored `.local/`.
 
-On this Windows sandbox, set `PYTHONUTF8=1` and TMP/TEMP to an approved writable temp directory when needed. Set `PLAYWRIGHT_BROWSERS_PATH` to the existing browser cache if the sandbox redirects LocalAppData. These are test environment accommodations, not application requirements.
+The release wrapper propagates UTF-8 mode to Python subprocesses on Windows. In this Windows sandbox, set TMP/TEMP to an approved writable temp directory when needed. Set `PLAYWRIGHT_BROWSERS_PATH` to the existing browser cache if the sandbox redirects LocalAppData. These are test environment accommodations, not application requirements.
 
 ## Publication decision
 
