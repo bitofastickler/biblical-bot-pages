@@ -44,7 +44,7 @@ function keys(object, allowed,label) {
 }
 export function validateStudy(raw,bible) {
   keys(raw,['format','version','title','createdAt','updatedAt','translation','references','reader','content','entries'],'study');
-  if(raw.format!=='biblical-bot-study') throw Error('This is not a Biblical Bot study file. Use a downloaded study JSON snapshot.');
+  if(raw.format!=='biblical-bot-study') throw Error('This is not an Open Study file. Use a downloaded study JSON snapshot.');
   if(raw.version!==1) throw Error('Unsupported study version. This app supports version 1; keep your original file.');
   if(raw.translation!=='WEB') throw Error('Unsupported translation. This release supports WEB.');
   const ref = v=>lookup(bible,text(v,100,'scripture reference',false)).reference;

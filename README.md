@@ -1,4 +1,4 @@
-# Biblical Bot — static study workspace
+# Open Study — static study workspace
 
 A free, passage-centered Bible reader and notebook. No account, subscription, backend, AI key, database, analytics, or third-party runtime dependencies.
 
