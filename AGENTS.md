@@ -1,4 +1,4 @@
-# Biblical Bot Pages
+# Open Study Pages
 
 This is the independent static replacement. Do not modify the sibling `biblical-bot-app` checkout or its deployments while working here.
 
